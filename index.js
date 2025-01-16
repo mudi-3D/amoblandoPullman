@@ -1123,16 +1123,15 @@ class MudiExperiencePLP {
     buildModal(e) {
 
         const infoCard = this.getInfoAttr(e.target.parentNode.children[1]);
-        console.log(infoCard)
         const sku_number = this.getSkuNumber(infoCard);
 
+        sendEventInteraction("3D PLP", sku_number);
 
         const modalPLP = new ModalMudi({
             URL_QR: `https://viewer.mudi.com.co/v1/qr/?id=147&sku=${sku_number}`,
             URL_WEB: `https://viewer.mudi.com.co/v1/web/?id=147&sku=${sku_number}`,
             URL_AR: `https://viewer.mudi.com.co/v1/ar/?id=147&sku=${sku_number}`,
         }, "#03457c");
-
 
         modalPLP.createModalPLP({
             sizes: infoCard.listSize,
