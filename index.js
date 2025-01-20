@@ -1222,7 +1222,8 @@ class MudiExperiencePLP {
 
 const mudiExperiencePLP = new MudiExperiencePLP();
 setTimeout(() => {
-    mudiExperiencePLP.excute()
+    mudiExperiencePLP.excute();
+console.log('ejecutado mudi PLP')
 } ,  1000);
 
 
