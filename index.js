@@ -1221,7 +1221,8 @@ class MudiExperiencePLP {
 };
 
 const mudiExperiencePLP = new MudiExperiencePLP();
-mudiExperiencePLP.excute();
+setTimeout(() => mudiExperiencePLP.excute ,  1000);
+
 
 const mudiExperience = new MudiExperiencePDP();
 // mudiExperience.experienceOn("77018588112329", document.querySelector('.product-images'))
