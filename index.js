@@ -1,3 +1,5 @@
+"use strict"
+
 const colchones = {
 
     "Pullpack": {
@@ -1122,6 +1124,8 @@ class MudiExperiencePLP {
 
     buildModal(e) {
 
+        this.createStyles();
+
         const infoCard = this.getInfoAttr(e.target.parentNode.children[1]);
         const sku_number = this.getSkuNumber(infoCard);
 
@@ -1214,6 +1218,20 @@ class MudiExperiencePLP {
 
     };
 
+    createStyles() {
+        /** Verify element HTML */
+        if (document.head.querySelector("#stylesMudiGeneral")) {
+            return;
+        }
+
+        const link = document.createElement("LINK");
+        link.setAttribute("rel", "stylesheet");
+        link.id = "stylesMudiGeneral";
+        link.href = `https://cdn.jsdelivr.net/gh/mudi-3D/amoblandoPullman@latest/index.css`; /* custom this path */
+
+        document.head.appendChild(link);
+    }
+
     excute() {
         this.getMudiFlags()
     };
@@ -1221,11 +1239,7 @@ class MudiExperiencePLP {
 };
 
 const mudiExperiencePLP = new MudiExperiencePLP();
-setTimeout(() => {
-    mudiExperiencePLP.excute();
-console.log('ejecutado mudi PLP')
-} ,  1000);
+setTimeout(() => { mudiExperiencePLP.excute() }, 1000);
 
 
 const mudiExperience = new MudiExperiencePDP();
-// mudiExperience.experienceOn("77018588112329", document.querySelector('.product-images'))
