@@ -422,4 +422,12 @@
         -ms-overflow-style: none;
         padding: 10px 0;
     }
+
+    .containerColorMudi {
+        display: none;
+    }
+
+    .modalMudi_sizeContainer {
+        display: none;
+    }
 }
