@@ -721,6 +721,8 @@ class ModalMudi {
                 const idCurrentSize = document.body.querySelector('[selectsizemodalmudi="true"]').getAttribute('idoption')
                 let idCombination = myCombinations.find(combination => combination[`${idCurrentColor}${idCurrentSize}`])
 
+                console.log( { nameProduct ,  idCurrentColor , idCombination })
+
                 nameProduct &&
                     idCurrentColor &&
                     idCombination &&
