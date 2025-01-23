@@ -735,22 +735,13 @@ class ModalMudi {
                 let idCombination;
 
                 if (location.origin.includes('pullman')) {
-                    console.log('buscando en pullman');
-                    idCombination = productsListFinal.find(combination => {
-                        console.log(combination)
-                        combination[`${idCurrentSize}${idCurrentColor}`]
-                    })
-
-                    console.log({ idCombination, idCurrentSize, idCurrentColor })
+                    idCombination = productsListFinal.find(combination => combination.key == `${idCurrentSize}${idCurrentColor}`)
+                    window.open(`${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination.value}`, '_SELF')
                 } else if (location.origin.includes('amoblando')) {
-                    console.log('buscando en amoblando');
-                    idCombination = productsListFinal.find(combination => combination[`${idCurrentColor}${idCurrentSize}`])
+                    idCombination = productsListFinal.find(combination => combination[`${idCurrentColor}${idCurrentSize}`]);
+                    window.open(`${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination[`${idCurrentColor}${idCurrentSize}`]}`, '_SELF')
                 }
 
-                nameProduct &&
-                    idCurrentColor &&
-                    idCombination &&
-                    window.open(`${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination[`${idCurrentColor}${idCurrentSize}`]}`, '_SELF')
             }
 
         })
@@ -1281,3 +1272,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 const mudiExperience = new MudiExperiencePDP();
+
