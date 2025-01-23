@@ -736,9 +736,12 @@ class ModalMudi {
 
                 if (location.origin.includes('pullman')) {
                     console.log('buscando en pullman');
-                    idCombination = productsListFinal.find(combination => combination[`${idCurrentSize}${idCurrentColor}`])
+                    idCombination = productsListFinal.find(combination => {
+                        console.log(combination)
+                        combination[`${idCurrentSize}${idCurrentColor}`]
+                    })
 
-                    console.log( { idCombination , idCurrentSize , idCurrentColor })
+                    console.log({ idCombination, idCurrentSize, idCurrentColor })
                 } else if (location.origin.includes('amoblando')) {
                     console.log('buscando en amoblando');
                     idCombination = productsListFinal.find(combination => combination[`${idCurrentColor}${idCurrentSize}`])
