@@ -739,7 +739,7 @@ class ModalMudi {
                     window.open(`${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination.value}`, '_SELF')
                 } else if (location.origin.includes('amoblando')) {
                     idCombination = productsListFinal.find(combination => combination[`${idCurrentColor}${idCurrentSize}`]);
-                    window.open(`${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination[`${idCurrentColor}${idCurrentSize}`]}`, '_SELF')
+                    window.open(`${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination.value}`, '_SELF')
                 }
 
             }
