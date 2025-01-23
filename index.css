@@ -237,6 +237,13 @@
     user-select: none;
 }
 
+.scrollColorsMudi {
+    display: flex;
+    width: max-content;
+    height: max-content;
+    overflow-x: auto;
+}
+
 .modalMudi_colorTool__container {
     width: 70px;
     height: 70px;
@@ -244,6 +251,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    flex-shrink: 0;
 }
 
 
@@ -424,10 +432,40 @@
     }
 
     .containerColorMudi {
-        display: none;
+        bottom: 9%;
+        width: max-content;
+        max-width: 50%;
+    }
+
+    .scrollColorsMudi::-webkit-scrollbar {
+        height: 5px;
+    }
+
+    .scrollColorsMudi::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 4px;
+    }
+
+    .scrollColorsMudi::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+    }
+
+    .modalMudi_colorTool__container {
+        flex-shrink: 0;
+        width: 40px;
+        height: 50px;
     }
 
     .modalMudi_sizeContainer {
-        display: none;
+        top: 15px;
     }
+
+    .modalMudi_sizeOption {
+        width: 90px;
+    }
+
+    [selectSizeModalMudi="true"] {
+        width: 105px;
+    }
+
 }
