@@ -719,9 +719,28 @@ class ModalMudi {
                     window.open(`${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination[idCurrentColor]}`, '_SELF');
             } else {
                 const idCurrentSize = document.body.querySelector('[selectsizemodalmudi="true"]').getAttribute('idoption')
-                let idCombination = myCombinations.find(combination => combination[`${idCurrentColor}${idCurrentSize}`])
 
-                console.log( { nameProduct ,  idCurrentColor , idCombination, idCurrentSize })
+                let listProducts = HTML.getAttribute('attr-combinations-product').split(',');
+                let productsListFinal = []
+
+                listProducts.map(element => {
+                    const split = element.split('_');
+                    const key = split[1];
+                    const value = split[0]
+
+                    const add = { value: value, key: key }
+                    productsListFinal.push(add);
+                })
+
+                let idCombination
+
+                if (location.origin.includes('pullman')) {
+                    console.log('buscando en pullman');
+                    idCombination = productsListFinal.find(combination => combination[`${idCurrentSize}${idCurrentColor}`])
+                } else if (location.origin.includes('amoblando')) {
+                    console.log('buscando en amoblando');
+                    idCombination = productsListFinal.find(combination => combination[`${idCurrentColor}${idCurrentSize}`])
+                }
 
                 nameProduct &&
                     idCurrentColor &&
@@ -1113,9 +1132,9 @@ class MudiExperiencePLP {
         this.counterBackFlags++;
         let allMudiFlags = [];
 
-        const images  = document.body.querySelector('.imgMundi')
+        const images = document.body.querySelector('.imgMundi')
 
-        images && ( allMudiFlags = document.body.querySelectorAll('.imgMundi') );
+        images && (allMudiFlags = document.body.querySelectorAll('.imgMundi'));
 
         if (this.counterBackFlags == 500) {
             console.warn(`No se encontro ningun elemento  PLP MUDI`)
