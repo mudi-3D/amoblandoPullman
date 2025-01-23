@@ -1109,7 +1109,7 @@ class MudiExperiencePLP {
         console.log(`entrando al getFlags`)
 
         this.counterBackFlags++;
-        const allMudiFlags = document.body.querySelectorAll('.imgMundi');
+        const allMudiFlags = document.body.querySelectorAll('.imgMundi') ?? [];
 
         if (this.counterBackFlags == 500) {
             console.warn(`No se encontro ningun elemento  PLP MUDI`)
