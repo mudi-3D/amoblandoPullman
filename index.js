@@ -742,6 +742,7 @@ class ModalMudi {
                         console.log(combination)
                         combination[`${idCurrentColor}${idCurrentSize}`]
                     });
+                    console.log({idCurrentColor, idCurrentSize})
                     window.open(`${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination.value}`, '_SELF')
                 }
 
