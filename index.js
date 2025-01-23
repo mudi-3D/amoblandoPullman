@@ -1106,14 +1106,18 @@ class MudiExperiencePLP {
 
     getMudiFlags() {
 
+        console.log(`entrando al getFlags`)
+
         this.counterBackFlags++;
         const allMudiFlags = document.body.querySelectorAll('.imgMundi');
 
         if (this.counterBackFlags == 500) {
+            console.warn(`No se encontro ningun elemento  PLP MUDI`)
             return;
         }
         else if (allMudiFlags.length == 0) {
             requestAnimationFrame(this.getMudiFlags.bind(this))
+            console.warn(`volviendo a buscar`)
             return;
         }
 
@@ -1241,7 +1245,7 @@ class MudiExperiencePLP {
 };
 
 const mudiExperiencePLP = new MudiExperiencePLP();
-setTimeout(() => { mudiExperiencePLP.excute() }, 2500);
+mudiExperiencePLP.excute();
 
 
 const mudiExperience = new MudiExperiencePDP();
