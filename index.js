@@ -546,9 +546,8 @@ class ModalMudi {
         this.currentSKU = currentSKU
     };
 
+    /** Creación HTML del modal y sus componentes fijos ( btn salida y el iframe)  ✔️ */
     createModal() {
-
-        console.log(this.dataServer)
 
         const verifyModal = document.querySelector('#modalMudi');
         verifyModal && verifyModal.remove();
@@ -566,6 +565,7 @@ class ModalMudi {
         this.modalMudi.querySelector(`.closeModalMudi`).addEventListener("click", () => document.body.querySelector("#modalMudi").remove());
     };
 
+    /** Creación del boton AR ✔️ */
     addBtnAR() {
 
         let flagAR = false;
@@ -681,16 +681,21 @@ class ModalMudi {
 
     };
 
+    /** Botón para ver más detalles */
     addBtnGoToSide(name, combinations, sizes, HTML) {
-
-        console.log(HTML)
 
         const button = document.createElement('A');
         button.innerHTML = `Ver más detalles`
         button.classList.add('modalMudi__goToSite');
 
         const formatearTexto = (str) => {
-            if (typeof (str) !== "string") { console.error('no es un string '); console.log(str); console.log(typeof (str)); return };
+
+            if (typeof (str) !== "string") {
+                console.error('no es un string ');
+                console.log(str);
+                console.log(typeof (str));
+                return
+            };
 
             return str
                 .toLowerCase() // Convertir a minúsculas
@@ -713,21 +718,19 @@ class ModalMudi {
                     idCombination &&
                     window.open(`${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination[idCurrentColor]}`, '_SELF');
             } else {
-                console.log(idCurrentColor)
                 const idCurrentSize = document.body.querySelector('[selectsizemodalmudi="true"]').getAttribute('idoption')
-                idCombination = HTML.querySelector(`[value="${idCurrentSize}"]`).getAttribute('attr-combination')
+                let idCombination = myCombinations.find(combination => combination[`${idCurrentColor}${idCurrentSize}`])
 
                 nameProduct &&
                     idCurrentColor &&
                     idCombination &&
-                    window.open(`${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination}`, '_SELF')
+                    window.open(`${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination[`${idCurrentColor}${idCurrentSize}`]}`, '_SELF')
             }
 
         })
 
         /** Agregamos al modal  */
         this.modalMudi.querySelector('.iframeMudi3D') && this.modalMudi.querySelector('.iframeMudi3D').appendChild(button);
-
 
     };
 
@@ -748,6 +751,7 @@ class ModalMudi {
 
         const containerColor = document.createElement('div');
         containerColor.classList.add('containerColorMudi');
+        containerColor.innerHTML = `<div class="scrollColorsMudi"></div>`;
 
         colors.map(option => {
 
@@ -785,7 +789,7 @@ class ModalMudi {
             });
 
             div.appendChild(colorOption);
-            containerColor.appendChild(div)
+            containerColor.querySelector('.scrollColorsMudi').appendChild(div)
 
         });
 
@@ -866,6 +870,7 @@ class ModalMudi {
 
     };
 
+
     createModalPDP({ sizes = [], colors }) {
 
         this.createModal();
@@ -877,8 +882,6 @@ class ModalMudi {
     };
 
     createModalPLP({ sizes = [], colors, combinations, configPLP, name, HTML }) {
-
-        console.log({ sizes, colors, combinations, configPLP })
 
         this.createModal();
         this.addBtnAR();
@@ -893,7 +896,6 @@ class ModalMudi {
 
         document.body.appendChild(this.modalMudi)
     };
-
 
     updaterData(sku) {
 
@@ -1239,7 +1241,7 @@ class MudiExperiencePLP {
 };
 
 const mudiExperiencePLP = new MudiExperiencePLP();
-setTimeout(() => { mudiExperiencePLP.excute() }, 1000);
+setTimeout(() => { mudiExperiencePLP.excute() }, 2500);
 
 
 const mudiExperience = new MudiExperiencePDP();
