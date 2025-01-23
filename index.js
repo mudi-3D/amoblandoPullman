@@ -1249,7 +1249,10 @@ class MudiExperiencePLP {
 };
 
 const mudiExperiencePLP = new MudiExperiencePLP();
-mudiExperiencePLP.excute();
+document.addEventListener('DOMContentLoaded', () => {
+    const mudiExperiencePLP = new MudiExperiencePLP();
+    mudiExperiencePLP.excute();
+});
 
 
 const mudiExperience = new MudiExperiencePDP();
