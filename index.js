@@ -738,7 +738,10 @@ class ModalMudi {
                     idCombination = productsListFinal.find(combination => combination.key == `${idCurrentSize}${idCurrentColor}`)
                     window.open(`${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination.value}`, '_SELF')
                 } else if (location.origin.includes('amoblando')) {
-                    idCombination = productsListFinal.find(combination => combination[`${idCurrentColor}${idCurrentSize}`]);
+                    idCombination = productsListFinal.find(combination => {
+                        console.log(combination)
+                        combination[`${idCurrentColor}${idCurrentSize}`]
+                    });
                     window.open(`${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination.value}`, '_SELF')
                 }
 
