@@ -511,6 +511,75 @@ const colchones = {
                 "Mohnblatt Negro": "https://www.pullman.com.co/colchon-casata-mohnblatt-euro"
             }
         }
+    },
+    "Softpack": {
+        "Soft": {
+            "colores": {
+                "Banda Azul": {
+                    "Sencillo": {
+                        "SKU": 77018589642289
+                    },
+                    "Semidoble": {
+                        "SKU": 77018589642299
+                    },
+                    "Doble": {
+                        "SKU": 77018589642309
+                    },
+                    "Queen": {
+                        "SKU": 77018589642319
+                    },
+                    "King": {
+                        "SKU": 77018589642329
+                    }
+                }
+            }
+        }
+    },
+    "Ecopack": {
+        "Eco": {
+            "colores": {
+                "Clásico": {
+                    "Sencillo": {
+                        "SKU": 77018589642229
+                    },
+                    "Semidoble": {
+                        "SKU": 77018589642239
+                    },
+                    "Doble": {
+                        "SKU": 77018589642249
+                    }
+                }
+            },
+            "links": {
+                "Clásico": "https://www.pullman.com.co/colchon-casata-mohnblatt-euro"
+            }
+        }
+    },
+    "Casatapack": {
+        "Casata": {
+            "colores": {
+                "Negro Gris": {
+                    "Sencillo": {
+                        "SKU": 77018589647719
+                    },
+                    "Semidoble": {
+                        "SKU": 77018589647729
+                    },
+                    "Doble": {
+                        "SKU": 77018589647739
+                    },
+                    "Queen": {
+                        "SKU": 77018589647749
+                    },
+                    "King": {
+                        "SKU": 77018589647759
+                    }
+                }
+            },
+            "links": {
+                "Negro Gris": "https://www.pullman.com.co/colchon-casata-mohnblatt-euro"
+            }
+        }
     }
 
 };
