@@ -1,7 +1,364 @@
 "use strict"
 
 const colchones = {
-
+    "combo_casataEuro": {
+        "baseCama-almohada": {
+            "colores": {
+                "NaN": {
+                    "Queen": {
+                        "SKU": "C3-Q-leoBEI-casEU-M"
+                    },
+                    "Doble": {
+                        "SKU": "C3-F-leoBEI-casEU-M"
+                    },
+                    "Semidoble": {
+                        "SKU": "C3-TF-leoBEI-casEU-M"
+                    },
+                    "Sencillo": {
+                        "SKU": "C3-T-leoBEI-casEU-M"
+                    }
+                },
+                "Café": {
+                    "King": {
+                        "SKU": "C3-K-leoCAF-casEU-M"
+                    },
+                    "Queen": {
+                        "SKU": "C3-Q-leoCAF-casEU-M"
+                    },
+                    "Doble": {
+                        "SKU": "C3-F-leoCAF-casEU-M"
+                    },
+                    "Semidoble": {
+                        "SKU": "C3-TF-leoCAF-casEU-M"
+                    },
+                    "Sencillo": {
+                        "SKU": "C3-T-leoCAF-casEU-M"
+                    }
+                },
+                "Negro": {
+                    "King": {
+                        "SKU": "C3-K-leoNEG-casEU-M"
+                    },
+                    "Queen": {
+                        "SKU": "C3-Q-leoNEG-casEU-M"
+                    },
+                    "Doble": {
+                        "SKU": "C3-F-leoNEG-casEU-M"
+                    },
+                    "Semidoble": {
+                        "SKU": "C3-TF-leoNEG-casEU-M"
+                    },
+                    "Sencillo": {
+                        "SKU": "C3-T-leoNEG-casEU-M"
+                    }
+                },
+                "Gris": {
+                    "King": {
+                        "SKU": "C3-K-leoGRI-casEU-M"
+                    },
+                    "Queen": {
+                        "SKU": "C3-Q-leoGRI-casEU-M"
+                    },
+                    "Doble": {
+                        "SKU": "C3-F-leoGRI-casEU-M"
+                    },
+                    "Semidoble": {
+                        "SKU": "C3-TF-leoGRI-casEU-M"
+                    },
+                    "Sencillo": {
+                        "SKU": "C3-T-leoGRI-casEU-M"
+                    }
+                }
+            },
+            "links": {
+                "Café": "https://www.pullman.com.co/colchon-pullpack-euro-u",
+                "Negro": "https://www.pullman.com.co/colchon-pullpack-euro-u",
+                "Gris": "https://www.pullman.com.co/colchon-pullpack-euro-u"
+            }
+        },
+        "camaLeo-almohada": {
+            "colores": {
+                "Beige": {
+                    "King": {
+                        "SKU": "C2-K-leoBEI-casEU-M"
+                    },
+                    "Queen": {
+                        "SKU": "C2-Q-leoBEI-casEU-M"
+                    },
+                    "Doble": {
+                        "SKU": "C2-F-leoBEI-casEU-M"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-leoBEI-casEU-M"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-leoBEI-casEU-M"
+                    }
+                },
+                "Café": {
+                    "King": {
+                        "SKU": "C2-K-leoCAF-casEU-M"
+                    },
+                    "Queen": {
+                        "SKU": "C2-Q-leoCAF-casEU-M"
+                    },
+                    "Doble": {
+                        "SKU": "C2-F-leoCAF-casEU-M"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-leoCAF-casEU-M"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-leoCAF-casEU-M"
+                    }
+                },
+                "Negro": {
+                    "King": {
+                        "SKU": "C2-K-leoNEG-casEU-M"
+                    },
+                    "Queen": {
+                        "SKU": "C2-Q-leoNEG-casEU-M"
+                    },
+                    "Doble": {
+                        "SKU": "C2-F-leoNEG-casEU-M"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-leoNEG-casEU-M"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-leoNEG-casEU-M"
+                    }
+                },
+                "Gris": {
+                    "King": {
+                        "SKU": "C2-K-leoGRI-casEU-M"
+                    },
+                    "Queen": {
+                        "SKU": "C2-Q-leoGRI-casEU-M"
+                    },
+                    "Doble": {
+                        "SKU": "C2-F-leoGRI-casEU-M"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-leoGRI-casEU-M"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-leoGRI-casEU-M"
+                    }
+                }
+            },
+            "links": {
+                "Beige": "https://www.pullman.com.co/colchon-pullpack-euro-u",
+                "Café": "https://www.pullman.com.co/colchon-pullpack-euro-u",
+                "Negro": "https://www.pullman.com.co/colchon-pullpack-euro-u",
+                "Gris": "https://www.pullman.com.co/colchon-pullpack-euro-u"
+            }
+        },
+        "firenze-almohada": {
+            "colores": {
+                "Café": {
+                    "King": {
+                        "SKU": "C2-K-firS3CAF-casEU-M"
+                    },
+                    "Queen": {
+                        "SKU": "C2-Q-firS3CAF-casEU-M"
+                    },
+                    "Doble": {
+                        "SKU": "C2-F-firS3CAF-casEU-M"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-firS3CAF-casEU-M"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-firS3CAF-casEU-M"
+                    }
+                },
+                "Gris Oscuro": {
+                    "King": {
+                        "SKU": "C2-K-firS3GRIOSC-casEU-M"
+                    },
+                    "Queen": {
+                        "SKU": "C2-Q-firS3GRIOSC-casEU-M"
+                    },
+                    "Doble": {
+                        "SKU": "C2-F-firS3GRIOSC-casEU-M"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-firS3GRIOSC-casEU-M"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-firS3GRIOSC-casEU-M"
+                    }
+                },
+                "Gris ": {
+                    "King": {
+                        "SKU": "C2-K-firS2GRI-casEU-M"
+                    },
+                    "Queen": {
+                        "SKU": "C2-Q-firS2GRI-casEU-M"
+                    },
+                    "Doble": {
+                        "SKU": "C2-F-firS2GRI-casEU-M"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-firS2GRI-casEU-M"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-firS2GRI-casEU-M"
+                    }
+                }
+            },
+            "links": {
+                "Café": "https://www.pullman.com.co/colchon-pullpack-euro-u",
+                "Gris Oscuro": "https://www.pullman.com.co/colchon-pullpack-euro-u",
+                "Gris ": "https://www.pullman.com.co/colchon-pullpack-euro-u"
+            }
+        },
+        "camaTPM-almohada": {
+            "colores": {
+                "wengue": {
+                    "King": {
+                        "SKU": "C2-K-tpmWEN-casEU-M"
+                    },
+                    "Queen": {
+                        "SKU": "C2-Q-tpmWEN-casEU-M"
+                    },
+                    "Doble": {
+                        "SKU": "C2-F-tpmWEN-casEU-M"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-tpmWEN-casEU-M"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-tpmWEN-casEU-M"
+                    }
+                },
+                "Natural": {
+                    "King": {
+                        "SKU": "C2-K-tpmNAT-casEU-M"
+                    },
+                    "Queen": {
+                        "SKU": "C2-Q-tpmNAT-casEU-M"
+                    },
+                    "Doble": {
+                        "SKU": "C2-F-tpmNAT-casEU-M"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-tpmNAT-casEU-M"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-tpmNAT-casEU-M"
+                    }
+                },
+                "Caoba": {
+                    "King": {
+                        "SKU": "C2-K-tpmCAO-casEU-M"
+                    },
+                    "Queen": {
+                        "SKU": "C2-Q-tpmCAO-casEU-M"
+                    },
+                    "Doble": {
+                        "SKU": "C2-F-tpmCAO-casEU-M"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-tpmCAO-casEU-M"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-tpmCAO-casEU-M"
+                    }
+                }
+            },
+            "links": {
+                "wengue": "https://www.pullman.com.co/colchon-pullpack-euro-u",
+                "Natural": "https://www.pullman.com.co/colchon-pullpack-euro-u",
+                "Caoba": "https://www.pullman.com.co/colchon-pullpack-euro-u"
+            }
+        },
+        "camaNido-junior": {
+            "colores": {
+                "Gris": {
+                    "Doble": {
+                        "SKU": "F-cnjunS2GRI-casEU"
+                    },
+                    "Semidoble": {
+                        "SKU": "TF-cnjunS2GRI-casEU"
+                    },
+                    "Sencillo": {
+                        "SKU": "T-cnjunS2GRI-casEU"
+                    }
+                },
+                "Café": {
+                    "Doble": {
+                        "SKU": "F-cnjunS1CAF-casEU"
+                    },
+                    "Semidoble": {
+                        "SKU": "TF-cnjunS1CAF-casEU"
+                    },
+                    "Sencillo": {
+                        "SKU": "T-cnjunS1CAF-casEU"
+                    }
+                },
+                "Negro": {
+                    "Doble": {
+                        "SKU": "F-cnjunS1NEG-casEU"
+                    },
+                    "Semidoble": {
+                        "SKU": "TF-cnjunS1NEG-casEU"
+                    },
+                    "Sencillo": {
+                        "SKU": "T-cnjunS1NEG-casEU"
+                    }
+                }
+            },
+            "links": {
+                "Gris": "https://www.pullman.com.co/colchon-pullpack-euro-u",
+                "Café": "https://www.pullman.com.co/colchon-pullpack-euro-u",
+                "Negro": "https://www.pullman.com.co/colchon-pullpack-euro-u"
+            }
+        },
+        "camaNido-angie": {
+            "colores": {
+                "Gris": {
+                    "Doble": {
+                        "SKU": "F-cnangS2GRI-casEU"
+                    },
+                    "Semidoble": {
+                        "SKU": "TF-cnangS2GRI-casEU"
+                    },
+                    "Sencillo": {
+                        "SKU": "T-cnangS2GRI-casEU"
+                    }
+                },
+                "Café": {
+                    "Doble": {
+                        "SKU": "F-cnangS1CAF-casEU"
+                    },
+                    "Semidoble": {
+                        "SKU": "TF-cnangS1CAF-casEU"
+                    },
+                    "Sencillo": {
+                        "SKU": "T-cnangS1CAF-casEU"
+                    }
+                },
+                "Negro": {
+                    "Doble": {
+                        "SKU": "F-cnangS1NEG-casEU"
+                    },
+                    "Semidoble": {
+                        "SKU": "TF-cnangS1NEG-casEU"
+                    },
+                    "Sencillo": {
+                        "SKU": "T-cnangS1NEG-casEU"
+                    }
+                }
+            },
+            "links": {
+                "Gris": "https://www.pullman.com.co/colchon-pullpack-euro-u",
+                "Café": "https://www.pullman.com.co/colchon-pullpack-euro-u",
+                "Negro": "https://www.pullman.com.co/colchon-pullpack-euro-u"
+            }
+        }
+    },
     "Pullpack": {
         "Euro U": {
             "colores": {
