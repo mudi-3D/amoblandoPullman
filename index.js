@@ -944,10 +944,8 @@ class ModalMudi {
             for (const key2 in colchones[key]) {
                 for (const key3 in colchones[key][key2].colores) {
                     for (const key4 in colchones[key][key2].colores[key3]) {
-                        if (key4 == "King") {
-                            if (colchones[key][key2].colores[key3][key4].SKU == ColorSku) {
-                                this.updaterData(colchones[key][key2].colores[key3][CurrentSize].SKU)
-                            }
+                        if (colchones[key][key2].colores[key3][key4].SKU == ColorSku) {
+                            this.updaterData(colchones[key][key2].colores[key3][CurrentSize].SKU)
                         }
                     }
                 }
@@ -1277,10 +1275,8 @@ class MudiExperiencePLP {
             for (const key2 in colchones[key]) {
                 for (const key3 in colchones[key][key2].colores) {
                     for (const key4 in colchones[key][key2].colores[key3]) {
-                        if (key4 == "King") {
-                            if (colchones[key][key2].colores[key3][key4].SKU == ColorSku) {
-                                return colchones[key][key2].colores[key3][CurrentSize].SKU;
-                            }
+                        if (colchones[key][key2].colores[key3][key4].SKU == ColorSku) {
+                            return colchones[key][key2].colores[key3][CurrentSize].SKU;
                         }
                     }
                 }
