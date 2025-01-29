@@ -580,6 +580,277 @@ const colchones = {
                 "Negro Gris": "https://www.pullman.com.co/colchon-casata-mohnblatt-euro"
             }
         }
+    },
+    "combo_Ecopack": {
+        "baseCama-almohada": {
+            "colores": {
+                "Beige": {
+                    "Semidoble": {
+                        "SKU": "C3-TF-leoBEI-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "C3-T-leoBEI-ecop"
+                    }
+                },
+                "Café": {
+                    "Doble": {
+                        "SKU": "C3-F-leoCAF-ecop"
+                    },
+                    "Semidoble": {
+                        "SKU": "C3-TF-leoCAF-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "C3-T-leoCAF-ecop"
+                    }
+                },
+                "negro": {
+                    "Doble": {
+                        "SKU": "C3-F-leoNEG-ecop"
+                    },
+                    "Semidoble": {
+                        "SKU": "C3-TF-leoNEG-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "C3-T-leoNEG-ecop"
+                    }
+                },
+                "gris": {
+                    "Doble": {
+                        "SKU": "C2-F-leoGRI-ecop"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-leoGRI-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-leoGRI-ecop"
+                    }
+                }
+            },
+            "links": {
+                "Café": "https://www.pullman.com.co/colchon-pullpack-mohnblatt-euro-u",
+                "negro": "https://www.pullman.com.co/colchon-pullpack-mohnblatt-euro-u",
+                "gris": "https://www.pullman.com.co/colchon-pullpack-mohnblatt-euro-u"
+            }
+        },
+        "camaLeo-almohada": {
+            "colores": {
+                "Beige": {
+                    "Doble": {
+                        "SKU": "C2-F-leoBEI-ecop"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-leoBEI-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-leoBEI-ecop"
+                    }
+                },
+                "Café": {
+                    "Doble": {
+                        "SKU": "C2-F-leoCAF-ecop"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-leoCAF-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-leoCAF-ecop"
+                    }
+                },
+                "negro": {
+                    "Doble": {
+                        "SKU": "C2-F-leoNEG-ecop"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-leoNEG-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-leoNEG-ecop"
+                    }
+                },
+                "gris": {
+                    "Doble": {
+                        "SKU": "C2-F-leoGRI-ecop"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-leoGRI-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-leoGRI-ecop"
+                    }
+                }
+            },
+            "links": {
+                "Beige": "https://www.pullman.com.co/colchon-pullpack-euro-u",
+                "Café": "https://www.pullman.com.co/colchon-pullpack-mohnblatt-euro-u",
+                "negro": "https://www.pullman.com.co/colchon-pullpack-mohnblatt-euro-u",
+                "gris": "https://www.pullman.com.co/colchon-pullpack-mohnblatt-euro-u"
+            }
+        },
+        "firenze-almohada": {
+            "colores": {
+                "Café": {
+                    "Semidoble": {
+                        "SKU": "C2-TF-leoBEI-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-leoBEI-ecop"
+                    }
+                },
+                "Gris Oscuro ": {
+                    "Doble": {
+                        "SKU": "C2-F-leoCAF-ecop"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-leoCAF-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-leoCAF-ecop"
+                    }
+                },
+                "gris": {
+                    "Doble": {
+                        "SKU": "C2-F-leoGRI-ecop"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-leoGRI-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-leoGRI-ecop"
+                    }
+                }
+            },
+            "links": {
+                "Café": "https://www.pullman.com.co/colchon-pullpack-euro-u",
+                "Gris Oscuro ": "https://www.pullman.com.co/colchon-pullpack-mohnblatt-euro-u",
+                "gris": "https://www.pullman.com.co/colchon-pullpack-mohnblatt-euro-u"
+            }
+        },
+        "camaTPM-almohada": {
+            "colores": {
+                "wengue": {
+                    "Doble": {
+                        "SKU": "C2-F-tpmWEN-ecop"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-tpmWEN-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-tpmWEN-ecop"
+                    }
+                },
+                "natural": {
+                    "Doble": {
+                        "SKU": "C2-F-tpmNAT-ecop"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-tpmNAT-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-tpmNAT-ecop"
+                    }
+                },
+                "caoba": {
+                    "Doble": {
+                        "SKU": "C2-F-tpmCAO-ecop"
+                    },
+                    "Semidoble": {
+                        "SKU": "C2-TF-tpmCAO-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "C2-T-tpmCAO-ecop"
+                    }
+                }
+            },
+            "links": {
+                "wengue": "https://www.pullman.com.co/colchon-pullpack-euro-u",
+                "natural": "https://www.pullman.com.co/colchon-pullpack-mohnblatt-euro-u",
+                "caoba": "https://www.pullman.com.co/colchon-pullpack-mohnblatt-euro-u"
+            }
+        },
+        "colchon-camaNido": {
+            "colores": {
+                "Gris": {
+                    "Doble": {
+                        "SKU": "F-cnjunS2GRI-ecop"
+                    },
+                    "Semidoble": {
+                        "SKU": "TF-cnjunS2GRI-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "T-cnjunS2GRI-ecop"
+                    }
+                },
+                "Café": {
+                    "Doble": {
+                        "SKU": "F-cnjunS1CAF-ecop"
+                    },
+                    "Semidoble": {
+                        "SKU": "TF-cnjunS1CAF-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "T-cnjunS1CAF-ecop"
+                    }
+                },
+                "Negro": {
+                    "Doble": {
+                        "SKU": "F-cnjunS1NEG-ecop"
+                    },
+                    "Semidoble": {
+                        "SKU": "TF-cnjunS1NEG-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "T-cnjunS1NEG-ecop"
+                    }
+                }
+            },
+            "links": {
+                "Gris": "https://www.pullman.com.co/colchon-pullpack-euro-u",
+                "Café": "https://www.pullman.com.co/colchon-pullpack-mohnblatt-euro-u",
+                "Negro": "https://www.pullman.com.co/colchon-pullpack-mohnblatt-euro-u"
+            }
+        },
+        "colchon-camaNidoAngie": {
+            "colores": {
+                "Gris": {
+                    "Doble": {
+                        "SKU": "F-cnangS2GRI-ecop"
+                    },
+                    "Semidoble": {
+                        "SKU": "TF-cnangS2GRI-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "T-cnangS2GRI-ecop"
+                    }
+                },
+                "Café": {
+                    "Doble": {
+                        "SKU": "F-cnangS1CAF-ecop"
+                    },
+                    "Semidoble": {
+                        "SKU": "TF-cnangS1CAF-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "T-cnangS1CAF-ecop"
+                    }
+                },
+                "Negro": {
+                    "Doble": {
+                        "SKU": "F-cnangS1NEG-ecop"
+                    },
+                    "Semidoble": {
+                        "SKU": "TF-cnangS1NEG-ecop"
+                    },
+                    "Sencillo": {
+                        "SKU": "T-cnangS1NEG-ecop"
+                    }
+                }
+            },
+            "links": {
+                "Gris": "https://www.pullman.com.co/colchon-pullpack-euro-u",
+                "Café": "https://www.pullman.com.co/colchon-pullpack-mohnblatt-euro-u",
+                "Negro": "https://www.pullman.com.co/colchon-pullpack-mohnblatt-euro-u"
+            }
+        }
     }
 
 };
