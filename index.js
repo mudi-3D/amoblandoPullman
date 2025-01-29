@@ -585,6 +585,9 @@ const colchones = {
         "baseCama-almohada": {
             "colores": {
                 "Beige": {
+                     "Doble": {
+                        "SKU": "C3-F-leoBEI-ecop"
+                    },
                     "Semidoble": {
                         "SKU": "C3-TF-leoBEI-ecop"
                     },
