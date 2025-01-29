@@ -619,13 +619,13 @@ const colchones = {
                 },
                 "gris": {
                     "Doble": {
-                        "SKU": "C2-F-leoGRI-ecop"
+                        "SKU": "C3-F-leoGRI-ecop"
                     },
                     "Semidoble": {
-                        "SKU": "C2-TF-leoGRI-ecop"
+                        "SKU": "C3-TF-leoGRI-ecop"
                     },
                     "Sencillo": {
-                        "SKU": "C2-T-leoGRI-ecop"
+                        "SKU": "C3-T-leoGRI-ecop"
                     }
                 }
             },
