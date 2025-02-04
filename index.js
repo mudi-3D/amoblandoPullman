@@ -7981,6 +7981,7 @@ class MudiExperiencePDP {
                 }
             );
             const response = await request.json();
+            console.log(response)
             this.dataServer = response.data[0];
             this.getValues()
         } catch (error) {
@@ -8022,6 +8023,7 @@ class MudiExperiencePDP {
 
         try {
             await this.conectServer(skuNumber);
+            if(this.dataServer.legth == 0){ console.warn(`el SKU: ${skuNumber} no está en MudiView`); return }
             this.createStyles();
             const btn3D = new BTN3D(skuNumber, this.colorClient).create({ colorList: this.colorList, sizeList: this.sizeList, referenceList: null, data: this.dataServer });
             fatherContainer.appendChild(btn3D)
