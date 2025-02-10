@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 const colchones = {
 
@@ -7890,6 +7890,7 @@ const colchones = {
     }
 
 };
+
 /** Send Event Interacción  ✔️ */
 function sendEventInteraction(eventName, sku) {
 
