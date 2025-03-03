@@ -8654,6 +8654,6 @@ mudiExperiencePLP.excute();
 
 
 const mudiExperience = new MudiExperiencePDP();
-window.mudiExperiencie = mudiExperience;
+window.mudiExperience = mudiExperience;
 
 
