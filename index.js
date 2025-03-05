@@ -8049,7 +8049,10 @@ class ModalMudi {
             } else {
                 window.open(`${this.dataServer.URL_AR}`, "_BLANK");
             }
-            flagAR && sendEventInteraction("Evento de interaccion AR", this.currentSKU);
+            flagAR && (
+                sendEventInteraction("Evento de interaccion AR", this.currentSKU),
+                mudiPage.updateBtnAR()
+            );
         });
 
         /** Agregamos al modal  */
@@ -8179,6 +8182,8 @@ class ModalMudi {
                 HTML.querySelector(`[attr-value="${this.currentColor}"]`) &&
                     HTML.querySelector(`[attr-value="${this.currentColor}"]`).click();
 
+                mudiPage.updateColor();
+
             });
 
             div.appendChild(colorOption);
@@ -8233,6 +8238,8 @@ class ModalMudi {
                     HTML.querySelector(`.form-control`) &&
                         (HTML.querySelector(`.form-control`).value = option.idOption);
                 });
+
+                mudiPage.updateSize();
 
             })
 
@@ -8363,6 +8370,7 @@ class BTN3D {
             else {
                 const modal = new ModalMudi(data, this.color, this.skuNumber);
                 modal.createModalPDP({ sizes: sizeList, colors: colorList })
+                mudiPage.updateBtn3D();
             }
 
             /** Enviamos el evento al GTM */
@@ -8374,6 +8382,9 @@ class BTN3D {
         btn3D.appendChild(containerBtn);
 
         sendEventInteraction("visualizacion_botones", this.skuNumber);
+
+        /* Seteamo el evento para el Add To Car*/
+        setTimeout( mudiPage.updateAddToCar , 1500);
 
         /** Add DOM */
         return btn3D;
