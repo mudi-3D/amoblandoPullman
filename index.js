@@ -7912,7 +7912,7 @@ function sendEventInteraction(eventName, sku) {
 function addTocarFunctionMudi() {
     const btnAddToCar = document.getElementById('product-addtocart-button');
     btnAddToCar ? btnAddToCar.addEventListener('click', () => {
-        muudiPage.updateAddToCar();
+        mudiPage.updateAddToCar();
     }) : console.warn(`Mudi Warn: no se encontro el boton de agregar el carrito`);
 };
 
