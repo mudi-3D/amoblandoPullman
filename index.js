@@ -8538,6 +8538,7 @@ class MudiExperiencePLP {
             return;
         }
 
+        mudiPage.updateViewBtn();
         allMudiFlags.forEach(flag => {
 
             const status = flag.getAttribute('style');
