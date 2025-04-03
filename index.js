@@ -7908,6 +7908,14 @@ function sendEventInteraction(eventName, sku) {
     })
 };
 
+/** Add listener add to car ✔️*/
+function addTocarFunctionMudi() {
+    const btnAddToCar = document.getElementById('product-addtocart-button');
+    btnAddToCar ? btnAddToCar.addEventListener('click', () => {
+        muudiPage.updateAddToCar();
+    }) : console.warn(`Mudi Warn: no se encontro el boton de agregar el carrito`);
+};
+
 class ModalMudi {
 
     constructor(data, color, currentSKU) {
@@ -8384,7 +8392,9 @@ class BTN3D {
         sendEventInteraction("visualizacion_botones", this.skuNumber);
 
         /* Seteamo el evento para el Add To Car*/
-        setTimeout( mudiPage.updateAddToCar , 1500);
+        setTimeout(() => {
+            mudiPage.updateViewBtn();
+        }, 500);
 
         /** Add DOM */
         return btn3D;
@@ -8659,12 +8669,12 @@ class MudiExperiencePLP {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-const mudiExperiencePLP = new MudiExperiencePLP();
-mudiExperiencePLP.excute();
- });
+    const mudiExperiencePLP = new MudiExperiencePLP();
+    mudiExperiencePLP.excute();
+});
 
 
 const mudiExperience = new MudiExperiencePDP();
 window.mudiExperience = mudiExperience;
 
-
+setTimeout(addTocarFunctionMudi, 1500);
