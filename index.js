@@ -7914,6 +7914,10 @@ function addTocarFunctionMudi() {
     btnAddToCar ? btnAddToCar.addEventListener('click', () => {
         mudiPage.updateAddToCar();
     }) : console.warn(`Mudi Warn: no se encontro el boton de agregar el carrito`);
+
+    setTimeout(() => {
+        console.clear()
+    }, 7000)
 };
 
 class ModalMudi {
@@ -8379,6 +8383,7 @@ class BTN3D {
                 const modal = new ModalMudi(data, this.color, this.skuNumber);
                 modal.createModalPDP({ sizes: sizeList, colors: colorList })
                 mudiPage.updateBtn3D();
+                mudiSession.updateInteractionSession();
             }
 
             /** Enviamos el evento al GTM */
