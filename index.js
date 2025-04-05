@@ -8547,7 +8547,11 @@ class MudiExperiencePLP {
         allMudiFlags.forEach(flag => {
 
             const status = flag.getAttribute('style');
-            status == '' && flag.addEventListener('click', (e) => { this.buildModal(e) })
+            status == '' && flag.addEventListener('click', (e) => {
+                this.buildModal(e)
+                mudiPage.updateBtn3D();
+                mudiSession.updateInteractionSession();
+            })
 
         });
 
