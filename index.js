@@ -8466,8 +8466,10 @@ class MudiExperiencePDP {
                 }
             );
             const response = await request.json();
-            this.dataServer = response.data[0];
-            this.getValues()
+            if (response.data && Array.isArray(response.data) && response.data.length > 0) {
+                this.dataServer = response.data[0];
+                this.getValues()
+            }
         } catch (error) {
             throw error
         };
@@ -8508,8 +8510,11 @@ class MudiExperiencePDP {
         try {
             await this.conectServer(skuNumber);
             this.createStyles();
-            const btn3D = new BTN3D(skuNumber, this.colorClient).create({ colorList: this.colorList, sizeList: this.sizeList, referenceList: null, data: this.dataServer });
-            fatherContainer.appendChild(btn3D)
+            if (this.dataServer) {
+                const btn3D = new BTN3D(skuNumber, this.colorClient).create({ colorList: this.colorList, sizeList: this.sizeList, referenceList: null, data: this.dataServer });
+                fatherContainer.appendChild(btn3D)
+            }
+
 
         } catch (error) {
             console.error(`Mudi Error:\n${error}`);
