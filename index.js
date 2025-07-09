@@ -7912,7 +7912,7 @@ function sendEventInteraction(eventName, sku) {
 function addTocarFunctionMudi() {
     const btnAddToCar = document.getElementById('product-addtocart-button');
     btnAddToCar ? btnAddToCar.addEventListener('click', () => {
-        mudiPage.updateAddToCar();
+        // mudiPage.updateAddToCar();
     }) : console.warn(`Mudi Warn: no se encontro el boton de agregar el carrito`);
 
     setTimeout(() => {
@@ -8062,8 +8062,8 @@ class ModalMudi {
                 window.open(`${this.dataServer.URL_AR}`, "_BLANK");
             }
             flagAR && (
-                sendEventInteraction("Evento de interaccion AR", this.currentSKU),
-                mudiPage.updateBtnAR()
+                sendEventInteraction("Evento de interaccion AR", this.currentSKU)
+                // mudiPage.updateBtnAR()
             );
         });
 
@@ -8194,7 +8194,7 @@ class ModalMudi {
                 HTML.querySelector(`[attr-value="${this.currentColor}"]`) &&
                     HTML.querySelector(`[attr-value="${this.currentColor}"]`).click();
 
-                mudiPage.updateColor();
+                // mudiPage.updateColor();
 
             });
 
@@ -8251,7 +8251,7 @@ class ModalMudi {
                         (HTML.querySelector(`.form-control`).value = option.idOption);
                 });
 
-                mudiPage.updateSize();
+                // mudiPage.updateSize();
 
             })
 
@@ -8382,7 +8382,7 @@ class BTN3D {
             else {
                 const modal = new ModalMudi(data, this.color, this.skuNumber);
                 modal.createModalPDP({ sizes: sizeList, colors: colorList })
-                mudiPage.updateBtn3D();
+                // mudiPage.updateBtn3D();
                 mudiSession.updateInteractionSession();
             }
 
@@ -8398,7 +8398,7 @@ class BTN3D {
 
         /* Seteamo el evento para el Add To Car*/
         setTimeout(() => {
-            mudiPage.updateViewBtn();
+            // mudiPage.updateViewBtn();
         }, 500);
 
         /** Add DOM */
@@ -8543,13 +8543,13 @@ class MudiExperiencePLP {
             return;
         }
 
-        mudiPage.updateViewBtn();
+        // mudiPage.updateViewBtn();
         allMudiFlags.forEach(flag => {
 
             const status = flag.getAttribute('style');
             status == '' && flag.addEventListener('click', (e) => {
                 this.buildModal(e)
-                mudiPage.updateBtn3D();
+                // mudiPage.updateBtn3D();
                 mudiSession.updateInteractionSession();
             })
 
