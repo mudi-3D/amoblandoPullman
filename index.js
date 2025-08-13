@@ -8558,6 +8558,105 @@ const colchones = {
                 }
             }
         }
+    },
+
+    "baseCama": {
+        "TPM": {
+            "standar": {
+                "caoba": {
+                    "medidas": {
+                        "Sencillo": {
+                            "sku": "77018588109171"
+                        },
+                        "Semidoble": {
+                            "sku": "77018588114979"
+                        },
+                        "Doble": {
+                            "sku": "77018588109238"
+                        },
+                        "Queen": {
+                            "sku": "77018588109278"
+                        },
+                        "King": {
+                            "sku": "77018588109315"
+                        }
+                    }
+                },
+                "natural": {
+                    "Sencillo": {
+                        "sku": "77018588109151"
+                    },
+                    "Semidoble": {
+                        "sku": "77018588109191"
+                    },
+                    "Doble": {
+                        "sku": "77018588109218"
+                    },
+                    "Queen": {
+                        "sku": "77018588109258"
+                    },
+                    "King": {
+                        "sku": "77018588109298"
+                    }
+                },
+                "wengue": {
+                    "Sencillo": {
+                        "sku": "77018588109161"
+                    },
+                    "Semidoble": {
+                        "sku": "77018588114969"
+                    },
+                    "Doble": {
+                        "sku": "77018588109228"
+                    },
+                    "Queen": {
+                        "sku": "77018588109268"
+                    },
+                    "King": {
+                        "sku": "77018588109305"
+                    }
+                }
+            }
+        },
+        "nidoJr": {
+            "standar": {
+                "cafe": {
+                    "medidas": {
+                        "Sencillo": {
+                            "sku": "77018588112456"
+                        },
+                        "Semidoble": {
+                            "sku": "77018588112466"
+                        },
+                        "Doble": {
+                            "sku": "77018588112476"
+                        }
+                    }
+                },
+                "negro": {
+                    "Sencillo": {
+                        "sku": "77018588107939"
+                    },
+                    "Semidoble": {
+                        "sku": "77018588107979"
+                    },
+                    "Doble": {
+                        "sku": "77018588108015"
+                    }
+                },
+                "gris": {
+                    "Sencillo": {
+                        "sku": "77018588107959"
+                    },
+                    "Semidoble": {
+                        "sku": "77018588107999"
+                    },
+                    "Doble": {
+                        "sku": "77018588108035"
+                    }
+                }
+            }
+        }
     }
 
 };
@@ -9364,3 +9463,4 @@ const mudiExperience = new MudiExperiencePDP();
 window.mudiExperience = mudiExperience;
 
 setTimeout(addTocarFunctionMudi, 1500);
+
