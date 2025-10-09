@@ -1,8637 +1,8598 @@
 "use strict";
 
 const colchones = {
-
-    "orthoPack": {
-
-        "colchones": {
-            "Euro U": {
-                "clasico": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "7701858962788"
-                            },
-                            "Semidoble": {
-                                "sku": "7701858962795"
-                            },
-                            "Doble": {
-                                "sku": "7701858962801"
-                            },
-                            "Queen": {
-                                "sku": "7701858962818"
-                            },
-                            "King": {
-                                "sku": "7701858962825"
-                            }
-                        }
-                    }
-
-                },
-                "Mohnblatt Gris": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "7701858963778"
-                            },
-                            "Semidoble": {
-                                "sku": "7701858963785"
-                            },
-                            "Doble": {
-                                "sku": "7701858963792"
-                            },
-                            "Queen": {
-                                "sku": "7701858963808"
-                            },
-                            "King": {
-                                "sku": "7701858963815"
-                            }
-                        }
-                    }
-
-                },
-                "Mohnblatt Negro": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "7701858964003"
-                            },
-                            "Semidoble": {
-                                "sku": "7701858964010"
-                            },
-                            "Doble": {
-                                "sku": "7701858964027"
-                            },
-                            "Queen": {
-                                "sku": "7701858964034"
-                            },
-                            "King": {
-                                "sku": "7701858964041"
-                            }
-                        }
-                    }
-
-                }
+  orthoPack: {
+    colchones: {
+      "Euro U": {
+        clasico: {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "7701858962788",
+              },
+              Semidoble: {
+                sku: "7701858962795",
+              },
+              Doble: {
+                sku: "7701858962801",
+              },
+              Queen: {
+                sku: "7701858962818",
+              },
+              King: {
+                sku: "7701858962825",
+              },
             },
-            "Euro": {
-                "clasico": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "7701858963297"
-                            },
-                            "Semidoble": {
-                                "sku": "7701858963303"
-                            },
-                            "Doble": {
-                                "sku": "7701858963310"
-                            },
-                            "Queen": {
-                                "sku": "7701858963327"
-                            },
-                            "King": {
-                                "sku": "7701858963334"
-                            }
-                        }
-                    }
-
-                },
-                "Mohnblatt Gris": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "7701858963716"
-                            },
-                            "Semidoble": {
-                                "sku": "7701858963723"
-                            },
-                            "Doble": {
-                                "sku": "7701858963730"
-                            },
-                            "Queen": {
-                                "sku": "7701858963747"
-                            },
-                            "King": {
-                                "sku": "7701858963754"
-                            }
-                        }
-                    }
-
-                },
-                "Mohnblatt Negro": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "7701858963945"
-                            },
-                            "Semidoble": {
-                                "sku": "7701858963952"
-                            },
-                            "Doble": {
-                                "sku": "7701858963969"
-                            },
-                            "Queen": {
-                                "sku": "7701858963976"
-                            },
-                            "King": {
-                                "sku": "7701858963983"
-                            }
-                        }
-                    }
-
-                }
-            },
-            "BTU": {
-                "clasico": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "1080468740624"
-                            },
-                            "Semidoble": {
-                                "sku": "7701858963181"
-                            },
-                            "Doble": {
-                                "sku": "1080468740730"
-                            },
-                            "Queen": {
-                                "sku": "7701858963204"
-                            },
-                            "King": {
-                                "sku": "7701858963211"
-                            }
-                        }
-                    }
-
-                },
-                "Mohnblatt Gris": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "7701858963594"
-                            },
-                            "Semidoble": {
-                                "sku": "7701858963600"
-                            },
-                            "Doble": {
-                                "sku": "7701858963617"
-                            },
-                            "Queen": {
-                                "sku": "7701858963624"
-                            },
-                            "King": {
-                                "sku": "7701858963631"
-                            }
-                        }
-                    }
-
-                },
-                "Mohnblatt Negro": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "7701858964119"
-                            },
-                            "Semidoble": {
-                                "sku": "7701858963839"
-                            },
-                            "Doble": {
-                                "sku": "7701858963846"
-                            },
-                            "Queen": {
-                                "sku": "7701858963853"
-                            },
-                            "King": {
-                                "sku": "7701858963860"
-                            }
-                        }
-                    }
-
-                }
-            }
+          },
         },
-
-        "combos": {
-
-            "BTU basecama almohada": {
-                "colores": {
-                    "Negro | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-ortpaBTU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-ortpaBTU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-ortpaBTU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-ortpaBTU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-ortpaBTU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-ortpaBTU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-ortpaBTU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-ortpaBTU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-ortpaBTU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-ortpaBTU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoNEG-ortpaBTU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoNEG-ortpaBTU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoNEG-ortpaBTU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoNEG-ortpaBTU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoNEG-ortpaBTU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoGRI-ortpaBTU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoGRI-ortpaBTU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoGRI-ortpaBTU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoGRI-ortpaBTU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoGRI-ortpaBTU-MNEG"
-                            }
-                        }
-                    },
-                    "Gris | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-ortpaBTU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-ortpaBTU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-ortpaBTU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-ortpaBTU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-ortpaBTU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-ortpaBTU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-ortpaBTU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-ortpaBTU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-ortpaBTU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-ortpaBTU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoNEG-ortpaBTU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoNEG-ortpaBTU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoNEG-ortpaBTU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoNEG-ortpaBTU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoNEG-ortpaBTU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoGRI-ortpaBTU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoGRI-ortpaBTU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoGRI-ortpaBTU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoGRI-ortpaBTU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoGRI-ortpaBTU-MGRI"
-                            }
-                        }
-                    },
-                    "Clásico | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-ortpaBTU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-ortpaBTU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-ortpaBTU"
-                            }
-                        }
-                    },
-                    "Clásico | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-ortpaBTU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-ortpaBTU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-ortpaBTU"
-                            }
-                        }
-                    },
-                    "Clásico | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoNEG-ortpaBTU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoNEG-ortpaBTU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoNEG-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoNEG-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoNEG-ortpaBTU"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoGRI-ortpaBTU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoGRI-ortpaBTU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoGRI-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoGRI-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoGRI-ortpaBTU"
-                            }
-                        }
-                    }
-                }
+        "Mohnblatt Gris": {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "7701858963778",
+              },
+              Semidoble: {
+                sku: "7701858963785",
+              },
+              Doble: {
+                sku: "7701858963792",
+              },
+              Queen: {
+                sku: "7701858963808",
+              },
+              King: {
+                sku: "7701858963815",
+              },
             },
-            "BTU camaLeo almohada": {
-                "colores": {
-                    "Negro | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoBEI-ortpaBTU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoBEI-ortpaBTU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoBEI-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoBEI-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoBEI-ortpaBTU"
-                            }
-                        }
-                    },
-                    "Negro | Caf  Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoCAF-ortpaBTU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoCAF-ortpaBTU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoCAF-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoCAF-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoCAF-ortpaBTU"
-                            }
-                        }
-                    },
-                    "Negro | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoNEG-ortpaBTU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoNEG-ortpaBTU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoNEG-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoNEG-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoNEG-ortpaBTU"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoGRI-ortpaBTU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoGRI-ortpaBTU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoGRI-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoGRI-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoGRI-ortpaBTU"
-                            }
-                        }
-                    }
-                }
+          },
+        },
+        "Mohnblatt Negro": {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "7701858964003",
+              },
+              Semidoble: {
+                sku: "7701858964010",
+              },
+              Doble: {
+                sku: "7701858964027",
+              },
+              Queen: {
+                sku: "7701858964034",
+              },
+              King: {
+                sku: "7701858964041",
+              },
             },
-            "BTU firenze almohada": {
-                "colores": {
-                    "Negro | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-ortpaBTU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-ortpaBTU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-ortpaBTU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-ortpaBTU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-ortpaBTU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-ortpaBTU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-ortpaBTU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-ortpaBTU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-ortpaBTU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-ortpaBTU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-ortpaBTU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-ortpaBTU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-ortpaBTU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-ortpaBTU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-ortpaBTU-MNEG"
-                            }
-                        }
-                    },
-                    "Gris | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-ortpaBTU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-ortpaBTU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-ortpaBTU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-ortpaBTU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-ortpaBTU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-ortpaBTU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-ortpaBTU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-ortpaBTU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-ortpaBTU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-ortpaBTU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-ortpaBTU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-ortpaBTU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-ortpaBTU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-ortpaBTU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-ortpaBTU-MGRI"
-                            }
-                        }
-                    },
-                    "Clásico | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-ortpaBTU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-ortpaBTU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-ortpaBTU"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-ortpaBTU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-ortpaBTU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-ortpaBTU"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-ortpaBTU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-ortpaBTU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-ortpaBTU"
-                            }
-                        }
-                    }
-                }
+          },
+        },
+      },
+      Euro: {
+        clasico: {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "7701858963297",
+              },
+              Semidoble: {
+                sku: "7701858963303",
+              },
+              Doble: {
+                sku: "7701858963310",
+              },
+              Queen: {
+                sku: "7701858963327",
+              },
+              King: {
+                sku: "7701858963334",
+              },
             },
-            "BTU TPM almohada": {
-                "colores": {
-                    "Negro | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-ortpaBTU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-ortpaBTU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-ortpaBTU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-ortpaBTU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-ortpaBTU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-ortpaBTU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-ortpaBTU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-ortpaBTU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-ortpaBTU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-ortpaBTU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-ortpaBTU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-ortpaBTU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-ortpaBTU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-ortpaBTU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-ortpaBTU-MNEG"
-                            }
-                        }
-                    },
-                    "Gris | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-ortpaBTU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-ortpaBTU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-ortpaBTU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-ortpaBTU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-ortpaBTU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-ortpaBTU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-ortpaBTU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-ortpaBTU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-ortpaBTU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-ortpaBTU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-ortpaBTU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-ortpaBTU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-ortpaBTU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-ortpaBTU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-ortpaBTU-MGRI"
-                            }
-                        }
-                    },
-                    "Clásico | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-ortpaBTU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-ortpaBTU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-ortpaBTU"
-                            }
-                        }
-                    },
-                    "Clásico | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-ortpaBTU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-ortpaBTU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-ortpaBTU"
-                            }
-                        }
-                    },
-                    "Clásico | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-ortpaBTU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-ortpaBTU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-ortpaBTU"
-                            }
-                        }
-                    }
-                }
+          },
+        },
+        "Mohnblatt Gris": {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "7701858963716",
+              },
+              Semidoble: {
+                sku: "7701858963723",
+              },
+              Doble: {
+                sku: "7701858963730",
+              },
+              Queen: {
+                sku: "7701858963747",
+              },
+              King: {
+                sku: "7701858963754",
+              },
             },
-            "BTU NidoJr": {
-                "colores": {
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-ortpaBTU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-ortpaBTU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-ortpaBTU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-ortpaBTU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-ortpaBTU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-ortpaBTU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-ortpaBTU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-ortpaBTU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-ortpaBTU-MNEG"
-                            }
-                        }
-                    },
-                    "Gris | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-ortpaBTU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-ortpaBTU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-ortpaBTU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-ortpaBTU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-ortpaBTU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-ortpaBTU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-ortpaBTU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-ortpaBTU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-ortpaBTU-MGRI"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-ortpaBTU"
-                            }
-                        }
-                    },
-                    "Clásico | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-ortpaBTU"
-                            }
-                        }
-                    },
-                    "Clásico | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-ortpaBTU"
-                            }
-                        }
-                    }
-                }
+          },
+        },
+        "Mohnblatt Negro": {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "7701858963945",
+              },
+              Semidoble: {
+                sku: "7701858963952",
+              },
+              Doble: {
+                sku: "7701858963969",
+              },
+              Queen: {
+                sku: "7701858963976",
+              },
+              King: {
+                sku: "7701858963983",
+              },
             },
-            "BTU NidoAngie": {
-                "colores": {
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-ortpaBTU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-ortpaBTU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-ortpaBTU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-ortpaBTU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-ortpaBTU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-ortpaBTU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-ortpaBTU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-ortpaBTU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-ortpaBTU-MNEG"
-                            }
-                        }
-                    },
-                    "Gris | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-ortpaBTU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-ortpaBTU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-ortpaBTU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-ortpaBTU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-ortpaBTU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-ortpaBTU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-ortpaBTU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-ortpaBTU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-ortpaBTU-MGRI"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-ortpaBTU"
-                            }
-                        }
-                    },
-                    "Clásico | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-ortpaBTU"
-                            }
-                        }
-                    },
-                    "Clásico | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-ortpaBTU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-ortpaBTU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-ortpaBTU"
-                            }
-                        }
-                    }
-                }
+          },
+        },
+      },
+      BTU: {
+        clasico: {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "1080468740624",
+              },
+              Semidoble: {
+                sku: "7701858963181",
+              },
+              Doble: {
+                sku: "1080468740730",
+              },
+              Queen: {
+                sku: "7701858963204",
+              },
+              King: {
+                sku: "7701858963211",
+              },
             },
-
-
-
-            "EuroU baseCama Almohada": {
-                "colores": {
-                    "Negro | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-ortpaEUU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-ortpaEUU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-ortpaEUU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-ortpaEUU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-ortpaEUU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-ortpaEUU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-ortpaEUU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-ortpaEUU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-ortpaEUU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-ortpaEUU-MNEG"
-                            }
-                        }
-                    }
-                }
+          },
+        },
+        "Mohnblatt Gris": {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "7701858963594",
+              },
+              Semidoble: {
+                sku: "7701858963600",
+              },
+              Doble: {
+                sku: "7701858963617",
+              },
+              Queen: {
+                sku: "7701858963624",
+              },
+              King: {
+                sku: "7701858963631",
+              },
             },
-            "EuroU camaLeo almohada": {
-                "colores": {
-                    "Negro | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoBEI-ortpaEUU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoBEI-ortpaEUU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoBEI-ortpaEUU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoBEI-ortpaEUU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoBEI-ortpaEUU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoCAF-ortpaEUU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoCAF-ortpaEUU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoCAF-ortpaEUU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoCAF-ortpaEUU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoCAF-ortpaEUU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoNEG-ortpaEUU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoNEG-ortpaEUU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoNEG-ortpaEUU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoNEG-ortpaEUU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoNEG-ortpaEUU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoGRI-ortpaEUU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoGRI-ortpaEUU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoGRI-ortpaEUU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoGRI-ortpaEUU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoGRI-ortpaEUU-MNEG"
-                            }
-                        }
-                    },
-                    "Gris | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoBEI-ortpaEUU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoBEI-ortpaEUU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoBEI-ortpaEUU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoBEI-ortpaEUU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoBEI-ortpaEUU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoCAF-ortpaEUU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoCAF-ortpaEUU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoCAF-ortpaEUU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoCAF-ortpaEUU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoCAF-ortpaEUU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoNEG-ortpaEUU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoNEG-ortpaEUU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoNEG-ortpaEUU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoNEG-ortpaEUU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoNEG-ortpaEUU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoGRI-ortpaEUU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoGRI-ortpaEUU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoGRI-ortpaEUU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoGRI-ortpaEUU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoGRI-ortpaEUU-MGRI"
-                            }
-                        }
-                    },
-                    "Clásico | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoBEI-ortpaEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoBEI-ortpaEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoBEI-ortpaEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoBEI-ortpaEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoBEI-ortpaEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoCAF-ortpaEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoCAF-ortpaEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoCAF-ortpaEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoCAF-ortpaEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoCAF-ortpaEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoNEG-ortpaEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoNEG-ortpaEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoNEG-ortpaEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoNEG-ortpaEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoNEG-ortpaEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoGRI-ortpaEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoGRI-ortpaEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoGRI-ortpaEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoGRI-ortpaEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoGRI-ortpaEUU"
-                            }
-                        }
-                    }
-                }
+          },
+        },
+        "Mohnblatt Negro": {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "7701858964119",
+              },
+              Semidoble: {
+                sku: "7701858963839",
+              },
+              Doble: {
+                sku: "7701858963846",
+              },
+              Queen: {
+                sku: "7701858963853",
+              },
+              King: {
+                sku: "7701858963860",
+              },
             },
-            "EuroU firenze almohada": {
-                "colores": {
-                    "Negro | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-ortpaEUU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-ortpaEUU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-ortpaEUU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-ortpaEUU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-ortpaEUU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-ortpaEUU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-ortpaEUU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-ortpaEUU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-ortpaEUU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-ortpaEUU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-ortpaEUU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-ortpaEUU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-ortpaEUU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-ortpaEUU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-ortpaEUU-MNEG"
-                            }
-                        }
-                    },
-                    "Gris | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-ortpaEUU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-ortpaEUU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-ortpaEUU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-ortpaEUU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-ortpaEUU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-ortpaEUU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-ortpaEUU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-ortpaEUU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-ortpaEUU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-ortpaEUU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-ortpaEUU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-ortpaEUU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-ortpaEUU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-ortpaEUU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-ortpaEUU-MGRI"
-                            }
-                        }
-                    },
-                    "Clásico | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-ortpaEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-ortpaEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-ortpaEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-ortpaEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-ortpaEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-ortpaEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-ortpaEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-ortpaEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-ortpaEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-ortpaEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-ortpaEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-ortpaEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-ortpaEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-ortpaEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-ortpaEUU"
-                            }
-                        }
-                    }
-                }
-            },
-            "EuroU TPM almohada": {
-                "colores": {
-                    "Negro | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-ortpaEUU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-ortpaEUU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-ortpaEUU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-ortpaEUU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-ortpaEUU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-ortpaEUU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-ortpaEUU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-ortpaEUU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-ortpaEUU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-ortpaEUU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-ortpaEUU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-ortpaEUU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-ortpaEUU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-ortpaEUU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-ortpaEUU-MNEG"
-                            }
-                        }
-                    },
-                    "Gris | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-ortpaEUU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-ortpaEUU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-ortpaEUU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-ortpaEUU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-ortpaEUU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-ortpaEUU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-ortpaEUU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-ortpaEUU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-ortpaEUU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-ortpaEUU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-ortpaEUU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-ortpaEUU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-ortpaEUU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-ortpaEUU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-ortpaEUU-MGRI"
-                            }
-                        }
-                    },
-                    "Clásico | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-ortpaEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-ortpaEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-ortpaEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-ortpaEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-ortpaEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-ortpaEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-ortpaEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-ortpaEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-ortpaEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-ortpaEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-ortpaEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-ortpaEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-ortpaEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-ortpaEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-ortpaEUU"
-                            }
-                        }
-                    }
-                }
-            },
-            "EuroU nidoJr": {
-                "colores": {
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-ortpaEUU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-ortpaEUU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-ortpaEUU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-ortpaEUU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-ortpaEUU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-ortpaEUU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-ortpaEUU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-ortpaEUU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-ortpaEUU-MNEG"
-                            }
-                        }
-                    },
-                    "Gris | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-ortpaEUU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-ortpaEUU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-ortpaEUU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-ortpaEUU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-ortpaEUU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-ortpaEUU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-ortpaEUU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-ortpaEUU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-ortpaEUU-MGRI"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-ortpaEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-ortpaEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-ortpaEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-ortpaEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-ortpaEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-ortpaEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-ortpaEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-ortpaEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-ortpaEUU"
-                            }
-                        }
-                    }
-                }
-            },
-            "EuroU nidoAngie": {
-                "colores": {
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-ortpaEUU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-ortpaEUU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-ortpaEUU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-ortpaEUU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-ortpaEUU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-ortpaEUU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-ortpaEUU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-ortpaEUU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-ortpaEUU-MNEG"
-                            }
-                        }
-                    },
-                    "Gris | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-ortpaEUU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-ortpaEUU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-ortpaEUU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-ortpaEUU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-ortpaEUU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-ortpaEUU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-ortpaEUU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-ortpaEUU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-ortpaEUU-MGRI"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-ortpaEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-ortpaEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-ortpaEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-ortpaEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-ortpaEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-ortpaEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-ortpaEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-ortpaEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-ortpaEUU"
-                            }
-                        }
-                    }
-                }
-            },
-
-
-            "Euro basecama almohada": {
-                "colores": {
-                    "Negro | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-ortpaEU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-ortpaEU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-ortpaEU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-ortpaEU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoNEG-ortpaEU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoNEG-ortpaEU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoNEG-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoNEG-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoNEG-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoGRI-ortpaEU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoGRI-ortpaEU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoGRI-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoGRI-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoGRI-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Gris | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-ortpaEU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-ortpaEU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-ortpaEU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-ortpaEU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoNEG-ortpaEU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoNEG-ortpaEU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoNEG-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoNEG-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoNEG-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoGRI-ortpaEU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoGRI-ortpaEU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoGRI-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoGRI-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoGRI-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Clásico | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-ortpaEU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-ortpaEU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-ortpaEU"
-                            }
-                        }
-                    },
-                    "Clásico | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-ortpaEU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-ortpaEU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-ortpaEU"
-                            }
-                        }
-                    },
-                    "Clásico | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoNEG-ortpaEU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoNEG-ortpaEU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoNEG-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoNEG-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoNEG-ortpaEU"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoGRI-ortpaEU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoGRI-ortpaEU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoGRI-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoGRI-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoGRI-ortpaEU"
-                            }
-                        }
-                    }
-                }
-            },
-            "Euro camaLeo almohada": {
-                "colores": {
-                    "Negro | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoBEI-ortpaEU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoBEI-ortpaEU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoBEI-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoBEI-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoBEI-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoCAF-ortpaEU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoCAF-ortpaEU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoCAF-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoCAF-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoCAF-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoNEG-ortpaEU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoNEG-ortpaEU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoNEG-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoNEG-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoNEG-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoGRI-ortpaEU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoGRI-ortpaEU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoGRI-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoGRI-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoGRI-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Gris | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoBEI-ortpaEU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoBEI-ortpaEU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoBEI-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoBEI-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoBEI-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoCAF-ortpaEU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoCAF-ortpaEU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoCAF-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoCAF-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoCAF-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoNEG-ortpaEU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoNEG-ortpaEU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoNEG-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoNEG-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoNEG-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoGRI-ortpaEU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoGRI-ortpaEU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoGRI-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoGRI-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoGRI-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Clásico | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoBEI-ortpaEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoBEI-ortpaEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoBEI-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoBEI-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoBEI-ortpaEU"
-                            }
-                        }
-                    },
-                    "Clásico | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoCAF-ortpaEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoCAF-ortpaEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoCAF-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoCAF-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoCAF-ortpaEU"
-                            }
-                        }
-                    },
-                    "Clásico | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoNEG-ortpaEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoNEG-ortpaEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoNEG-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoNEG-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoNEG-ortpaEU"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoGRI-ortpaEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoGRI-ortpaEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoGRI-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoGRI-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoGRI-ortpaEU"
-                            }
-                        }
-                    }
-                }
-            },
-            "Euro firenze almohada": {
-                "colores": {
-                    "Negro | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-ortpaEU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-ortpaEU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-ortpaEU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-ortpaEU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-ortpaEU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-ortpaEU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Gris | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-ortpaEU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-ortpaEU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-ortpaEU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-ortpaEU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-ortpaEU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-ortpaEU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Clásico | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-ortpaEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-ortpaEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-ortpaEU"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-ortpaEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-ortpaEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-ortpaEU"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-ortpaEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-ortpaEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-ortpaEU"
-                            }
-                        }
-                    }
-                }
-            },
-            "Euro TPM almohada": {
-                "colores": {
-                    "Negro | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-ortpaEU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-ortpaEU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-ortpaEU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-ortpaEU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-ortpaEU-MNEG"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-ortpaEU-MNEG"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Gris | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-ortpaEU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-ortpaEU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-ortpaEU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-ortpaEU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-ortpaEU-MGRI"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-ortpaEU-MGRI"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Clásico | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-ortpaEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-ortpaEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-ortpaEU"
-                            }
-                        }
-                    },
-                    "Clásico | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-ortpaEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-ortpaEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-ortpaEU"
-                            }
-                        }
-                    },
-                    "Clásico | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-ortpaEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-ortpaEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-ortpaEU"
-                            }
-                        }
-                    }
-                }
-            },
-            "Euro nidoJr": {
-                "colores": {
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Gris | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-ortpaEU"
-                            }
-                        }
-                    },
-                    "Clásico | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-ortpaEU"
-                            }
-                        }
-                    },
-                    "Clásico | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-ortpaEU"
-                            }
-                        }
-                    }
-                }
-            },
-            "Euro nidoAngie": {
-                "colores": {
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Negro | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-ortpaEU-MNEG"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-ortpaEU-MNEG"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-ortpaEU-MNEG"
-                            }
-                        }
-                    },
-                    "Gris | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Gris | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-ortpaEU-MGRI"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-ortpaEU-MGRI"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-ortpaEU-MGRI"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-ortpaEU"
-                            }
-                        }
-                    },
-                    "Clásico | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-ortpaEU"
-                            }
-                        }
-                    },
-                    "Clásico | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-ortpaEU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-ortpaEU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-ortpaEU"
-                            }
-                        }
-                    }
-                }
-            }
-        }
+          },
+        },
+      },
     },
 
-    "Rollpack": {
-
-        "colchones": {
-            "Euro U": {
-                "clasico": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "1080468740846"
-                            },
-                            "Semidoble": {
-                                "sku": "77018588101828"
-                            },
-                            "Doble": {
-                                "sku": "1080468740877"
-                            },
-                            "Queen": {
-                                "sku": "77018588101848"
-                            },
-                            "King": {
-                                "sku": "77018588101858"
-                            }
-                        }
-
-                    }
-                },
-                "Mohnblatt Gris": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "1080468740884"
-                            },
-                            "Semidoble": {
-                                "sku": "77018588101925"
-                            },
-                            "Doble": {
-                                "sku": "1080468740891"
-                            },
-                            "Queen": {
-                                "sku": "77018588101945"
-                            },
-                            "King": {
-                                "sku": "77018588101955"
-                            }
-                        }
-                    }
-
-                }
-            }
+    combos: {
+      "BTU basecama almohada": {
+        colores: {
+          "Negro | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-ortpaBTU-MNEG",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-ortpaBTU-MNEG",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-ortpaBTU-MNEG",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-ortpaBTU-MNEG",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-ortpaBTU-MNEG",
+              },
+            },
+          },
+          "Negro | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-ortpaBTU-MNEG",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-ortpaBTU-MNEG",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-ortpaBTU-MNEG",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-ortpaBTU-MNEG",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-ortpaBTU-MNEG",
+              },
+            },
+          },
+          "Negro | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoNEG-ortpaBTU-MNEG",
+              },
+              Queen: {
+                sku: "C3-Q-leoNEG-ortpaBTU-MNEG",
+              },
+              Doble: {
+                sku: "C3-F-leoNEG-ortpaBTU-MNEG",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoNEG-ortpaBTU-MNEG",
+              },
+              Sencillo: {
+                sku: "C3-T-leoNEG-ortpaBTU-MNEG",
+              },
+            },
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoGRI-ortpaBTU-MNEG",
+              },
+              Queen: {
+                sku: "C3-Q-leoGRI-ortpaBTU-MNEG",
+              },
+              Doble: {
+                sku: "C3-F-leoGRI-ortpaBTU-MNEG",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoGRI-ortpaBTU-MNEG",
+              },
+              Sencillo: {
+                sku: "C3-T-leoGRI-ortpaBTU-MNEG",
+              },
+            },
+          },
+          "Gris | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-ortpaBTU-MGRI",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-ortpaBTU-MGRI",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-ortpaBTU-MGRI",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-ortpaBTU-MGRI",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-ortpaBTU-MGRI",
+              },
+            },
+          },
+          "Gris | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-ortpaBTU-MGRI",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-ortpaBTU-MGRI",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-ortpaBTU-MGRI",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-ortpaBTU-MGRI",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-ortpaBTU-MGRI",
+              },
+            },
+          },
+          "Gris | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoNEG-ortpaBTU-MGRI",
+              },
+              Queen: {
+                sku: "C3-Q-leoNEG-ortpaBTU-MGRI",
+              },
+              Doble: {
+                sku: "C3-F-leoNEG-ortpaBTU-MGRI",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoNEG-ortpaBTU-MGRI",
+              },
+              Sencillo: {
+                sku: "C3-T-leoNEG-ortpaBTU-MGRI",
+              },
+            },
+          },
+          "Gris | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoGRI-ortpaBTU-MGRI",
+              },
+              Queen: {
+                sku: "C3-Q-leoGRI-ortpaBTU-MGRI",
+              },
+              Doble: {
+                sku: "C3-F-leoGRI-ortpaBTU-MGRI",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoGRI-ortpaBTU-MGRI",
+              },
+              Sencillo: {
+                sku: "C3-T-leoGRI-ortpaBTU-MGRI",
+              },
+            },
+          },
+          "Clásico | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-ortpaBTU",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-ortpaBTU",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-ortpaBTU",
+              },
+            },
+          },
+          "Clásico | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-ortpaBTU",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-ortpaBTU",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-ortpaBTU",
+              },
+            },
+          },
+          "Clásico | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoNEG-ortpaBTU",
+              },
+              Queen: {
+                sku: "C3-Q-leoNEG-ortpaBTU",
+              },
+              Doble: {
+                sku: "C3-F-leoNEG-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoNEG-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoNEG-ortpaBTU",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoGRI-ortpaBTU",
+              },
+              Queen: {
+                sku: "C3-Q-leoGRI-ortpaBTU",
+              },
+              Doble: {
+                sku: "C3-F-leoGRI-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoGRI-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoGRI-ortpaBTU",
+              },
+            },
+          },
         },
+      },
+      "BTU camaLeo almohada": {
+        colores: {
+          "Negro | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoBEI-ortpaBTU",
+              },
+              Queen: {
+                sku: "C2-Q-leoBEI-ortpaBTU",
+              },
+              Doble: {
+                sku: "C2-F-leoBEI-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoBEI-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoBEI-ortpaBTU",
+              },
+            },
+          },
+          "Negro | Caf  Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoCAF-ortpaBTU",
+              },
+              Queen: {
+                sku: "C2-Q-leoCAF-ortpaBTU",
+              },
+              Doble: {
+                sku: "C2-F-leoCAF-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoCAF-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoCAF-ortpaBTU",
+              },
+            },
+          },
+          "Negro | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoNEG-ortpaBTU",
+              },
+              Queen: {
+                sku: "C2-Q-leoNEG-ortpaBTU",
+              },
+              Doble: {
+                sku: "C2-F-leoNEG-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoNEG-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoNEG-ortpaBTU",
+              },
+            },
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoGRI-ortpaBTU",
+              },
+              Queen: {
+                sku: "C2-Q-leoGRI-ortpaBTU",
+              },
+              Doble: {
+                sku: "C2-F-leoGRI-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoGRI-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoGRI-ortpaBTU",
+              },
+            },
+          },
+        },
+      },
+      "BTU firenze almohada": {
+        colores: {
+          "Negro | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-ortpaBTU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-ortpaBTU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-ortpaBTU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-ortpaBTU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-ortpaBTU-MNEG",
+              },
+            },
+          },
+          "Negro | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-ortpaBTU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-ortpaBTU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-ortpaBTU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-ortpaBTU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-ortpaBTU-MNEG",
+              },
+            },
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-ortpaBTU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-ortpaBTU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-ortpaBTU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-ortpaBTU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-ortpaBTU-MNEG",
+              },
+            },
+          },
+          "Gris | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-ortpaBTU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-ortpaBTU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-ortpaBTU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-ortpaBTU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-ortpaBTU-MGRI",
+              },
+            },
+          },
+          "Gris | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-ortpaBTU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-ortpaBTU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-ortpaBTU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-ortpaBTU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-ortpaBTU-MGRI",
+              },
+            },
+          },
+          "Gris | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-ortpaBTU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-ortpaBTU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-ortpaBTU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-ortpaBTU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-ortpaBTU-MGRI",
+              },
+            },
+          },
+          "Clásico | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-ortpaBTU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-ortpaBTU",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-ortpaBTU",
+              },
+            },
+          },
+          "Clásico | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-ortpaBTU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-ortpaBTU",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-ortpaBTU",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-ortpaBTU",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-ortpaBTU",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-ortpaBTU",
+              },
+            },
+          },
+        },
+      },
+      "BTU TPM almohada": {
+        colores: {
+          "Negro | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-ortpaBTU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-ortpaBTU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-ortpaBTU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-ortpaBTU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-ortpaBTU-MNEG",
+              },
+            },
+          },
+          "Negro | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-ortpaBTU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-ortpaBTU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-ortpaBTU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-ortpaBTU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-ortpaBTU-MNEG",
+              },
+            },
+          },
+          "Negro | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-ortpaBTU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-ortpaBTU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-ortpaBTU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-ortpaBTU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-ortpaBTU-MNEG",
+              },
+            },
+          },
+          "Gris | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-ortpaBTU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-ortpaBTU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-ortpaBTU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-ortpaBTU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-ortpaBTU-MGRI",
+              },
+            },
+          },
+          "Gris | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-ortpaBTU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-ortpaBTU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-ortpaBTU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-ortpaBTU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-ortpaBTU-MGRI",
+              },
+            },
+          },
+          "Gris | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-ortpaBTU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-ortpaBTU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-ortpaBTU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-ortpaBTU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-ortpaBTU-MGRI",
+              },
+            },
+          },
+          "Clásico | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-ortpaBTU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-ortpaBTU",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-ortpaBTU",
+              },
+            },
+          },
+          "Clásico | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-ortpaBTU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-ortpaBTU",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-ortpaBTU",
+              },
+            },
+          },
+          "Clásico | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-ortpaBTU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-ortpaBTU",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-ortpaBTU",
+              },
+            },
+          },
+        },
+      },
+      "BTU NidoJr": {
+        colores: {
+          "Negro | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-ortpaBTU-MNEG",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-ortpaBTU-MNEG",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-ortpaBTU-MNEG",
+              },
+            },
+          },
+          "Negro | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-ortpaBTU-MNEG",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-ortpaBTU-MNEG",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-ortpaBTU-MNEG",
+              },
+            },
+          },
+          "Negro | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-ortpaBTU-MNEG",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-ortpaBTU-MNEG",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-ortpaBTU-MNEG",
+              },
+            },
+          },
+          "Gris | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-ortpaBTU-MGRI",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-ortpaBTU-MGRI",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-ortpaBTU-MGRI",
+              },
+            },
+          },
+          "Gris | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-ortpaBTU-MGRI",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-ortpaBTU-MGRI",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-ortpaBTU-MGRI",
+              },
+            },
+          },
+          "Gris | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-ortpaBTU-MGRI",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-ortpaBTU-MGRI",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-ortpaBTU-MGRI",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-ortpaBTU",
+              },
+            },
+          },
+          "Clásico | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-ortpaBTU",
+              },
+            },
+          },
+          "Clásico | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-ortpaBTU",
+              },
+            },
+          },
+        },
+      },
+      "BTU NidoAngie": {
+        colores: {
+          "Negro | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-ortpaBTU-MNEG",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-ortpaBTU-MNEG",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-ortpaBTU-MNEG",
+              },
+            },
+          },
+          "Negro | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-ortpaBTU-MNEG",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-ortpaBTU-MNEG",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-ortpaBTU-MNEG",
+              },
+            },
+          },
+          "Negro | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-ortpaBTU-MNEG",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-ortpaBTU-MNEG",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-ortpaBTU-MNEG",
+              },
+            },
+          },
+          "Gris | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-ortpaBTU-MGRI",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-ortpaBTU-MGRI",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-ortpaBTU-MGRI",
+              },
+            },
+          },
+          "Gris | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-ortpaBTU-MGRI",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-ortpaBTU-MGRI",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-ortpaBTU-MGRI",
+              },
+            },
+          },
+          "Gris | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-ortpaBTU-MGRI",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-ortpaBTU-MGRI",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-ortpaBTU-MGRI",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-ortpaBTU",
+              },
+            },
+          },
+          "Clásico | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-ortpaBTU",
+              },
+            },
+          },
+          "Clásico | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-ortpaBTU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-ortpaBTU",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-ortpaBTU",
+              },
+            },
+          },
+        },
+      },
 
-        "combos": {
+      "EuroU baseCama Almohada": {
+        colores: {
+          "Negro | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-ortpaEUU-MNEG",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-ortpaEUU-MNEG",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-ortpaEUU-MNEG",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-ortpaEUU-MNEG",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-ortpaEUU-MNEG",
+              },
+            },
+          },
+          "Negro | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-ortpaEUU-MNEG",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-ortpaEUU-MNEG",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-ortpaEUU-MNEG",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-ortpaEUU-MNEG",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-ortpaEUU-MNEG",
+              },
+            },
+          },
+        },
+      },
+      "EuroU camaLeo almohada": {
+        colores: {
+          "Negro | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoBEI-ortpaEUU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-leoBEI-ortpaEUU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-leoBEI-ortpaEUU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoBEI-ortpaEUU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-leoBEI-ortpaEUU-MNEG",
+              },
+            },
+          },
+          "Negro | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoCAF-ortpaEUU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-leoCAF-ortpaEUU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-leoCAF-ortpaEUU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoCAF-ortpaEUU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-leoCAF-ortpaEUU-MNEG",
+              },
+            },
+          },
+          "Negro | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoNEG-ortpaEUU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-leoNEG-ortpaEUU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-leoNEG-ortpaEUU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoNEG-ortpaEUU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-leoNEG-ortpaEUU-MNEG",
+              },
+            },
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoGRI-ortpaEUU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-leoGRI-ortpaEUU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-leoGRI-ortpaEUU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoGRI-ortpaEUU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-leoGRI-ortpaEUU-MNEG",
+              },
+            },
+          },
+          "Gris | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoBEI-ortpaEUU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-leoBEI-ortpaEUU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-leoBEI-ortpaEUU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoBEI-ortpaEUU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-leoBEI-ortpaEUU-MGRI",
+              },
+            },
+          },
+          "Gris | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoCAF-ortpaEUU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-leoCAF-ortpaEUU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-leoCAF-ortpaEUU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoCAF-ortpaEUU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-leoCAF-ortpaEUU-MGRI",
+              },
+            },
+          },
+          "Gris | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoNEG-ortpaEUU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-leoNEG-ortpaEUU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-leoNEG-ortpaEUU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoNEG-ortpaEUU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-leoNEG-ortpaEUU-MGRI",
+              },
+            },
+          },
+          "Gris | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoGRI-ortpaEUU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-leoGRI-ortpaEUU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-leoGRI-ortpaEUU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoGRI-ortpaEUU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-leoGRI-ortpaEUU-MGRI",
+              },
+            },
+          },
+          "Clásico | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoBEI-ortpaEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoBEI-ortpaEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoBEI-ortpaEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoBEI-ortpaEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoBEI-ortpaEUU",
+              },
+            },
+          },
+          "Clásico | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoCAF-ortpaEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoCAF-ortpaEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoCAF-ortpaEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoCAF-ortpaEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoCAF-ortpaEUU",
+              },
+            },
+          },
+          "Clásico | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoNEG-ortpaEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoNEG-ortpaEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoNEG-ortpaEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoNEG-ortpaEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoNEG-ortpaEUU",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoGRI-ortpaEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoGRI-ortpaEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoGRI-ortpaEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoGRI-ortpaEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoGRI-ortpaEUU",
+              },
+            },
+          },
+        },
+      },
+      "EuroU firenze almohada": {
+        colores: {
+          "Negro | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-ortpaEUU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-ortpaEUU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-ortpaEUU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-ortpaEUU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-ortpaEUU-MNEG",
+              },
+            },
+          },
+          "Negro | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-ortpaEUU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-ortpaEUU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-ortpaEUU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-ortpaEUU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-ortpaEUU-MNEG",
+              },
+            },
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-ortpaEUU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-ortpaEUU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-ortpaEUU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-ortpaEUU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-ortpaEUU-MNEG",
+              },
+            },
+          },
+          "Gris | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-ortpaEUU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-ortpaEUU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-ortpaEUU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-ortpaEUU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-ortpaEUU-MGRI",
+              },
+            },
+          },
+          "Gris | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-ortpaEUU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-ortpaEUU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-ortpaEUU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-ortpaEUU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-ortpaEUU-MGRI",
+              },
+            },
+          },
+          "Gris | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-ortpaEUU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-ortpaEUU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-ortpaEUU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-ortpaEUU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-ortpaEUU-MGRI",
+              },
+            },
+          },
+          "Clásico | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-ortpaEUU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-ortpaEUU",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-ortpaEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-ortpaEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-ortpaEUU",
+              },
+            },
+          },
+          "Clásico | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-ortpaEUU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-ortpaEUU",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-ortpaEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-ortpaEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-ortpaEUU",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-ortpaEUU",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-ortpaEUU",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-ortpaEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-ortpaEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-ortpaEUU",
+              },
+            },
+          },
+        },
+      },
+      "EuroU TPM almohada": {
+        colores: {
+          "Negro | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-ortpaEUU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-ortpaEUU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-ortpaEUU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-ortpaEUU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-ortpaEUU-MNEG",
+              },
+            },
+          },
+          "Negro | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-ortpaEUU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-ortpaEUU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-ortpaEUU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-ortpaEUU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-ortpaEUU-MNEG",
+              },
+            },
+          },
+          "Negro | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-ortpaEUU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-ortpaEUU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-ortpaEUU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-ortpaEUU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-ortpaEUU-MNEG",
+              },
+            },
+          },
+          "Gris | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-ortpaEUU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-ortpaEUU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-ortpaEUU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-ortpaEUU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-ortpaEUU-MGRI",
+              },
+            },
+          },
+          "Gris | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-ortpaEUU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-ortpaEUU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-ortpaEUU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-ortpaEUU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-ortpaEUU-MGRI",
+              },
+            },
+          },
+          "Gris | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-ortpaEUU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-ortpaEUU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-ortpaEUU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-ortpaEUU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-ortpaEUU-MGRI",
+              },
+            },
+          },
+          "Clásico | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-ortpaEUU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-ortpaEUU",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-ortpaEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-ortpaEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-ortpaEUU",
+              },
+            },
+          },
+          "Clásico | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-ortpaEUU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-ortpaEUU",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-ortpaEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-ortpaEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-ortpaEUU",
+              },
+            },
+          },
+          "Clásico | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-ortpaEUU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-ortpaEUU",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-ortpaEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-ortpaEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-ortpaEUU",
+              },
+            },
+          },
+        },
+      },
+      "EuroU nidoJr": {
+        colores: {
+          "Negro | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-ortpaEUU-MNEG",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-ortpaEUU-MNEG",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-ortpaEUU-MNEG",
+              },
+            },
+          },
+          "Negro | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-ortpaEUU-MNEG",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-ortpaEUU-MNEG",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-ortpaEUU-MNEG",
+              },
+            },
+          },
+          "Negro | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-ortpaEUU-MNEG",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-ortpaEUU-MNEG",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-ortpaEUU-MNEG",
+              },
+            },
+          },
+          "Gris | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-ortpaEUU-MGRI",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-ortpaEUU-MGRI",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-ortpaEUU-MGRI",
+              },
+            },
+          },
+          "Gris | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-ortpaEUU-MGRI",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-ortpaEUU-MGRI",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-ortpaEUU-MGRI",
+              },
+            },
+          },
+          "Gris | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-ortpaEUU-MGRI",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-ortpaEUU-MGRI",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-ortpaEUU-MGRI",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-ortpaEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-ortpaEUU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-ortpaEUU",
+              },
+            },
+          },
+          "Clásico | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-ortpaEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-ortpaEUU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-ortpaEUU",
+              },
+            },
+          },
+          "Clásico | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-ortpaEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-ortpaEUU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-ortpaEUU",
+              },
+            },
+          },
+        },
+      },
+      "EuroU nidoAngie": {
+        colores: {
+          "Negro | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-ortpaEUU-MNEG",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-ortpaEUU-MNEG",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-ortpaEUU-MNEG",
+              },
+            },
+          },
+          "Negro | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-ortpaEUU-MNEG",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-ortpaEUU-MNEG",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-ortpaEUU-MNEG",
+              },
+            },
+          },
+          "Negro | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-ortpaEUU-MNEG",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-ortpaEUU-MNEG",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-ortpaEUU-MNEG",
+              },
+            },
+          },
+          "Gris | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-ortpaEUU-MGRI",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-ortpaEUU-MGRI",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-ortpaEUU-MGRI",
+              },
+            },
+          },
+          "Gris | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-ortpaEUU-MGRI",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-ortpaEUU-MGRI",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-ortpaEUU-MGRI",
+              },
+            },
+          },
+          "Gris | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-ortpaEUU-MGRI",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-ortpaEUU-MGRI",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-ortpaEUU-MGRI",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-ortpaEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-ortpaEUU",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-ortpaEUU",
+              },
+            },
+          },
+          "Clásico | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-ortpaEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-ortpaEUU",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-ortpaEUU",
+              },
+            },
+          },
+          "Clásico | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-ortpaEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-ortpaEUU",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-ortpaEUU",
+              },
+            },
+          },
+        },
+      },
 
-            "EuroU basecama almohada": {
-                "colores": {
-                    "Gris | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-rollEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-rollEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Gris | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-rollEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-rollEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Gris | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoNEG-rollEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoNEG-rollEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoNEG-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoNEG-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoNEG-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Gris | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoGRI-rollEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoGRI-rollEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoGRI-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoGRI-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoGRI-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Banda Gris | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-rollEUU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-rollEUU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-rollEUU"
-                            }
-                        }
-                    },
-                    "Banda Gris | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-rollEUU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-rollEUU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-rollEUU"
-                            }
-                        }
-                    },
-                    "Banda Gris | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoNEG-rollEUU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoNEG-rollEUU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoNEG-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoNEG-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoNEG-rollEUU"
-                            }
-                        }
-                    },
-                    "Banda Gris | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoGRI-rollEUU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoGRI-rollEUU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoGRI-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoGRI-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoGRI-rollEUU"
-                            }
-                        }
-                    }
-                }
+      "Euro basecama almohada": {
+        colores: {
+          "Negro | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-ortpaEU-MNEG",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-ortpaEU-MNEG",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-ortpaEU-MNEG",
+              },
             },
-            "EuroU camaLeo almohada": {
-                "colores": {
-                    "Gris | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoBEI-rollEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoBEI-rollEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoBEI-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoBEI-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoBEI-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Gris | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoCAF-rollEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoCAF-rollEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoCAF-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoCAF-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoCAF-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Gris | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoNEG-rollEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoNEG-rollEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoNEG-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoNEG-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoNEG-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Gris | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoGRI-rollEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoGRI-rollEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoGRI-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoGRI-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoGRI-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Banda Gris | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoBEI-rollEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoBEI-rollEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoBEI-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoBEI-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoBEI-rollEUU"
-                            }
-                        }
-                    },
-                    "Banda Gris | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoCAF-rollEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoCAF-rollEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoCAF-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoCAF-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoCAF-rollEUU"
-                            }
-                        }
-                    },
-                    "Banda Gris | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoNEG-rollEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoNEG-rollEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoNEG-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoNEG-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoNEG-rollEUU"
-                            }
-                        }
-                    },
-                    "Banda Gris | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoGRI-rollEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoGRI-rollEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoGRI-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoGRI-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoGRI-rollEUU"
-                            }
-                        }
-                    }
-                }
+          },
+          "Negro | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-ortpaEU-MNEG",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-ortpaEU-MNEG",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-ortpaEU-MNEG",
+              },
             },
-            "EuroU Firenze": {
-                "colores": {
-                    "Gris | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-rollEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-rollEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Gris | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-rollEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-rollEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Gris | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-rollEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-rollEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Banda Gris | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-rollEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-rollEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-rollEUU"
-                            }
-                        }
-                    },
-                    "Banda Gris | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-rollEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-rollEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-rollEUU"
-                            }
-                        }
-                    },
-                    "Banda Gris | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-rollEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-rollEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-rollEUU"
-                            }
-                        }
-                    }
-                }
+          },
+          "Negro | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoNEG-ortpaEU-MNEG",
+              },
+              Queen: {
+                sku: "C3-Q-leoNEG-ortpaEU-MNEG",
+              },
+              Doble: {
+                sku: "C3-F-leoNEG-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoNEG-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "C3-T-leoNEG-ortpaEU-MNEG",
+              },
             },
-            "EuroU TPM almohada": {
-                "colores": {
-                    "Gris | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-rollEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-rollEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Gris | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-rollEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-rollEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Gris | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-rollEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-rollEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Banda Gris | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-rollEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-rollEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-rollEUU"
-                            }
-                        }
-                    },
-                    "Banda Gris | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-rollEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-rollEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-rollEUU"
-                            }
-                        }
-                    },
-                    "Banda Gris | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-rollEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-rollEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-rollEUU"
-                            }
-                        }
-                    }
-                }
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoGRI-ortpaEU-MNEG",
+              },
+              Queen: {
+                sku: "C3-Q-leoGRI-ortpaEU-MNEG",
+              },
+              Doble: {
+                sku: "C3-F-leoGRI-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoGRI-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "C3-T-leoGRI-ortpaEU-MNEG",
+              },
             },
-            "EuroU NidoJr": {
-                "colores": {
-                    "Gris | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Gris | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Gris | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Banda Gris | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-rollEUU"
-                            }
-                        }
-                    },
-                    "Banda Gris | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-rollEUU"
-                            }
-                        }
-                    },
-                    "Banda Gris | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-rollEUU"
-                            }
-                        }
-                    }
-                }
+          },
+          "Gris | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-ortpaEU-MGRI",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-ortpaEU-MGRI",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-ortpaEU-MGRI",
+              },
             },
-            "EuroU NidoAngie": {
-                "colores": {
-                    "Gris | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Gris | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Gris | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-rollEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-rollEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-rollEUU-M"
-                            }
-                        }
-                    },
-                    "Banda Gris | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-rollEUU"
-                            }
-                        }
-                    },
-                    "Banda Gris | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-rollEUU"
-                            }
-                        }
-                    },
-                    "Banda Gris | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-rollEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-rollEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-rollEUU"
-                            }
-                        }
-                    }
-                }
-            }
-        }
+          },
+          "Gris | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-ortpaEU-MGRI",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-ortpaEU-MGRI",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Gris | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoNEG-ortpaEU-MGRI",
+              },
+              Queen: {
+                sku: "C3-Q-leoNEG-ortpaEU-MGRI",
+              },
+              Doble: {
+                sku: "C3-F-leoNEG-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoNEG-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "C3-T-leoNEG-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Gris | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoGRI-ortpaEU-MGRI",
+              },
+              Queen: {
+                sku: "C3-Q-leoGRI-ortpaEU-MGRI",
+              },
+              Doble: {
+                sku: "C3-F-leoGRI-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoGRI-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "C3-T-leoGRI-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Clásico | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-ortpaEU",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-ortpaEU",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-ortpaEU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-ortpaEU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-ortpaEU",
+              },
+            },
+          },
+          "Clásico | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-ortpaEU",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-ortpaEU",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-ortpaEU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-ortpaEU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-ortpaEU",
+              },
+            },
+          },
+          "Clásico | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoNEG-ortpaEU",
+              },
+              Queen: {
+                sku: "C3-Q-leoNEG-ortpaEU",
+              },
+              Doble: {
+                sku: "C3-F-leoNEG-ortpaEU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoNEG-ortpaEU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoNEG-ortpaEU",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoGRI-ortpaEU",
+              },
+              Queen: {
+                sku: "C3-Q-leoGRI-ortpaEU",
+              },
+              Doble: {
+                sku: "C3-F-leoGRI-ortpaEU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoGRI-ortpaEU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoGRI-ortpaEU",
+              },
+            },
+          },
+        },
+      },
+      "Euro camaLeo almohada": {
+        colores: {
+          "Negro | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoBEI-ortpaEU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-leoBEI-ortpaEU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-leoBEI-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoBEI-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-leoBEI-ortpaEU-MNEG",
+              },
+            },
+          },
+          "Negro | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoCAF-ortpaEU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-leoCAF-ortpaEU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-leoCAF-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoCAF-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-leoCAF-ortpaEU-MNEG",
+              },
+            },
+          },
+          "Negro | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoNEG-ortpaEU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-leoNEG-ortpaEU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-leoNEG-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoNEG-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-leoNEG-ortpaEU-MNEG",
+              },
+            },
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoGRI-ortpaEU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-leoGRI-ortpaEU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-leoGRI-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoGRI-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-leoGRI-ortpaEU-MNEG",
+              },
+            },
+          },
+          "Gris | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoBEI-ortpaEU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-leoBEI-ortpaEU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-leoBEI-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoBEI-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-leoBEI-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Gris | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoCAF-ortpaEU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-leoCAF-ortpaEU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-leoCAF-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoCAF-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-leoCAF-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Gris | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoNEG-ortpaEU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-leoNEG-ortpaEU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-leoNEG-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoNEG-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-leoNEG-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Gris | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoGRI-ortpaEU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-leoGRI-ortpaEU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-leoGRI-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoGRI-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-leoGRI-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Clásico | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoBEI-ortpaEU",
+              },
+              Queen: {
+                sku: "C2-Q-leoBEI-ortpaEU",
+              },
+              Doble: {
+                sku: "C2-F-leoBEI-ortpaEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoBEI-ortpaEU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoBEI-ortpaEU",
+              },
+            },
+          },
+          "Clásico | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoCAF-ortpaEU",
+              },
+              Queen: {
+                sku: "C2-Q-leoCAF-ortpaEU",
+              },
+              Doble: {
+                sku: "C2-F-leoCAF-ortpaEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoCAF-ortpaEU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoCAF-ortpaEU",
+              },
+            },
+          },
+          "Clásico | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoNEG-ortpaEU",
+              },
+              Queen: {
+                sku: "C2-Q-leoNEG-ortpaEU",
+              },
+              Doble: {
+                sku: "C2-F-leoNEG-ortpaEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoNEG-ortpaEU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoNEG-ortpaEU",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoGRI-ortpaEU",
+              },
+              Queen: {
+                sku: "C2-Q-leoGRI-ortpaEU",
+              },
+              Doble: {
+                sku: "C2-F-leoGRI-ortpaEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoGRI-ortpaEU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoGRI-ortpaEU",
+              },
+            },
+          },
+        },
+      },
+      "Euro firenze almohada": {
+        colores: {
+          "Negro | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-ortpaEU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-ortpaEU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-ortpaEU-MNEG",
+              },
+            },
+          },
+          "Negro | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-ortpaEU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-ortpaEU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-ortpaEU-MNEG",
+              },
+            },
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-ortpaEU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-ortpaEU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-ortpaEU-MNEG",
+              },
+            },
+          },
+          "Gris | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-ortpaEU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-ortpaEU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Gris | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-ortpaEU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-ortpaEU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Gris | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-ortpaEU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-ortpaEU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Clásico | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-ortpaEU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-ortpaEU",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-ortpaEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-ortpaEU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-ortpaEU",
+              },
+            },
+          },
+          "Clásico | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-ortpaEU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-ortpaEU",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-ortpaEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-ortpaEU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-ortpaEU",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-ortpaEU",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-ortpaEU",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-ortpaEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-ortpaEU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-ortpaEU",
+              },
+            },
+          },
+        },
+      },
+      "Euro TPM almohada": {
+        colores: {
+          "Negro | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-ortpaEU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-ortpaEU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-ortpaEU-MNEG",
+              },
+            },
+          },
+          "Negro | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-ortpaEU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-ortpaEU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-ortpaEU-MNEG",
+              },
+            },
+          },
+          "Negro | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-ortpaEU-MNEG",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-ortpaEU-MNEG",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-ortpaEU-MNEG",
+              },
+            },
+          },
+          "Gris | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-ortpaEU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-ortpaEU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Gris | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-ortpaEU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-ortpaEU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Gris | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-ortpaEU-MGRI",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-ortpaEU-MGRI",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Clásico | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-ortpaEU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-ortpaEU",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-ortpaEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-ortpaEU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-ortpaEU",
+              },
+            },
+          },
+          "Clásico | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-ortpaEU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-ortpaEU",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-ortpaEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-ortpaEU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-ortpaEU",
+              },
+            },
+          },
+          "Clásico | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-ortpaEU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-ortpaEU",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-ortpaEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-ortpaEU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-ortpaEU",
+              },
+            },
+          },
+        },
+      },
+      "Euro nidoJr": {
+        colores: {
+          "Negro | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-ortpaEU-MNEG",
+              },
+            },
+          },
+          "Negro | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-ortpaEU-MNEG",
+              },
+            },
+          },
+          "Negro | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-ortpaEU-MNEG",
+              },
+            },
+          },
+          "Gris | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Gris | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Gris | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-ortpaEU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-ortpaEU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-ortpaEU",
+              },
+            },
+          },
+          "Clásico | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-ortpaEU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-ortpaEU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-ortpaEU",
+              },
+            },
+          },
+          "Clásico | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-ortpaEU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-ortpaEU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-ortpaEU",
+              },
+            },
+          },
+        },
+      },
+      "Euro nidoAngie": {
+        colores: {
+          "Negro | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-ortpaEU-MNEG",
+              },
+            },
+          },
+          "Negro | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-ortpaEU-MNEG",
+              },
+            },
+          },
+          "Negro | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-ortpaEU-MNEG",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-ortpaEU-MNEG",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-ortpaEU-MNEG",
+              },
+            },
+          },
+          "Gris | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Gris | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Gris | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-ortpaEU-MGRI",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-ortpaEU-MGRI",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-ortpaEU-MGRI",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-ortpaEU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-ortpaEU",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-ortpaEU",
+              },
+            },
+          },
+          "Clásico | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-ortpaEU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-ortpaEU",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-ortpaEU",
+              },
+            },
+          },
+          "Clásico | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-ortpaEU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-ortpaEU",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-ortpaEU",
+              },
+            },
+          },
+        },
+      },
+    },
+  },
+
+  Rollpack: {
+    colchones: {
+      "Euro U": {
+        clasico: {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "1080468740846",
+              },
+              Semidoble: {
+                sku: "77018588101828",
+              },
+              Doble: {
+                sku: "1080468740877",
+              },
+              Queen: {
+                sku: "77018588101848",
+              },
+              King: {
+                sku: "77018588101858",
+              },
+            },
+          },
+        },
+        "Mohnblatt Gris": {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "1080468740884",
+              },
+              Semidoble: {
+                sku: "77018588101925",
+              },
+              Doble: {
+                sku: "1080468740891",
+              },
+              Queen: {
+                sku: "77018588101945",
+              },
+              King: {
+                sku: "77018588101955",
+              },
+            },
+          },
+        },
+      },
     },
 
-    "pullpack": {
-
-        "colchones": {
-            "Euro U": {
-                "clasico": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "77018588101975"
-                            },
-                            "Semidoble": {
-                                "sku": "77018588101985"
-                            },
-                            "Doble": {
-                                "sku": "77018588101995"
-                            },
-                            "Queen": {
-                                "sku": "77018588102001"
-                            },
-                            "King": {
-                                "sku": "77018588102011"
-                            }
-                        }
-                    }
-
-                },
-                "Mohnblatt Negro": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "77018588102332"
-                            },
-                            "Semidoble": {
-                                "sku": "77018588102342"
-                            },
-                            "Doble": {
-                                "sku": "77018588102352"
-                            },
-                            "Queen": {
-                                "sku": "77018588102362"
-                            },
-                            "King": {
-                                "sku": "77018588102372"
-                            }
-                        }
-                    }
-
-                }
+    combos: {
+      "EuroU basecama almohada": {
+        colores: {
+          "Gris | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-rollEUU-M",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-rollEUU-M",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-rollEUU-M",
+              },
             },
-            "Euro": {
-                "clasico": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "77018588102031"
-                            },
-                            "Semidoble": {
-                                "sku": "77018588102041"
-                            },
-                            "Doble": {
-                                "sku": "77018588102051"
-                            },
-                            "Queen": {
-                                "sku": "77018588102061"
-                            },
-                            "King": {
-                                "sku": "77018588102071"
-                            }
-                        }
-                    }
-
-                },
-                "Mohnblatt Negro": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "77018588102392"
-                            },
-                            "Semidoble": {
-                                "sku": "77018588102409"
-                            },
-                            "Doble": {
-                                "sku": "77018588102419"
-                            },
-                            "Queen": {
-                                "sku": "77018588102429"
-                            },
-                            "King": {
-                                "sku": "77018588102439"
-                            }
-                        }
-                    }
-
-                }
-            }
+          },
+          "Gris | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-rollEUU-M",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-rollEUU-M",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-rollEUU-M",
+              },
+            },
+          },
+          "Gris | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoNEG-rollEUU-M",
+              },
+              Queen: {
+                sku: "C3-Q-leoNEG-rollEUU-M",
+              },
+              Doble: {
+                sku: "C3-F-leoNEG-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoNEG-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "C3-T-leoNEG-rollEUU-M",
+              },
+            },
+          },
+          "Gris | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoGRI-rollEUU-M",
+              },
+              Queen: {
+                sku: "C3-Q-leoGRI-rollEUU-M",
+              },
+              Doble: {
+                sku: "C3-F-leoGRI-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoGRI-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "C3-T-leoGRI-rollEUU-M",
+              },
+            },
+          },
+          "Banda Gris | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-rollEUU",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-rollEUU",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-rollEUU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-rollEUU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-rollEUU",
+              },
+            },
+          },
+          "Banda Gris | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-rollEUU",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-rollEUU",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-rollEUU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-rollEUU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-rollEUU",
+              },
+            },
+          },
+          "Banda Gris | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoNEG-rollEUU",
+              },
+              Queen: {
+                sku: "C3-Q-leoNEG-rollEUU",
+              },
+              Doble: {
+                sku: "C3-F-leoNEG-rollEUU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoNEG-rollEUU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoNEG-rollEUU",
+              },
+            },
+          },
+          "Banda Gris | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoGRI-rollEUU",
+              },
+              Queen: {
+                sku: "C3-Q-leoGRI-rollEUU",
+              },
+              Doble: {
+                sku: "C3-F-leoGRI-rollEUU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoGRI-rollEUU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoGRI-rollEUU",
+              },
+            },
+          },
         },
+      },
+      "EuroU camaLeo almohada": {
+        colores: {
+          "Gris | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoBEI-rollEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoBEI-rollEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoBEI-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoBEI-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoBEI-rollEUU-M",
+              },
+            },
+          },
+          "Gris | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoCAF-rollEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoCAF-rollEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoCAF-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoCAF-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoCAF-rollEUU-M",
+              },
+            },
+          },
+          "Gris | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoNEG-rollEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoNEG-rollEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoNEG-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoNEG-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoNEG-rollEUU-M",
+              },
+            },
+          },
+          "Gris | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoGRI-rollEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoGRI-rollEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoGRI-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoGRI-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoGRI-rollEUU-M",
+              },
+            },
+          },
+          "Banda Gris | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoBEI-rollEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoBEI-rollEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoBEI-rollEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoBEI-rollEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoBEI-rollEUU",
+              },
+            },
+          },
+          "Banda Gris | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoCAF-rollEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoCAF-rollEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoCAF-rollEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoCAF-rollEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoCAF-rollEUU",
+              },
+            },
+          },
+          "Banda Gris | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoNEG-rollEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoNEG-rollEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoNEG-rollEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoNEG-rollEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoNEG-rollEUU",
+              },
+            },
+          },
+          "Banda Gris | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoGRI-rollEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoGRI-rollEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoGRI-rollEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoGRI-rollEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoGRI-rollEUU",
+              },
+            },
+          },
+        },
+      },
+      "EuroU Firenze": {
+        colores: {
+          "Gris | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-rollEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-rollEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-rollEUU-M",
+              },
+            },
+          },
+          "Gris | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-rollEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-rollEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-rollEUU-M",
+              },
+            },
+          },
+          "Gris | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-rollEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-rollEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-rollEUU-M",
+              },
+            },
+          },
+          "Banda Gris | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-rollEUU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-rollEUU",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-rollEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-rollEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-rollEUU",
+              },
+            },
+          },
+          "Banda Gris | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-rollEUU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-rollEUU",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-rollEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-rollEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-rollEUU",
+              },
+            },
+          },
+          "Banda Gris | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-rollEUU",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-rollEUU",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-rollEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-rollEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-rollEUU",
+              },
+            },
+          },
+        },
+      },
+      "EuroU TPM almohada": {
+        colores: {
+          "Gris | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-rollEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-rollEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-rollEUU-M",
+              },
+            },
+          },
+          "Gris | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-rollEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-rollEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-rollEUU-M",
+              },
+            },
+          },
+          "Gris | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-rollEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-rollEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-rollEUU-M",
+              },
+            },
+          },
+          "Banda Gris | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-rollEUU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-rollEUU",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-rollEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-rollEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-rollEUU",
+              },
+            },
+          },
+          "Banda Gris | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-rollEUU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-rollEUU",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-rollEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-rollEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-rollEUU",
+              },
+            },
+          },
+          "Banda Gris | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-rollEUU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-rollEUU",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-rollEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-rollEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-rollEUU",
+              },
+            },
+          },
+        },
+      },
+      "EuroU NidoJr": {
+        colores: {
+          "Gris | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-rollEUU-M",
+              },
+            },
+          },
+          "Gris | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-rollEUU-M",
+              },
+            },
+          },
+          "Gris | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-rollEUU-M",
+              },
+            },
+          },
+          "Banda Gris | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-rollEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-rollEUU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-rollEUU",
+              },
+            },
+          },
+          "Banda Gris | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-rollEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-rollEUU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-rollEUU",
+              },
+            },
+          },
+          "Banda Gris | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-rollEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-rollEUU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-rollEUU",
+              },
+            },
+          },
+        },
+      },
+      "EuroU NidoAngie": {
+        colores: {
+          "Gris | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-rollEUU-M",
+              },
+            },
+          },
+          "Gris | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-rollEUU-M",
+              },
+            },
+          },
+          "Gris | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-rollEUU-M",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-rollEUU-M",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-rollEUU-M",
+              },
+            },
+          },
+          "Banda Gris | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-rollEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-rollEUU",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-rollEUU",
+              },
+            },
+          },
+          "Banda Gris | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-rollEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-rollEUU",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-rollEUU",
+              },
+            },
+          },
+          "Banda Gris | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-rollEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-rollEUU",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-rollEUU",
+              },
+            },
+          },
+        },
+      },
+    },
+  },
 
-        "combos": {
-
-            "EuroU_baseCama_Almohada": {
-                "colores": {
-                    "Negro | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-pullEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-pullEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-pullEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-pullEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-pullEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-pullEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-pullEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-pullEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-pullEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-pullEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoNEG-pullEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoNEG-pullEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoNEG-pullEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoNEG-pullEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoNEG-pullEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoGRI-pullEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoGRI-pullEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoGRI-pullEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoGRI-pullEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoGRI-pullEUU-M"
-                            }
-                        }
-                    },
-                    "Banda Negra | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-pullEUU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-pullEUU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-pullEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-pullEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-pullEUU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-pullEUU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-pullEUU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-pullEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-pullEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-pullEUU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoNEG-pullEUU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoNEG-pullEUU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoNEG-pullEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoNEG-pullEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoNEG-pullEUU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoGRI-pullEUU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoGRI-pullEUU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoGRI-pullEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoGRI-pullEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoGRI-pullEUU"
-                            }
-                        }
-                    }
-                }
+  pullpack: {
+    colchones: {
+      "Euro U": {
+        clasico: {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "77018588101975",
+              },
+              Semidoble: {
+                sku: "77018588101985",
+              },
+              Doble: {
+                sku: "77018588101995",
+              },
+              Queen: {
+                sku: "77018588102001",
+              },
+              King: {
+                sku: "77018588102011",
+              },
             },
-            "EuroU_Leo_almohada": {
-                "colores": {
-                    "Negro | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoBEI-pullEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoBEI-pullEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoBEI-pullEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoBEI-pullEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoBEI-pullEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoCAF-pullEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoCAF-pullEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoCAF-pullEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoCAF-pullEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoCAF-pullEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoNEG-pullEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoNEG-pullEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoNEG-pullEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoNEG-pullEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoNEG-pullEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoGRI-pullEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoGRI-pullEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoGRI-pullEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoGRI-pullEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoGRI-pullEUU-M"
-                            }
-                        }
-                    },
-                    "Banda Negra | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoBEI-pullEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoBEI-pullEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoBEI-pullEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoBEI-pullEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoBEI-pullEUU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoCAF-pullEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoCAF-pullEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoCAF-pullEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoCAF-pullEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoCAF-pullEUU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoNEG-pullEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoNEG-pullEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoNEG-pullEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoNEG-pullEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoNEG-pullEUU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoGRI-pullEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoGRI-pullEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoGRI-pullEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoGRI-pullEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoGRI-pullEUU"
-                            }
-                        }
-                    }
-                }
+          },
+        },
+        "Mohnblatt Negro": {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "77018588102332",
+              },
+              Semidoble: {
+                sku: "77018588102342",
+              },
+              Doble: {
+                sku: "77018588102352",
+              },
+              Queen: {
+                sku: "77018588102362",
+              },
+              King: {
+                sku: "77018588102372",
+              },
             },
-            "EuroU_Firenze": {
-                "colores": {
-                    "Negro | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-pullEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-pullEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-pullEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-pullEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-pullEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-pullEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-pullEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-pullEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-pullEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-pullEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-pullEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-pullEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-pullEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-pullEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-pullEUU-M"
-                            }
-                        }
-                    },
-                    "Banda Negra | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-pullEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-pullEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-pullEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-pullEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-pullEUU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-pullEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-pullEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-pullEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-pullEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-pullEUU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-pullEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-pullEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-pullEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-pullEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-pullEUU"
-                            }
-                        }
-                    }
-                }
+          },
+        },
+      },
+      Euro: {
+        clasico: {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "77018588102031",
+              },
+              Semidoble: {
+                sku: "77018588102041",
+              },
+              Doble: {
+                sku: "77018588102051",
+              },
+              Queen: {
+                sku: "77018588102061",
+              },
+              King: {
+                sku: "77018588102071",
+              },
             },
-            "EuroU_TPM_Almohada": {
-                "colores": {
-                    "Negro | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-pullEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-pullEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-pullEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-pullEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-pullEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-pullEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-pullEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-pullEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-pullEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-pullEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-pullEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-pullEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-pullEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-pullEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-pullEUU-M"
-                            }
-                        }
-                    },
-                    "Banda Negra | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-pullEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-pullEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-pullEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-pullEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-pullEUU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-pullEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-pullEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-pullEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-pullEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-pullEUU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-pullEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-pullEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-pullEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-pullEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-pullEUU"
-                            }
-                        }
-                    }
-                }
+          },
+        },
+        "Mohnblatt Negro": {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "77018588102392",
+              },
+              Semidoble: {
+                sku: "77018588102409",
+              },
+              Doble: {
+                sku: "77018588102419",
+              },
+              Queen: {
+                sku: "77018588102429",
+              },
+              King: {
+                sku: "77018588102439",
+              },
             },
-            "EuroU_nidoJr": {
-                "colores": {
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-pullEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-pullEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-pullEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-pullEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-pullEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-pullEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-pullEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-pullEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-pullEUU-M"
-                            }
-                        }
-                    },
-                    "Banda Negra | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-pullEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-pullEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-pullEUU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-pullEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-pullEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-pullEUU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-pullEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-pullEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-pullEUU"
-                            }
-                        }
-                    }
-                }
-            },
-            "EuroU_nidoAngie": {
-                "colores": {
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-pullEUU-M",
-                                "url": "/colchon-pullpack-euro-u-cama-nido-angie#460"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-pullEUU-M",
-                                "url": "/colchon-pullpack-euro-u-cama-nido-angie#460"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-pullEUU-M",
-                                "url": "/colchon-pullpack-euro-u-cama-nido-angie#460"
-                            }
-                        }
-                    },
-                    "Negro | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-pullEUU-M",
-                                "url": "/colchon-pullpack-euro-u-cama-nido-angie#459"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-pullEUU-M",
-                                "url": "/colchon-pullpack-euro-u-cama-nido-angie#459"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-pullEUU-M",
-                                "url": "/colchon-pullpack-euro-u-cama-nido-angie#459"
-                            }
-                        }
-                    },
-                    "Negro | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-pullEUU-M",
-                                "url": "/colchon-pullpack-euro-u-cama-nido-angie#458"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-pullEUU-M",
-                                "url": "/colchon-pullpack-euro-u-cama-nido-angie#458"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-pullEUU-M",
-                                "url": "/colchon-pullpack-euro-u-cama-nido-angie#458"
-                            }
-                        }
-                    },
-                    "Banda Negra | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-pullEUU",
-                                "url": "/colchon-pullpack-euro-u-cama-nido-angie#476"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-pullEUU",
-                                "url": "/colchon-pullpack-euro-u-cama-nido-angie#476"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-pullEUU",
-                                "url": "/colchon-pullpack-euro-u-cama-nido-angie#476"
-                            }
-                        }
-                    },
-                    "Banda Negra | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-pullEUU",
-                                "url": "/colchon-pullpack-euro-u-cama-nido-angie#475"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-pullEUU",
-                                "url": "/colchon-pullpack-euro-u-cama-nido-angie#475"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-pullEUU",
-                                "url": "/colchon-pullpack-euro-u-cama-nido-angie#475"
-                            }
-                        }
-                    },
-                    "Banda Negra | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-pullEUU",
-                                "url": "/colchon-pullpack-euro-u-cama-nido-angie#474"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-pullEUU",
-                                "url": "/colchon-pullpack-euro-u-cama-nido-angie#474"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-pullEUU",
-                                "url": "/colchon-pullpack-euro-u-cama-nido-angie#474"
-                            }
-                        }
-                    }
-                }
-            },
-
-            /** --------------------------------------------------------------------------------------------------------------------------- */
-
-            "Euro_baseCama_Almohada": {
-                "colores": {
-                    "Negro | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#574"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#574"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#574"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#574"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#574"
-                            }
-                        }
-                    },
-                    "Negro | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#573"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#573"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#573"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#573"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#573"
-                            }
-                        }
-                    },
-                    "Negro | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoNEG-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#572"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoNEG-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#572"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoNEG-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#572"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoNEG-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#572"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoNEG-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#572"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoGRI-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#460"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoGRI-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#460"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoGRI-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#460"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoGRI-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#460"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoGRI-pullEU-M",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#460"
-                            }
-                        }
-                    },
-                    "Banda Negra | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#580"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#580"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#580"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#580"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#580"
-                            }
-                        }
-                    },
-                    "Banda Negra | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#579"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#579"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#579"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#579"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#579"
-                            }
-                        }
-                    },
-                    "Banda Negra | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoNEG-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#578"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoNEG-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#578"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoNEG-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#578"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoNEG-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#578"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoNEG-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#578"
-                            }
-                        }
-                    },
-                    "Banda Negra | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoGRI-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#476"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoGRI-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#476"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoGRI-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#476"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoGRI-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#476"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoGRI-pullEU",
-                                "url": "/colchon-pullpack-euro-base-cama-almohada#476"
-                            }
-                        }
-                    }
-                }
-            },
-            "Euro_Leo_almohada": {
-                "colores": {
-                    "Negro | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoBEI-pullEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoBEI-pullEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoBEI-pullEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoBEI-pullEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoBEI-pullEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoCAF-pullEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoCAF-pullEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoCAF-pullEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoCAF-pullEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoCAF-pullEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoNEG-pullEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoNEG-pullEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoNEG-pullEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoNEG-pullEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoNEG-pullEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoGRI-pullEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoGRI-pullEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoGRI-pullEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoGRI-pullEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoGRI-pullEU-M"
-                            }
-                        }
-                    },
-                    "Banda Negra | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoBEI-pullEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoBEI-pullEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoBEI-pullEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoBEI-pullEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoBEI-pullEU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoCAF-pullEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoCAF-pullEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoCAF-pullEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoCAF-pullEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoCAF-pullEU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoNEG-pullEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoNEG-pullEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoNEG-pullEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoNEG-pullEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoNEG-pullEU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoGRI-pullEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoGRI-pullEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoGRI-pullEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoGRI-pullEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoGRI-pullEU"
-                            }
-                        }
-                    }
-                }
-            },
-            "EuroU_Firenze": {
-                "colores": {
-                    "Negro | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-pullEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-pullEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-pullEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-pullEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-pullEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-pullEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-pullEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-pullEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-pullEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-pullEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-pullEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-pullEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-pullEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-pullEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-pullEU-M"
-                            }
-                        }
-                    },
-                    "Banda Negra | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-pullEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-pullEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-pullEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-pullEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-pullEU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-pullEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-pullEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-pullEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-pullEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-pullEU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-pullEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-pullEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-pullEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-pullEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-pullEU"
-                            }
-                        }
-                    }
-                }
-            },
-            "EuroU_TPM_Almohada": {
-                "colores": {
-                    "Negro | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-pullEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-pullEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-pullEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-pullEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-pullEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-pullEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-pullEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-pullEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-pullEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-pullEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-pullEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-pullEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-pullEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-pullEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-pullEU-M"
-                            }
-                        }
-                    },
-                    "Banda Negra | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-pullEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-pullEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-pullEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-pullEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-pullEU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-pullEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-pullEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-pullEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-pullEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-pullEU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-pullEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-pullEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-pullEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-pullEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-pullEU"
-                            }
-                        }
-                    }
-                }
-            },
-            "EuroU_nidoJr": {
-                "colores": {
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-pullEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-pullEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-pullEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-pullEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-pullEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-pullEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-pullEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-pullEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-pullEU-M"
-                            }
-                        }
-                    },
-                    "Banda Negra | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-pullEU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-pullEU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-pullEU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-pullEU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-pullEU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-pullEU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-pullEU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-pullEU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-pullEU"
-                            }
-                        }
-                    }
-                }
-            },
-            "Euro_nidoAngie": {
-                "colores": {
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-pullEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-pullEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-pullEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-pullEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-pullEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-pullEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-pullEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-pullEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-pullEU-M"
-                            }
-                        }
-                    },
-                    "Banda Negra | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-pullEU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-pullEU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-pullEU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-pullEU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-pullEU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-pullEU"
-                            }
-                        }
-                    },
-                    "Banda Negra | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-pullEU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-pullEU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-pullEU"
-                            }
-                        }
-                    }
-                }
-            }
-
-        }
+          },
+        },
+      },
     },
 
-    "superPullman": {
-
-        "colchones": {
-            "Euro U": {
-                "clasico": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "77018588101109"
-                            },
-                            "Semidoble": {
-                                "sku": "77018588101119"
-                            },
-                            "Doble": {
-                                "sku": "77018588101129"
-                            },
-                            "Queen": {
-                                "sku": "77018588101139"
-                            },
-                            "King": {
-                                "sku": "77018588101149"
-                            }
-                        }
-                    }
-
-                },
-                "Mohnblatt Gris": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "7701858779195"
-                            },
-                            "Semidoble": {
-                                "sku": "7701858779201"
-                            },
-                            "Doble": {
-                                "sku": "7701858779218"
-                            },
-                            "Queen": {
-                                "sku": "7701858779225"
-                            },
-                            "King": {
-                                "sku": "7701858779232"
-                            }
-                        }
-                    }
-
-                }
+    combos: {
+      EuroU_baseCama_Almohada: {
+        colores: {
+          "Negro | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-pullEUU-M",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-pullEUU-M",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-pullEUU-M",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-pullEUU-M",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-pullEUU-M",
+              },
             },
-            "Euro": {
-                "clasico": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "77018588101169"
-                            },
-                            "Semidoble": {
-                                "sku": "77018588101179"
-                            },
-                            "Doble": {
-                                "sku": "77018588101189"
-                            },
-                            "Queen": {
-                                "sku": "77018588101199"
-                            },
-                            "King": {
-                                "sku": "77018588101206"
-                            }
-                        }
-                    }
-
-                },
-                "Mohnblatt Gris": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "7701858779133"
-                            },
-                            "Semidoble": {
-                                "sku": "7701858779140"
-                            },
-                            "Doble": {
-                                "sku": "7701858779157"
-                            },
-                            "Queen": {
-                                "sku": "7701858779164"
-                            },
-                            "King": {
-                                "sku": "7701858779171"
-                            }
-                        }
-                    }
-
-                }
-            }
+          },
+          "Negro | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-pullEUU-M",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-pullEUU-M",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-pullEUU-M",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-pullEUU-M",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-pullEUU-M",
+              },
+            },
+          },
+          "Negro | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoNEG-pullEUU-M",
+              },
+              Queen: {
+                sku: "C3-Q-leoNEG-pullEUU-M",
+              },
+              Doble: {
+                sku: "C3-F-leoNEG-pullEUU-M",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoNEG-pullEUU-M",
+              },
+              Sencillo: {
+                sku: "C3-T-leoNEG-pullEUU-M",
+              },
+            },
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoGRI-pullEUU-M",
+              },
+              Queen: {
+                sku: "C3-Q-leoGRI-pullEUU-M",
+              },
+              Doble: {
+                sku: "C3-F-leoGRI-pullEUU-M",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoGRI-pullEUU-M",
+              },
+              Sencillo: {
+                sku: "C3-T-leoGRI-pullEUU-M",
+              },
+            },
+          },
+          "Banda Negra | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-pullEUU",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-pullEUU",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-pullEUU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-pullEUU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-pullEUU",
+              },
+            },
+          },
+          "Banda Negra | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-pullEUU",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-pullEUU",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-pullEUU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-pullEUU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-pullEUU",
+              },
+            },
+          },
+          "Banda Negra | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoNEG-pullEUU",
+              },
+              Queen: {
+                sku: "C3-Q-leoNEG-pullEUU",
+              },
+              Doble: {
+                sku: "C3-F-leoNEG-pullEUU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoNEG-pullEUU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoNEG-pullEUU",
+              },
+            },
+          },
+          "Banda Negra | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoGRI-pullEUU",
+              },
+              Queen: {
+                sku: "C3-Q-leoGRI-pullEUU",
+              },
+              Doble: {
+                sku: "C3-F-leoGRI-pullEUU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoGRI-pullEUU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoGRI-pullEUU",
+              },
+            },
+          },
         },
+      },
+      EuroU_Leo_almohada: {
+        colores: {
+          "Negro | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoBEI-pullEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoBEI-pullEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoBEI-pullEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoBEI-pullEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoBEI-pullEUU-M",
+              },
+            },
+          },
+          "Negro | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoCAF-pullEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoCAF-pullEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoCAF-pullEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoCAF-pullEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoCAF-pullEUU-M",
+              },
+            },
+          },
+          "Negro | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoNEG-pullEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoNEG-pullEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoNEG-pullEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoNEG-pullEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoNEG-pullEUU-M",
+              },
+            },
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoGRI-pullEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoGRI-pullEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoGRI-pullEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoGRI-pullEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoGRI-pullEUU-M",
+              },
+            },
+          },
+          "Banda Negra | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoBEI-pullEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoBEI-pullEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoBEI-pullEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoBEI-pullEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoBEI-pullEUU",
+              },
+            },
+          },
+          "Banda Negra | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoCAF-pullEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoCAF-pullEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoCAF-pullEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoCAF-pullEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoCAF-pullEUU",
+              },
+            },
+          },
+          "Banda Negra | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoNEG-pullEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoNEG-pullEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoNEG-pullEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoNEG-pullEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoNEG-pullEUU",
+              },
+            },
+          },
+          "Banda Negra | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoGRI-pullEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoGRI-pullEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoGRI-pullEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoGRI-pullEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoGRI-pullEUU",
+              },
+            },
+          },
+        },
+      },
+      EuroU_Firenze: {
+        colores: {
+          "Negro | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-pullEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-pullEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-pullEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-pullEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-pullEUU-M",
+              },
+            },
+          },
+          "Negro | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-pullEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-pullEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-pullEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-pullEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-pullEUU-M",
+              },
+            },
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-pullEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-pullEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-pullEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-pullEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-pullEUU-M",
+              },
+            },
+          },
+          "Banda Negra | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-pullEUU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-pullEUU",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-pullEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-pullEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-pullEUU",
+              },
+            },
+          },
+          "Banda Negra | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-pullEUU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-pullEUU",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-pullEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-pullEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-pullEUU",
+              },
+            },
+          },
+          "Banda Negra | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-pullEUU",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-pullEUU",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-pullEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-pullEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-pullEUU",
+              },
+            },
+          },
+        },
+      },
+      EuroU_TPM_Almohada: {
+        colores: {
+          "Negro | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-pullEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-pullEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-pullEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-pullEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-pullEUU-M",
+              },
+            },
+          },
+          "Negro | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-pullEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-pullEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-pullEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-pullEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-pullEUU-M",
+              },
+            },
+          },
+          "Negro | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-pullEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-pullEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-pullEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-pullEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-pullEUU-M",
+              },
+            },
+          },
+          "Banda Negra | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-pullEUU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-pullEUU",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-pullEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-pullEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-pullEUU",
+              },
+            },
+          },
+          "Banda Negra | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-pullEUU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-pullEUU",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-pullEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-pullEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-pullEUU",
+              },
+            },
+          },
+          "Banda Negra | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-pullEUU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-pullEUU",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-pullEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-pullEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-pullEUU",
+              },
+            },
+          },
+        },
+      },
+      EuroU_nidoJr: {
+        colores: {
+          "Negro | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-pullEUU-M",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-pullEUU-M",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-pullEUU-M",
+              },
+            },
+          },
+          "Negro | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-pullEUU-M",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-pullEUU-M",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-pullEUU-M",
+              },
+            },
+          },
+          "Negro | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-pullEUU-M",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-pullEUU-M",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-pullEUU-M",
+              },
+            },
+          },
+          "Banda Negra | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-pullEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-pullEUU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-pullEUU",
+              },
+            },
+          },
+          "Banda Negra | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-pullEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-pullEUU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-pullEUU",
+              },
+            },
+          },
+          "Banda Negra | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-pullEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-pullEUU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-pullEUU",
+              },
+            },
+          },
+        },
+      },
+      EuroU_nidoAngie: {
+        colores: {
+          "Negro | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-pullEUU-M",
+                url: "/colchon-pullpack-euro-u-cama-nido-angie#460",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-pullEUU-M",
+                url: "/colchon-pullpack-euro-u-cama-nido-angie#460",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-pullEUU-M",
+                url: "/colchon-pullpack-euro-u-cama-nido-angie#460",
+              },
+            },
+          },
+          "Negro | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-pullEUU-M",
+                url: "/colchon-pullpack-euro-u-cama-nido-angie#459",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-pullEUU-M",
+                url: "/colchon-pullpack-euro-u-cama-nido-angie#459",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-pullEUU-M",
+                url: "/colchon-pullpack-euro-u-cama-nido-angie#459",
+              },
+            },
+          },
+          "Negro | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-pullEUU-M",
+                url: "/colchon-pullpack-euro-u-cama-nido-angie#458",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-pullEUU-M",
+                url: "/colchon-pullpack-euro-u-cama-nido-angie#458",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-pullEUU-M",
+                url: "/colchon-pullpack-euro-u-cama-nido-angie#458",
+              },
+            },
+          },
+          "Banda Negra | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-pullEUU",
+                url: "/colchon-pullpack-euro-u-cama-nido-angie#476",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-pullEUU",
+                url: "/colchon-pullpack-euro-u-cama-nido-angie#476",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-pullEUU",
+                url: "/colchon-pullpack-euro-u-cama-nido-angie#476",
+              },
+            },
+          },
+          "Banda Negra | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-pullEUU",
+                url: "/colchon-pullpack-euro-u-cama-nido-angie#475",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-pullEUU",
+                url: "/colchon-pullpack-euro-u-cama-nido-angie#475",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-pullEUU",
+                url: "/colchon-pullpack-euro-u-cama-nido-angie#475",
+              },
+            },
+          },
+          "Banda Negra | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-pullEUU",
+                url: "/colchon-pullpack-euro-u-cama-nido-angie#474",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-pullEUU",
+                url: "/colchon-pullpack-euro-u-cama-nido-angie#474",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-pullEUU",
+                url: "/colchon-pullpack-euro-u-cama-nido-angie#474",
+              },
+            },
+          },
+        },
+      },
 
-        "combos": {
+      /** --------------------------------------------------------------------------------------------------------------------------- */
 
-            "EuroU_baseCama_Almohada": {
-                "colores": {
-                    "Banda Decorativa | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-supEUU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-supEUU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-supEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-supEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-supEUU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-supEUU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-supEUU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-supEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-supEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-supEUU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoNEG-supEUU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoNEG-supEUU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoNEG-supEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoNEG-supEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoNEG-supEUU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoGRI-supEUU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoGRI-supEUU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoGRI-supEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoGRI-supEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoGRI-supEUU"
-                            }
-                        }
-                    }
-                }
+      Euro_baseCama_Almohada: {
+        colores: {
+          "Negro | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#574",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#574",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#574",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#574",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#574",
+              },
             },
-            "EuroU_Leo_almohada": {
-                "colores": {
-                    "Banda Decorativa | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoBEI-supEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoBEI-supEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoBEI-supEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoBEI-supEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoBEI-supEUU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoCAF-supEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoCAF-supEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoCAF-supEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoCAF-supEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoCAF-supEUU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoNEG-supEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoNEG-supEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoNEG-supEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoNEG-supEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoNEG-supEUU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoGRI-supEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoGRI-supEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoGRI-supEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoGRI-supEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoGRI-supEUU"
-                            }
-                        }
-                    }
-                }
+          },
+          "Negro | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#573",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#573",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#573",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#573",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#573",
+              },
             },
-            "EuroU_Firenze": {
-                "colores": {
-                    "Banda Decorativa | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-supEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-supEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-supEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-supEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-supEUU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-supEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-supEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-supEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-supEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-supEUU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-supEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-supEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-supEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-supEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-supEUU"
-                            }
-                        }
-                    }
-                }
+          },
+          "Negro | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoNEG-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#572",
+              },
+              Queen: {
+                sku: "C3-Q-leoNEG-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#572",
+              },
+              Doble: {
+                sku: "C3-F-leoNEG-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#572",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoNEG-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#572",
+              },
+              Sencillo: {
+                sku: "C3-T-leoNEG-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#572",
+              },
             },
-            "EuroU_TPM_Almohada": {
-                "colores": {
-                    "Banda Decorativa | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-supEUU",
-                                "url": "/colchon-superpullman-euro-u-cama-tpm-almohada#489"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-supEUU",
-                                "url": "/colchon-superpullman-euro-u-cama-tpm-almohada#489"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-supEUU",
-                                "url": "/colchon-superpullman-euro-u-cama-tpm-almohada#489"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-supEUU",
-                                "url": "/colchon-superpullman-euro-u-cama-tpm-almohada#489"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-supEUU",
-                                "url": "/colchon-superpullman-euro-u-cama-tpm-almohada#489"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-supEUU",
-                                "url": "/colchon-superpullman-euro-u-cama-tpm-almohada#488"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-supEUU",
-                                "url": "/colchon-superpullman-euro-u-cama-tpm-almohada#488"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-supEUU",
-                                "url": "/colchon-superpullman-euro-u-cama-tpm-almohada#488"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-supEUU",
-                                "url": "/colchon-superpullman-euro-u-cama-tpm-almohada#488"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-supEUU",
-                                "url": "/colchon-superpullman-euro-u-cama-tpm-almohada#488"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-supEUU",
-                                "url": "/colchon-superpullman-euro-u-cama-tpm-almohada#487"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-supEUU",
-                                "url": "/colchon-superpullman-euro-u-cama-tpm-almohada#487"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-supEUU",
-                                "url": "/colchon-superpullman-euro-u-cama-tpm-almohada#487"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-supEUU",
-                                "url": "/colchon-superpullman-euro-u-cama-tpm-almohada#487"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-supEUU",
-                                "url": "/colchon-superpullman-euro-u-cama-tpm-almohada#487"
-                            }
-                        }
-                    }
-                }
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoGRI-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#460",
+              },
+              Queen: {
+                sku: "C3-Q-leoGRI-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#460",
+              },
+              Doble: {
+                sku: "C3-F-leoGRI-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#460",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoGRI-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#460",
+              },
+              Sencillo: {
+                sku: "C3-T-leoGRI-pullEU-M",
+                url: "/colchon-pullpack-euro-base-cama-almohada#460",
+              },
             },
-            "EuroU_nidoJr": {
-                "colores": {
-                    "Banda Decorativa | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-supEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-supEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-supEUU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-supEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-supEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-supEUU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-supEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-supEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-supEUU"
-                            }
-                        }
-                    }
-                }
+          },
+          "Banda Negra | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#580",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#580",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#580",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#580",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#580",
+              },
             },
-            "EuroU_nidoAngie": {
-                "colores": {
-                    "Banda Decorativa | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-supEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-supEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-supEUU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-supEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-supEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-supEUU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-supEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-supEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-supEUU"
-                            }
-                        }
-                    }
-                }
+          },
+          "Banda Negra | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#579",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#579",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#579",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#579",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#579",
+              },
             },
+          },
+          "Banda Negra | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoNEG-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#578",
+              },
+              Queen: {
+                sku: "C3-Q-leoNEG-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#578",
+              },
+              Doble: {
+                sku: "C3-F-leoNEG-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#578",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoNEG-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#578",
+              },
+              Sencillo: {
+                sku: "C3-T-leoNEG-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#578",
+              },
+            },
+          },
+          "Banda Negra | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoGRI-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#476",
+              },
+              Queen: {
+                sku: "C3-Q-leoGRI-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#476",
+              },
+              Doble: {
+                sku: "C3-F-leoGRI-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#476",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoGRI-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#476",
+              },
+              Sencillo: {
+                sku: "C3-T-leoGRI-pullEU",
+                url: "/colchon-pullpack-euro-base-cama-almohada#476",
+              },
+            },
+          },
+        },
+      },
+      Euro_Leo_almohada: {
+        colores: {
+          "Negro | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoBEI-pullEU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoBEI-pullEU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoBEI-pullEU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoBEI-pullEU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoBEI-pullEU-M",
+              },
+            },
+          },
+          "Negro | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoCAF-pullEU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoCAF-pullEU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoCAF-pullEU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoCAF-pullEU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoCAF-pullEU-M",
+              },
+            },
+          },
+          "Negro | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoNEG-pullEU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoNEG-pullEU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoNEG-pullEU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoNEG-pullEU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoNEG-pullEU-M",
+              },
+            },
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoGRI-pullEU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoGRI-pullEU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoGRI-pullEU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoGRI-pullEU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoGRI-pullEU-M",
+              },
+            },
+          },
+          "Banda Negra | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoBEI-pullEU",
+              },
+              Queen: {
+                sku: "C2-Q-leoBEI-pullEU",
+              },
+              Doble: {
+                sku: "C2-F-leoBEI-pullEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoBEI-pullEU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoBEI-pullEU",
+              },
+            },
+          },
+          "Banda Negra | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoCAF-pullEU",
+              },
+              Queen: {
+                sku: "C2-Q-leoCAF-pullEU",
+              },
+              Doble: {
+                sku: "C2-F-leoCAF-pullEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoCAF-pullEU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoCAF-pullEU",
+              },
+            },
+          },
+          "Banda Negra | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoNEG-pullEU",
+              },
+              Queen: {
+                sku: "C2-Q-leoNEG-pullEU",
+              },
+              Doble: {
+                sku: "C2-F-leoNEG-pullEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoNEG-pullEU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoNEG-pullEU",
+              },
+            },
+          },
+          "Banda Negra | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoGRI-pullEU",
+              },
+              Queen: {
+                sku: "C2-Q-leoGRI-pullEU",
+              },
+              Doble: {
+                sku: "C2-F-leoGRI-pullEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoGRI-pullEU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoGRI-pullEU",
+              },
+            },
+          },
+        },
+      },
+      EuroU_Firenze: {
+        colores: {
+          "Negro | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-pullEU-M",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-pullEU-M",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-pullEU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-pullEU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-pullEU-M",
+              },
+            },
+          },
+          "Negro | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-pullEU-M",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-pullEU-M",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-pullEU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-pullEU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-pullEU-M",
+              },
+            },
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-pullEU-M",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-pullEU-M",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-pullEU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-pullEU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-pullEU-M",
+              },
+            },
+          },
+          "Banda Negra | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-pullEU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-pullEU",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-pullEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-pullEU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-pullEU",
+              },
+            },
+          },
+          "Banda Negra | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-pullEU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-pullEU",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-pullEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-pullEU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-pullEU",
+              },
+            },
+          },
+          "Banda Negra | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-pullEU",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-pullEU",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-pullEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-pullEU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-pullEU",
+              },
+            },
+          },
+        },
+      },
+      EuroU_TPM_Almohada: {
+        colores: {
+          "Negro | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-pullEU-M",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-pullEU-M",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-pullEU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-pullEU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-pullEU-M",
+              },
+            },
+          },
+          "Negro | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-pullEU-M",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-pullEU-M",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-pullEU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-pullEU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-pullEU-M",
+              },
+            },
+          },
+          "Negro | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-pullEU-M",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-pullEU-M",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-pullEU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-pullEU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-pullEU-M",
+              },
+            },
+          },
+          "Banda Negra | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-pullEU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-pullEU",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-pullEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-pullEU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-pullEU",
+              },
+            },
+          },
+          "Banda Negra | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-pullEU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-pullEU",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-pullEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-pullEU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-pullEU",
+              },
+            },
+          },
+          "Banda Negra | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-pullEU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-pullEU",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-pullEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-pullEU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-pullEU",
+              },
+            },
+          },
+        },
+      },
+      EuroU_nidoJr: {
+        colores: {
+          "Negro | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-pullEU-M",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-pullEU-M",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-pullEU-M",
+              },
+            },
+          },
+          "Negro | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-pullEU-M",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-pullEU-M",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-pullEU-M",
+              },
+            },
+          },
+          "Negro | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-pullEU-M",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-pullEU-M",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-pullEU-M",
+              },
+            },
+          },
+          "Banda Negra | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-pullEU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-pullEU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-pullEU",
+              },
+            },
+          },
+          "Banda Negra | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-pullEU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-pullEU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-pullEU",
+              },
+            },
+          },
+          "Banda Negra | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-pullEU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-pullEU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-pullEU",
+              },
+            },
+          },
+        },
+      },
+      Euro_nidoAngie: {
+        colores: {
+          "Negro | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-pullEU-M",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-pullEU-M",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-pullEU-M",
+              },
+            },
+          },
+          "Negro | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-pullEU-M",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-pullEU-M",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-pullEU-M",
+              },
+            },
+          },
+          "Negro | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-pullEU-M",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-pullEU-M",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-pullEU-M",
+              },
+            },
+          },
+          "Banda Negra | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-pullEU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-pullEU",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-pullEU",
+              },
+            },
+          },
+          "Banda Negra | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-pullEU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-pullEU",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-pullEU",
+              },
+            },
+          },
+          "Banda Negra | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-pullEU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-pullEU",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-pullEU",
+              },
+            },
+          },
+        },
+      },
+    },
+  },
 
-            /** --------------------------------------------------------------------------------------------------------------------------- */
-
-            "Euro_baseCama_Almohada": {
-                "colores": {
-                    "Banda Decorativa | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-supEU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-supEU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-supEU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-supEU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-supEU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-supEU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoNEG-supEU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoNEG-supEU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoNEG-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoNEG-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoNEG-supEU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoGRI-supEU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoGRI-supEU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoGRI-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoGRI-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoGRI-supEU"
-                            }
-                        }
-                    }
-                }
+  superPullman: {
+    colchones: {
+      "Euro U": {
+        clasico: {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "77018588101109",
+              },
+              Semidoble: {
+                sku: "77018588101119",
+              },
+              Doble: {
+                sku: "77018588101129",
+              },
+              Queen: {
+                sku: "77018588101139",
+              },
+              King: {
+                sku: "77018588101149",
+              },
             },
-            "Euro_Leo_almohada": {
-                "colores": {
-                    "Banda Decorativa | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoBEI-supEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoBEI-supEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoBEI-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoBEI-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoBEI-supEU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoCAF-supEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoCAF-supEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoCAF-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoCAF-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoCAF-supEU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoNEG-supEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoNEG-supEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoNEG-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoNEG-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoNEG-supEU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoGRI-supEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoGRI-supEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoGRI-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoGRI-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoGRI-supEU"
-                            }
-                        }
-                    }
-                }
+          },
+        },
+        "Mohnblatt Gris": {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "7701858779195",
+              },
+              Semidoble: {
+                sku: "7701858779201",
+              },
+              Doble: {
+                sku: "7701858779218",
+              },
+              Queen: {
+                sku: "7701858779225",
+              },
+              King: {
+                sku: "7701858779232",
+              },
             },
-            "EuroU_Firenze": {
-                "colores": {
-                    "Banda Decorativa | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-supEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-supEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-supEU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-supEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-supEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-supEU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-supEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-supEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-supEU"
-                            }
-                        }
-                    }
-                }
+          },
+        },
+      },
+      Euro: {
+        clasico: {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "77018588101169",
+              },
+              Semidoble: {
+                sku: "77018588101179",
+              },
+              Doble: {
+                sku: "77018588101189",
+              },
+              Queen: {
+                sku: "77018588101199",
+              },
+              King: {
+                sku: "77018588101206",
+              },
             },
-            "EuroU_TPM_Almohada": {
-                "colores": {
-                    "Banda Decorativa | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-supEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-supEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-supEU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-supEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-supEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-supEU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-supEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-supEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-supEU"
-                            }
-                        }
-                    }
-                }
+          },
+        },
+        "Mohnblatt Gris": {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "7701858779133",
+              },
+              Semidoble: {
+                sku: "7701858779140",
+              },
+              Doble: {
+                sku: "7701858779157",
+              },
+              Queen: {
+                sku: "7701858779164",
+              },
+              King: {
+                sku: "7701858779171",
+              },
             },
-            "EuroU_nidoJr": {
-                "colores": {
-                    "Banda Decorativa | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-supEU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-supEU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-supEU"
-                            }
-                        }
-                    }
-                }
-            },
-            "Euro_nidoAngie": {
-                "colores": {
-                    "Banda Decorativa | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-supEU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-supEU"
-                            }
-                        }
-                    },
-                    "Banda Decorativa | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-supEU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-supEU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-supEU"
-                            }
-                        }
-                    }
-                }
-            }
-        }
+          },
+        },
+      },
     },
 
-    "Casatapack": {
-
-        "colchones": {
-            "standard": {
-                "colores": {
-                    "Negro gris": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "77018589647719"
-                            },
-                            "Semidoble": {
-                                "sku": "77018589647729"
-                            },
-                            "Doble": {
-                                "sku": "77018589647739"
-                            },
-                            "Queen": {
-                                "sku": "77018589647749"
-                            },
-                            "King": {
-                                "sku": "77018589647759"
-                            }
-                        }
-                    }
-                }
-            }
+    combos: {
+      EuroU_baseCama_Almohada: {
+        colores: {
+          "Banda Decorativa | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-supEUU",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-supEUU",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-supEUU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-supEUU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-supEUU",
+              },
+            },
+          },
+          "Banda Decorativa | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-supEUU",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-supEUU",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-supEUU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-supEUU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-supEUU",
+              },
+            },
+          },
+          "Banda Decorativa | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoNEG-supEUU",
+              },
+              Queen: {
+                sku: "C3-Q-leoNEG-supEUU",
+              },
+              Doble: {
+                sku: "C3-F-leoNEG-supEUU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoNEG-supEUU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoNEG-supEUU",
+              },
+            },
+          },
+          "Banda Decorativa | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoGRI-supEUU",
+              },
+              Queen: {
+                sku: "C3-Q-leoGRI-supEUU",
+              },
+              Doble: {
+                sku: "C3-F-leoGRI-supEUU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoGRI-supEUU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoGRI-supEUU",
+              },
+            },
+          },
         },
+      },
+      EuroU_Leo_almohada: {
+        colores: {
+          "Banda Decorativa | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoBEI-supEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoBEI-supEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoBEI-supEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoBEI-supEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoBEI-supEUU",
+              },
+            },
+          },
+          "Banda Decorativa | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoCAF-supEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoCAF-supEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoCAF-supEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoCAF-supEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoCAF-supEUU",
+              },
+            },
+          },
+          "Banda Decorativa | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoNEG-supEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoNEG-supEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoNEG-supEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoNEG-supEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoNEG-supEUU",
+              },
+            },
+          },
+          "Banda Decorativa | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoGRI-supEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoGRI-supEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoGRI-supEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoGRI-supEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoGRI-supEUU",
+              },
+            },
+          },
+        },
+      },
+      EuroU_Firenze: {
+        colores: {
+          "Banda Decorativa | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-supEUU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-supEUU",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-supEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-supEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-supEUU",
+              },
+            },
+          },
+          "Banda Decorativa | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-supEUU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-supEUU",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-supEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-supEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-supEUU",
+              },
+            },
+          },
+          "Banda Decorativa | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-supEUU",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-supEUU",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-supEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-supEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-supEUU",
+              },
+            },
+          },
+        },
+      },
+      EuroU_TPM_Almohada: {
+        colores: {
+          "Banda Decorativa | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-supEUU",
+                url: "/colchon-superpullman-euro-u-cama-tpm-almohada#489",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-supEUU",
+                url: "/colchon-superpullman-euro-u-cama-tpm-almohada#489",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-supEUU",
+                url: "/colchon-superpullman-euro-u-cama-tpm-almohada#489",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-supEUU",
+                url: "/colchon-superpullman-euro-u-cama-tpm-almohada#489",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-supEUU",
+                url: "/colchon-superpullman-euro-u-cama-tpm-almohada#489",
+              },
+            },
+          },
+          "Banda Decorativa | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-supEUU",
+                url: "/colchon-superpullman-euro-u-cama-tpm-almohada#488",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-supEUU",
+                url: "/colchon-superpullman-euro-u-cama-tpm-almohada#488",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-supEUU",
+                url: "/colchon-superpullman-euro-u-cama-tpm-almohada#488",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-supEUU",
+                url: "/colchon-superpullman-euro-u-cama-tpm-almohada#488",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-supEUU",
+                url: "/colchon-superpullman-euro-u-cama-tpm-almohada#488",
+              },
+            },
+          },
+          "Banda Decorativa | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-supEUU",
+                url: "/colchon-superpullman-euro-u-cama-tpm-almohada#487",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-supEUU",
+                url: "/colchon-superpullman-euro-u-cama-tpm-almohada#487",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-supEUU",
+                url: "/colchon-superpullman-euro-u-cama-tpm-almohada#487",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-supEUU",
+                url: "/colchon-superpullman-euro-u-cama-tpm-almohada#487",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-supEUU",
+                url: "/colchon-superpullman-euro-u-cama-tpm-almohada#487",
+              },
+            },
+          },
+        },
+      },
+      EuroU_nidoJr: {
+        colores: {
+          "Banda Decorativa | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-supEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-supEUU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-supEUU",
+              },
+            },
+          },
+          "Banda Decorativa | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-supEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-supEUU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-supEUU",
+              },
+            },
+          },
+          "Banda Decorativa | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-supEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-supEUU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-supEUU",
+              },
+            },
+          },
+        },
+      },
+      EuroU_nidoAngie: {
+        colores: {
+          "Banda Decorativa | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-supEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-supEUU",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-supEUU",
+              },
+            },
+          },
+          "Banda Decorativa | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-supEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-supEUU",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-supEUU",
+              },
+            },
+          },
+          "Banda Decorativa | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-supEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-supEUU",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-supEUU",
+              },
+            },
+          },
+        },
+      },
 
-        "combos": {
-            "euroU_basecama almohada": {
-                "colores": {
-                    "Negro | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-casEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-casEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-casEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-casEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-casEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-casEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-casEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-casEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-casEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-casEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoNEG-casEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoNEG-casEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoNEG-casEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoNEG-casEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoNEG-casEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoGRI-casEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoGRI-casEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoGRI-casEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoGRI-casEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoGRI-casEUU-M"
-                            }
-                        }
-                    },
-                    "Clásico | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-casEUU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-casEUU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-casEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-casEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-casEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-casEUU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-casEUU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-casEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-casEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-casEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoNEG-casEUU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoNEG-casEUU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoNEG-casEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoNEG-casEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoNEG-casEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoGRI-casEUU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoGRI-casEUU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoGRI-casEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoGRI-casEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoGRI-casEUU"
-                            }
-                        }
-                    }
-                }
-            },
-            "euroU_camaLeo almohada": {
-                "colores": {
-                    "Negro | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoBEI-casEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoBEI-casEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoBEI-casEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoBEI-casEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoBEI-casEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoCAF-casEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoCAF-casEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoCAF-casEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoCAF-casEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoCAF-casEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoNEG-casEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoNEG-casEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoNEG-casEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoNEG-casEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoNEG-casEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoGRI-casEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoGRI-casEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoGRI-casEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoGRI-casEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoGRI-casEUU-M"
-                            }
-                        }
-                    },
-                    "Clásico | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoBEI-casEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoBEI-casEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoBEI-casEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoBEI-casEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoBEI-casEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoCAF-casEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoCAF-casEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoCAF-casEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoCAF-casEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoCAF-casEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoNEG-casEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoNEG-casEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoNEG-casEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoNEG-casEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoNEG-casEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoGRI-casEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoGRI-casEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoGRI-casEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoGRI-casEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoGRI-casEUU"
-                            }
-                        }
-                    }
-                }
-            },
-            "euroU_firenze": {
-                "colores": {
-                    "Negro | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-casEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-casEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-casEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-casEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-casEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-casEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-casEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-casEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-casEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-casEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-casEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-casEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-casEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-casEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-casEUU-M"
-                            }
-                        }
-                    },
-                    "Clásico | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-casEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-casEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-casEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-casEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-casEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-casEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-casEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-casEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-casEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-casEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-casEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-casEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-casEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-casEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-casEUU"
-                            }
-                        }
-                    }
-                }
-            },
-            "euroU_TPM": {
-                "colores": {
-                    "Negro | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-casEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-casEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-casEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-casEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-casEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-casEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-casEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-casEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-casEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-casEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-casEUU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-casEUU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-casEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-casEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-casEUU-M"
-                            }
-                        }
-                    },
-                    "Clásico | Wengue TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmWEN-casEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmWEN-casEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmWEN-casEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmWEN-casEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmWEN-casEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Natural TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmNAT-casEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmNAT-casEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmNAT-casEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmNAT-casEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmNAT-casEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Caoba TPM": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-tpmCAO-casEUU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-tpmCAO-casEUU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-tpmCAO-casEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-tpmCAO-casEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-tpmCAO-casEUU"
-                            }
-                        }
-                    }
-                }
-            },
-            "euroU_nidoJr": {
-                "colores": {
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-casEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-casEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-casEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-casEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-casEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-casEUU-M"
-                            }
-                        }
-                    },
-                    "Negro | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-casEUU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-casEUU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-casEUU-M"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS2GRI-casEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS2GRI-casEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS2GRI-casEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1CAF-casEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1CAF-casEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1CAF-casEUU"
-                            }
-                        }
-                    },
-                    "Clásico | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnjunS1NEG-casEUU"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnjunS1NEG-casEUU"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnjunS1NEG-casEUU"
-                            }
-                        }
-                    }
-                }
-            },
-            "euroU_nidoAngie": {
-                "colores": {
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-casEUU-M",
-                                "url": "/colchon-casata-euro-u-cama-nido-angie#460"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-casEUU-M",
-                                "url": "/colchon-casata-euro-u-cama-nido-angie#460"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-casEUU-M",
-                                "url": "/colchon-casata-euro-u-cama-nido-angie#460"
-                            }
-                        }
-                    },
-                    "Negro | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-casEUU-M",
-                                "url": "/colchon-casata-euro-u-cama-nido-angie#459"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-casEUU-M",
-                                "url": "/colchon-casata-euro-u-cama-nido-angie#459"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-casEUU-M",
-                                "url": "/colchon-casata-euro-u-cama-nido-angie#459"
-                            }
-                        }
-                    },
-                    "Negro | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-casEUU-M",
-                                "url": "/colchon-casata-euro-u-cama-nido-angie#458"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-casEUU-M",
-                                "url": "/colchon-casata-euro-u-cama-nido-angie#458"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-casEUU-M",
-                                "url": "/colchon-casata-euro-u-cama-nido-angie#458"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS2GRI-casEUU",
-                                "url": "/colchon-casata-euro-u-cama-nido-angie#444"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS2GRI-casEUU",
-                                "url": "/colchon-casata-euro-u-cama-nido-angie#444"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS2GRI-casEUU",
-                                "url": "/colchon-casata-euro-u-cama-nido-angie#444"
-                            }
-                        }
-                    },
-                    "Clásico | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1CAF-casEUU",
-                                "url": "/colchon-casata-euro-u-cama-nido-angie#443"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1CAF-casEUU",
-                                "url": "/colchon-casata-euro-u-cama-nido-angie#443"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1CAF-casEUU",
-                                "url": "/colchon-casata-euro-u-cama-nido-angie#443"
-                            }
-                        }
-                    },
-                    "Clásico | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": {
-                                "sku": "F-cnangS1NEG-casEUU",
-                                "url": "/colchon-casata-euro-u-cama-nido-angie#442"
-                            },
-                            "Semidoble": {
-                                "sku": "TF-cnangS1NEG-casEUU",
-                                "url": "/colchon-casata-euro-u-cama-nido-angie#442"
-                            },
-                            "Sencillo": {
-                                "sku": "T-cnangS1NEG-casEUU",
-                                "url": "/colchon-casata-euro-u-cama-nido-angie#442"
-                            }
-                        }
-                    }
-                }
-            },
+      /** --------------------------------------------------------------------------------------------------------------------------- */
 
-            /** -------------------------------------------------------------------------------- */
+      Euro_baseCama_Almohada: {
+        colores: {
+          "Banda Decorativa | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-supEU",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-supEU",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-supEU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-supEU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-supEU",
+              },
+            },
+          },
+          "Banda Decorativa | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-supEU",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-supEU",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-supEU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-supEU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-supEU",
+              },
+            },
+          },
+          "Banda Decorativa | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoNEG-supEU",
+              },
+              Queen: {
+                sku: "C3-Q-leoNEG-supEU",
+              },
+              Doble: {
+                sku: "C3-F-leoNEG-supEU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoNEG-supEU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoNEG-supEU",
+              },
+            },
+          },
+          "Banda Decorativa | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoGRI-supEU",
+              },
+              Queen: {
+                sku: "C3-Q-leoGRI-supEU",
+              },
+              Doble: {
+                sku: "C3-F-leoGRI-supEU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoGRI-supEU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoGRI-supEU",
+              },
+            },
+          },
+        },
+      },
+      Euro_Leo_almohada: {
+        colores: {
+          "Banda Decorativa | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoBEI-supEU",
+              },
+              Queen: {
+                sku: "C2-Q-leoBEI-supEU",
+              },
+              Doble: {
+                sku: "C2-F-leoBEI-supEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoBEI-supEU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoBEI-supEU",
+              },
+            },
+          },
+          "Banda Decorativa | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoCAF-supEU",
+              },
+              Queen: {
+                sku: "C2-Q-leoCAF-supEU",
+              },
+              Doble: {
+                sku: "C2-F-leoCAF-supEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoCAF-supEU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoCAF-supEU",
+              },
+            },
+          },
+          "Banda Decorativa | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoNEG-supEU",
+              },
+              Queen: {
+                sku: "C2-Q-leoNEG-supEU",
+              },
+              Doble: {
+                sku: "C2-F-leoNEG-supEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoNEG-supEU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoNEG-supEU",
+              },
+            },
+          },
+          "Banda Decorativa | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoGRI-supEU",
+              },
+              Queen: {
+                sku: "C2-Q-leoGRI-supEU",
+              },
+              Doble: {
+                sku: "C2-F-leoGRI-supEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoGRI-supEU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoGRI-supEU",
+              },
+            },
+          },
+        },
+      },
+      EuroU_Firenze: {
+        colores: {
+          "Banda Decorativa | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-supEU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-supEU",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-supEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-supEU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-supEU",
+              },
+            },
+          },
+          "Banda Decorativa | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-supEU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-supEU",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-supEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-supEU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-supEU",
+              },
+            },
+          },
+          "Banda Decorativa | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-supEU",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-supEU",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-supEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-supEU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-supEU",
+              },
+            },
+          },
+        },
+      },
+      EuroU_TPM_Almohada: {
+        colores: {
+          "Banda Decorativa | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-supEU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-supEU",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-supEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-supEU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-supEU",
+              },
+            },
+          },
+          "Banda Decorativa | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-supEU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-supEU",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-supEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-supEU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-supEU",
+              },
+            },
+          },
+          "Banda Decorativa | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-supEU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-supEU",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-supEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-supEU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-supEU",
+              },
+            },
+          },
+        },
+      },
+      EuroU_nidoJr: {
+        colores: {
+          "Banda Decorativa | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-supEU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-supEU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-supEU",
+              },
+            },
+          },
+          "Banda Decorativa | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-supEU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-supEU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-supEU",
+              },
+            },
+          },
+          "Banda Decorativa | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-supEU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-supEU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-supEU",
+              },
+            },
+          },
+        },
+      },
+      Euro_nidoAngie: {
+        colores: {
+          "Banda Decorativa | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-supEU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-supEU",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-supEU",
+              },
+            },
+          },
+          "Banda Decorativa | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-supEU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-supEU",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-supEU",
+              },
+            },
+          },
+          "Banda Decorativa | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-supEU",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-supEU",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-supEU",
+              },
+            },
+          },
+        },
+      },
+    },
+  },
 
-            "euro_basecama almohada": {
-                "colores": {
-                    "Negro | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-casEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-casEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-casEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-casEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-casEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-casEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-casEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-casEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-casEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-casEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoNEG-casEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoNEG-casEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoNEG-casEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoNEG-casEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoNEG-casEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoGRI-casEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoGRI-casEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoGRI-casEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoGRI-casEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoGRI-casEU-M"
-                            }
-                        }
-                    },
-                    "Clásico | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoBEI-casEU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoBEI-casEU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoBEI-casEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoBEI-casEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoBEI-casEU"
-                            }
-                        }
-                    },
-                    "Clásico | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoCAF-casEU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoCAF-casEU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoCAF-casEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoCAF-casEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoCAF-casEU"
-                            }
-                        }
-                    },
-                    "Clásico | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoNEG-casEU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoNEG-casEU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoNEG-casEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoNEG-casEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoNEG-casEU"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C3-K-leoGRI-casEU"
-                            },
-                            "Queen": {
-                                "sku": "C3-Q-leoGRI-casEU"
-                            },
-                            "Doble": {
-                                "sku": "C3-F-leoGRI-casEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C3-TF-leoGRI-casEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C3-T-leoGRI-casEU"
-                            }
-                        }
-                    }
-                }
+  Casatapack: {
+    colchones: {
+      standard: {
+        colores: {
+          "Negro gris": {
+            medidas: {
+              Sencillo: {
+                sku: "77018589647719",
+              },
+              Semidoble: {
+                sku: "77018589647729",
+              },
+              Doble: {
+                sku: "77018589647739",
+              },
+              Queen: {
+                sku: "77018589647749",
+              },
+              King: {
+                sku: "77018589647759",
+              },
             },
-            "euro_camaLeo almohada": {
-                "colores": {
-                    "Negro | Beige Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoBEI-casEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoBEI-casEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoBEI-casEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoBEI-casEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoBEI-casEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Café Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoCAF-casEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoCAF-casEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoCAF-casEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoCAF-casEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoCAF-casEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Negro Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoNEG-casEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoNEG-casEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoNEG-casEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoNEG-casEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoNEG-casEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-leoGRI-casEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-leoGRI-casEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-leoGRI-casEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-leoGRI-casEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-leoGRI-casEU-M"
-                            }
-                        }
-                    }
-                }
-            },
-            "euro_firenze": {
-                "colores": {
-                    "Negro | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-casEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-casEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-casEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-casEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-casEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-casEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-casEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-casEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-casEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-casEU-M"
-                            }
-                        }
-                    },
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-casEU-M"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-casEU-M"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-casEU-M"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-casEU-M"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-casEU-M"
-                            }
-                        }
-                    },
-                    "Clásico | Café Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3CAF-casEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3CAF-casEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3CAF-casEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3CAF-casEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3CAF-casEU"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS3GRIOSC-casEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS3GRIOSC-casEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS3GRIOSC-casEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS3GRIOSC-casEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS3GRIOSC-casEU"
-                            }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "King": {
-                                "sku": "C2-K-firS2GRI-casEU"
-                            },
-                            "Queen": {
-                                "sku": "C2-Q-firS2GRI-casEU"
-                            },
-                            "Doble": {
-                                "sku": "C2-F-firS2GRI-casEU"
-                            },
-                            "Semidoble": {
-                                "sku": "C2-TF-firS2GRI-casEU"
-                            },
-                            "Sencillo": {
-                                "sku": "C2-T-firS2GRI-casEU"
-                            }
-                        }
-                    }
-                }
-            },
-            "euro_TPM": {
-                "colores": {
-                    "Negro | Wengue TPM": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-tpmWEN-casEU-M" },
-                            "Queen": { "sku": "C2-Q-tpmWEN-casEU-M" },
-                            "Doble": { "sku": "C2-F-tpmWEN-casEU-M" },
-                            "Semidoble": { "sku": "C2-TF-tpmWEN-casEU-M" },
-                            "Sencillo": { "sku": "C2-T-tpmWEN-casEU-M" }
-                        }
-                    },
-                    "Negro | Natural TPM": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-tpmNAT-casEU-M" },
-                            "Queen": { "sku": "C2-Q-tpmNAT-casEU-M" },
-                            "Doble": { "sku": "C2-F-tpmNAT-casEU-M" },
-                            "Semidoble": { "sku": "C2-TF-tpmNAT-casEU-M" },
-                            "Sencillo": { "sku": "C2-T-tpmNAT-casEU-M" }
-                        }
-                    },
-                    "Negro | Caoba TPM": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-tpmCAO-casEU-M" },
-                            "Queen": { "sku": "C2-Q-tpmCAO-casEU-M" },
-                            "Doble": { "sku": "C2-F-tpmCAO-casEU-M" },
-                            "Semidoble": { "sku": "C2-TF-tpmCAO-casEU-M" },
-                            "Sencillo": { "sku": "C2-T-tpmCAO-casEU-M" }
-                        }
-                    },
-                    "Clásico | Wengue TPM": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-tpmWEN-casEU" },
-                            "Queen": { "sku": "C2-Q-tpmWEN-casEU" },
-                            "Doble": { "sku": "C2-F-tpmWEN-casEU" },
-                            "Semidoble": { "sku": "C2-TF-tpmWEN-casEU" },
-                            "Sencillo": { "sku": "C2-T-tpmWEN-casEU" }
-                        }
-                    },
-                    "Clásico | Natural TPM": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-tpmNAT-casEU" },
-                            "Queen": { "sku": "C2-Q-tpmNAT-casEU" },
-                            "Doble": { "sku": "C2-F-tpmNAT-casEU" },
-                            "Semidoble": { "sku": "C2-TF-tpmNAT-casEU" },
-                            "Sencillo": { "sku": "C2-T-tpmNAT-casEU" }
-                        }
-                    },
-                    "Clásico | Caoba TPM": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-tpmCAO-casEU" },
-                            "Queen": { "sku": "C2-Q-tpmCAO-casEU" },
-                            "Doble": { "sku": "C2-F-tpmCAO-casEU" },
-                            "Semidoble": { "sku": "C2-TF-tpmCAO-casEU" },
-                            "Sencillo": { "sku": "C2-T-tpmCAO-casEU" }
-                        }
-                    }
-                }
-            },
-            "euro_nidoJr": {
-                "colores": {
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnjunS2GRI-casEU-M" },
-                            "Semidoble": { "sku": "TF-cnjunS2GRI-casEU-M" },
-                            "Sencillo": { "sku": "T-cnjunS2GRI-casEU-M" }
-                        }
-                    },
-                    "Negro | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnjunS1CAF-casEU-M" },
-                            "Semidoble": { "sku": "TF-cnjunS1CAF-casEU-M" },
-                            "Sencillo": { "sku": "T-cnjunS1CAF-casEU-M" }
-                        }
-                    },
-                    "Negro | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnjunS1NEG-casEU-M" },
-                            "Semidoble": { "sku": "TF-cnjunS1NEG-casEU-M" },
-                            "Sencillo": { "sku": "T-cnjunS1NEG-casEU-M" }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnjunS2GRI-casEU" },
-                            "Semidoble": { "sku": "TF-cnjunS2GRI-casEU" },
-                            "Sencillo": { "sku": "T-cnjunS2GRI-casEU" }
-                        }
-                    },
-                    "Clásico | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnjunS1CAF-casEU" },
-                            "Semidoble": { "sku": "TF-cnjunS1CAF-casEU" },
-                            "Sencillo": { "sku": "T-cnjunS1CAF-casEU" }
-                        }
-                    },
-                    "Clásico | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnjunS1NEG-casEU" },
-                            "Semidoble": { "sku": "TF-cnjunS1NEG-casEU" },
-                            "Sencillo": { "sku": "T-cnjunS1NEG-casEU" }
-                        }
-                    }
-                }
-            },
-            "euro_nidoAngie": {
-                "colores": {
-                    "Negro | Gris Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnangS2GRI-casEU-M" },
-                            "Semidoble": { "sku": "TF-cnangS2GRI-casEU-M" },
-                            "Sencillo": { "sku": "T-cnangS2GRI-casEU-M" }
-                        }
-                    },
-                    "Negro | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnangS1CAF-casEU-M" },
-                            "Semidoble": { "sku": "TF-cnangS1CAF-casEU-M" },
-                            "Sencillo": { "sku": "T-cnangS1CAF-casEU-M" }
-                        }
-                    },
-                    "Negro | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnangS1NEG-casEU-M" },
-                            "Semidoble": { "sku": "TF-cnangS1NEG-casEU-M" },
-                            "Sencillo": { "sku": "T-cnangS1NEG-casEU-M" }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnangS2GRI-casEU" },
-                            "Semidoble": { "sku": "TF-cnangS2GRI-casEU" },
-                            "Sencillo": { "sku": "T-cnangS2GRI-casEU" }
-                        }
-                    },
-                    "Clásico | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnangS1CAF-casEU" },
-                            "Semidoble": { "sku": "TF-cnangS1CAF-casEU" },
-                            "Sencillo": { "sku": "T-cnangS1CAF-casEU" }
-                        }
-                    },
-                    "Clásico | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnangS1NEG-casEU" },
-                            "Semidoble": { "sku": "TF-cnangS1NEG-casEU" },
-                            "Sencillo": { "sku": "T-cnangS1NEG-casEU" }
-                        }
-                    }
-                }
-            },
-
-        }
-
+          },
+        },
+      },
     },
 
-    "Foampack": {
-
-        "colchones": {
-            "Standard": {
-                "colores": {
-                    "clasico": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "7709319142649"
-                            },
-                            "Semidoble": {
-                                "sku": "7709319142694"
-                            },
-                            "Doble": {
-                                "sku": "7709319142670"
-                            },
-                            "Queen": {
-                                "sku": "7709319142618"
-                            },
-                            "King": {
-                                "sku": "7709319142601"
-                            }
-                        }
-                    }
-                }
-            }
+    combos: {
+      "euroU_basecama almohada": {
+        colores: {
+          "Negro | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-casEUU-M",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-casEUU-M",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-casEUU-M",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-casEUU-M",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-casEUU-M",
+              },
+            },
+          },
+          "Negro | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-casEUU-M",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-casEUU-M",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-casEUU-M",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-casEUU-M",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-casEUU-M",
+              },
+            },
+          },
+          "Negro | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoNEG-casEUU-M",
+              },
+              Queen: {
+                sku: "C3-Q-leoNEG-casEUU-M",
+              },
+              Doble: {
+                sku: "C3-F-leoNEG-casEUU-M",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoNEG-casEUU-M",
+              },
+              Sencillo: {
+                sku: "C3-T-leoNEG-casEUU-M",
+              },
+            },
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoGRI-casEUU-M",
+              },
+              Queen: {
+                sku: "C3-Q-leoGRI-casEUU-M",
+              },
+              Doble: {
+                sku: "C3-F-leoGRI-casEUU-M",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoGRI-casEUU-M",
+              },
+              Sencillo: {
+                sku: "C3-T-leoGRI-casEUU-M",
+              },
+            },
+          },
+          "Clásico | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-casEUU",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-casEUU",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-casEUU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-casEUU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-casEUU",
+              },
+            },
+          },
+          "Clásico | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-casEUU",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-casEUU",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-casEUU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-casEUU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-casEUU",
+              },
+            },
+          },
+          "Clásico | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoNEG-casEUU",
+              },
+              Queen: {
+                sku: "C3-Q-leoNEG-casEUU",
+              },
+              Doble: {
+                sku: "C3-F-leoNEG-casEUU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoNEG-casEUU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoNEG-casEUU",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoGRI-casEUU",
+              },
+              Queen: {
+                sku: "C3-Q-leoGRI-casEUU",
+              },
+              Doble: {
+                sku: "C3-F-leoGRI-casEUU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoGRI-casEUU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoGRI-casEUU",
+              },
+            },
+          },
         },
+      },
+      "euroU_camaLeo almohada": {
+        colores: {
+          "Negro | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoBEI-casEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoBEI-casEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoBEI-casEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoBEI-casEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoBEI-casEUU-M",
+              },
+            },
+          },
+          "Negro | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoCAF-casEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoCAF-casEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoCAF-casEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoCAF-casEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoCAF-casEUU-M",
+              },
+            },
+          },
+          "Negro | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoNEG-casEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoNEG-casEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoNEG-casEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoNEG-casEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoNEG-casEUU-M",
+              },
+            },
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoGRI-casEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoGRI-casEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoGRI-casEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoGRI-casEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoGRI-casEUU-M",
+              },
+            },
+          },
+          "Clásico | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoBEI-casEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoBEI-casEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoBEI-casEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoBEI-casEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoBEI-casEUU",
+              },
+            },
+          },
+          "Clásico | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoCAF-casEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoCAF-casEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoCAF-casEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoCAF-casEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoCAF-casEUU",
+              },
+            },
+          },
+          "Clásico | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoNEG-casEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoNEG-casEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoNEG-casEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoNEG-casEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoNEG-casEUU",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoGRI-casEUU",
+              },
+              Queen: {
+                sku: "C2-Q-leoGRI-casEUU",
+              },
+              Doble: {
+                sku: "C2-F-leoGRI-casEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoGRI-casEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-leoGRI-casEUU",
+              },
+            },
+          },
+        },
+      },
+      euroU_firenze: {
+        colores: {
+          "Negro | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-casEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-casEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-casEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-casEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-casEUU-M",
+              },
+            },
+          },
+          "Negro | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-casEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-casEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-casEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-casEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-casEUU-M",
+              },
+            },
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-casEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-casEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-casEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-casEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-casEUU-M",
+              },
+            },
+          },
+          "Clásico | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-casEUU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-casEUU",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-casEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-casEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-casEUU",
+              },
+            },
+          },
+          "Clásico | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-casEUU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-casEUU",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-casEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-casEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-casEUU",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-casEUU",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-casEUU",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-casEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-casEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-casEUU",
+              },
+            },
+          },
+        },
+      },
+      euroU_TPM: {
+        colores: {
+          "Negro | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-casEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-casEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-casEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-casEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-casEUU-M",
+              },
+            },
+          },
+          "Negro | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-casEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-casEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-casEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-casEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-casEUU-M",
+              },
+            },
+          },
+          "Negro | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-casEUU-M",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-casEUU-M",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-casEUU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-casEUU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-casEUU-M",
+              },
+            },
+          },
+          "Clásico | Wengue TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmWEN-casEUU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmWEN-casEUU",
+              },
+              Doble: {
+                sku: "C2-F-tpmWEN-casEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmWEN-casEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmWEN-casEUU",
+              },
+            },
+          },
+          "Clásico | Natural TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmNAT-casEUU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmNAT-casEUU",
+              },
+              Doble: {
+                sku: "C2-F-tpmNAT-casEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmNAT-casEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmNAT-casEUU",
+              },
+            },
+          },
+          "Clásico | Caoba TPM": {
+            medidas: {
+              King: {
+                sku: "C2-K-tpmCAO-casEUU",
+              },
+              Queen: {
+                sku: "C2-Q-tpmCAO-casEUU",
+              },
+              Doble: {
+                sku: "C2-F-tpmCAO-casEUU",
+              },
+              Semidoble: {
+                sku: "C2-TF-tpmCAO-casEUU",
+              },
+              Sencillo: {
+                sku: "C2-T-tpmCAO-casEUU",
+              },
+            },
+          },
+        },
+      },
+      euroU_nidoJr: {
+        colores: {
+          "Negro | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-casEUU-M",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-casEUU-M",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-casEUU-M",
+              },
+            },
+          },
+          "Negro | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-casEUU-M",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-casEUU-M",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-casEUU-M",
+              },
+            },
+          },
+          "Negro | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-casEUU-M",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-casEUU-M",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-casEUU-M",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS2GRI-casEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS2GRI-casEUU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS2GRI-casEUU",
+              },
+            },
+          },
+          "Clásico | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1CAF-casEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1CAF-casEUU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1CAF-casEUU",
+              },
+            },
+          },
+          "Clásico | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnjunS1NEG-casEUU",
+              },
+              Semidoble: {
+                sku: "TF-cnjunS1NEG-casEUU",
+              },
+              Sencillo: {
+                sku: "T-cnjunS1NEG-casEUU",
+              },
+            },
+          },
+        },
+      },
+      euroU_nidoAngie: {
+        colores: {
+          "Negro | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-casEUU-M",
+                url: "/colchon-casata-euro-u-cama-nido-angie#460",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-casEUU-M",
+                url: "/colchon-casata-euro-u-cama-nido-angie#460",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-casEUU-M",
+                url: "/colchon-casata-euro-u-cama-nido-angie#460",
+              },
+            },
+          },
+          "Negro | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-casEUU-M",
+                url: "/colchon-casata-euro-u-cama-nido-angie#459",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-casEUU-M",
+                url: "/colchon-casata-euro-u-cama-nido-angie#459",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-casEUU-M",
+                url: "/colchon-casata-euro-u-cama-nido-angie#459",
+              },
+            },
+          },
+          "Negro | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-casEUU-M",
+                url: "/colchon-casata-euro-u-cama-nido-angie#458",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-casEUU-M",
+                url: "/colchon-casata-euro-u-cama-nido-angie#458",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-casEUU-M",
+                url: "/colchon-casata-euro-u-cama-nido-angie#458",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS2GRI-casEUU",
+                url: "/colchon-casata-euro-u-cama-nido-angie#444",
+              },
+              Semidoble: {
+                sku: "TF-cnangS2GRI-casEUU",
+                url: "/colchon-casata-euro-u-cama-nido-angie#444",
+              },
+              Sencillo: {
+                sku: "T-cnangS2GRI-casEUU",
+                url: "/colchon-casata-euro-u-cama-nido-angie#444",
+              },
+            },
+          },
+          "Clásico | Café Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1CAF-casEUU",
+                url: "/colchon-casata-euro-u-cama-nido-angie#443",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1CAF-casEUU",
+                url: "/colchon-casata-euro-u-cama-nido-angie#443",
+              },
+              Sencillo: {
+                sku: "T-cnangS1CAF-casEUU",
+                url: "/colchon-casata-euro-u-cama-nido-angie#443",
+              },
+            },
+          },
+          "Clásico | Negro Cuero Sintético": {
+            medidas: {
+              Doble: {
+                sku: "F-cnangS1NEG-casEUU",
+                url: "/colchon-casata-euro-u-cama-nido-angie#442",
+              },
+              Semidoble: {
+                sku: "TF-cnangS1NEG-casEUU",
+                url: "/colchon-casata-euro-u-cama-nido-angie#442",
+              },
+              Sencillo: {
+                sku: "T-cnangS1NEG-casEUU",
+                url: "/colchon-casata-euro-u-cama-nido-angie#442",
+              },
+            },
+          },
+        },
+      },
 
-        "combos": {
+      /** -------------------------------------------------------------------------------- */
 
-            "basecama almohada": {
-                "colores": {
-                    "Funda Lavable | Beige Tela": {
-                        "medidas": {
-                            "King": { "sku": "C3-K-leoBEI-foam" },
-                            "Queen": { "sku": "C3-Q-leoBEI-foam" },
-                            "Doble": { "sku": "C3-F-leoBEI-foam" },
-                            "Semidoble": { "sku": "C3-TF-leoBEI-foam" },
-                            "Sencillo": { "sku": "C3-T-leoBEI-foam" }
-                        }
-                    },
-                    "Funda Lavable | Café Tela": {
-                        "medidas": {
-                            "King": { "sku": "C3-K-leoCAF-foam" },
-                            "Queen": { "sku": "C3-Q-leoCAF-foam" },
-                            "Doble": { "sku": "C3-F-leoCAF-foam" },
-                            "Semidoble": { "sku": "C3-TF-leoCAF-foam" },
-                            "Sencillo": { "sku": "C3-T-leoCAF-foam" }
-                        }
-                    },
-                    "Funda Lavable | Negro Tela": {
-                        "medidas": {
-                            "King": { "sku": "C3-K-leoNEG-foam" },
-                            "Queen": { "sku": "C3-Q-leoNEG-foam" },
-                            "Doble": { "sku": "C3-F-leoNEG-foam" },
-                            "Semidoble": { "sku": "C3-TF-leoNEG-foam" },
-                            "Sencillo": { "sku": "C3-T-leoNEG-foam" }
-                        }
-                    },
-                    "Funda Lavable | Gris Tela": {
-                        "medidas": {
-                            "King": { "sku": "C3-K-leoGRI-foam" },
-                            "Queen": { "sku": "C3-Q-leoGRI-foam" },
-                            "Doble": { "sku": "C3-F-leoGRI-foam" },
-                            "Semidoble": { "sku": "C3-TF-leoGRI-foam" },
-                            "Sencillo": { "sku": "C3-T-leoGRI-foam" }
-                        }
-                    }
-                }
+      "euro_basecama almohada": {
+        colores: {
+          "Negro | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-casEU-M",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-casEU-M",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-casEU-M",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-casEU-M",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-casEU-M",
+              },
             },
-            "camaLeo almohada": {
-                "colores": {
-                    "Funda Lavable | Beige Tela": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-leoBEI-foam" },
-                            "Queen": { "sku": "C2-Q-leoBEI-foam" },
-                            "Doble": { "sku": "C2-F-leoBEI-foam" },
-                            "Semidoble": { "sku": "C2-TF-leoBEI-foam" },
-                            "Sencillo": { "sku": "C2-T-leoBEI-foam" }
-                        }
-                    },
-                    "Funda Lavable | Café Tela": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-leoCAF-foam" },
-                            "Queen": { "sku": "C2-Q-leoCAF-foam" },
-                            "Doble": { "sku": "C2-F-leoCAF-foam" },
-                            "Semidoble": { "sku": "C2-TF-leoCAF-foam" },
-                            "Sencillo": { "sku": "C2-T-leoCAF-foam" }
-                        }
-                    },
-                    "Funda Lavable | Negro Tela": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-leoNEG-foam" },
-                            "Queen": { "sku": "C2-Q-leoNEG-foam" },
-                            "Doble": { "sku": "C2-F-leoNEG-foam" },
-                            "Semidoble": { "sku": "C2-TF-leoNEG-foam" },
-                            "Sencillo": { "sku": "C2-T-leoNEG-foam" }
-                        }
-                    },
-                    "Funda Lavable | Gris Tela": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-leoGRI-foam" },
-                            "Queen": { "sku": "C2-Q-leoGRI-foam" },
-                            "Doble": { "sku": "C2-F-leoGRI-foam" },
-                            "Semidoble": { "sku": "C2-TF-leoGRI-foam" },
-                            "Sencillo": { "sku": "C2-T-leoGRI-foam" }
-                        }
-                    }
-                }
+          },
+          "Negro | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-casEU-M",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-casEU-M",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-casEU-M",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-casEU-M",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-casEU-M",
+              },
             },
-            "firenze": {
-                "colores": {
-                    "Funda Lavable | Café Antifluidos": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-firS3CAF-foam" },
-                            "Queen": { "sku": "C2-Q-firS3CAF-foam" },
-                            "Doble": { "sku": "C2-F-firS3CAF-foam" },
-                            "Semidoble": { "sku": "C2-TF-firS3CAF-foam" },
-                            "Sencillo": { "sku": "C2-T-firS3CAF-foam" }
-                        }
-                    },
-                    "Funda Lavable | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-firS3GRIOSC-foam" },
-                            "Queen": { "sku": "C2-Q-firS3GRIOSC-foam" },
-                            "Doble": { "sku": "C2-F-firS3GRIOSC-foam" },
-                            "Semidoble": { "sku": "C2-TF-firS3GRIOSC-foam" },
-                            "Sencillo": { "sku": "C2-T-firS3GRIOSC-foam" }
-                        }
-                    },
-                    "Funda Lavable | Gris Tela": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-firS2GRI-foam" },
-                            "Queen": { "sku": "C2-Q-firS2GRI-foam" },
-                            "Doble": { "sku": "C2-F-firS2GRI-foam" },
-                            "Semidoble": { "sku": "C2-TF-firS2GRI-foam" },
-                            "Sencillo": { "sku": "C2-T-firS2GRI-foam" }
-                        }
-                    }
-                }
+          },
+          "Negro | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoNEG-casEU-M",
+              },
+              Queen: {
+                sku: "C3-Q-leoNEG-casEU-M",
+              },
+              Doble: {
+                sku: "C3-F-leoNEG-casEU-M",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoNEG-casEU-M",
+              },
+              Sencillo: {
+                sku: "C3-T-leoNEG-casEU-M",
+              },
             },
-            "TPM": {
-                "colores": {
-                    "Funda Lavable | Wengue TPM": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-tpmWEN-foam" },
-                            "Queen": { "sku": "C2-Q-tpmWEN-foam" },
-                            "Doble": { "sku": "C2-F-tpmWEN-foam" },
-                            "Semidoble": { "sku": "C2-TF-tpmWEN-foam" },
-                            "Sencillo": { "sku": "C2-T-tpmWEN-foam" }
-                        }
-                    },
-                    "Funda Lavable | Natural TPM": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-tpmNAT-foam" },
-                            "Queen": { "sku": "C2-Q-tpmNAT-foam" },
-                            "Doble": { "sku": "C2-F-tpmNAT-foam" },
-                            "Semidoble": { "sku": "C2-TF-tpmNAT-foam" },
-                            "Sencillo": { "sku": "C2-T-tpmNAT-foam" }
-                        }
-                    },
-                    "Funda Lavable | Caoba TPM": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-tpmCAO-foam" },
-                            "Queen": { "sku": "C2-Q-tpmCAO-foam" },
-                            "Doble": { "sku": "C2-F-tpmCAO-foam" },
-                            "Semidoble": { "sku": "C2-TF-tpmCAO-foam" },
-                            "Sencillo": { "sku": "C2-T-tpmCAO-foam" }
-                        }
-                    }
-                }
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoGRI-casEU-M",
+              },
+              Queen: {
+                sku: "C3-Q-leoGRI-casEU-M",
+              },
+              Doble: {
+                sku: "C3-F-leoGRI-casEU-M",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoGRI-casEU-M",
+              },
+              Sencillo: {
+                sku: "C3-T-leoGRI-casEU-M",
+              },
             },
-            "camaNidoJr": {
-                "colores": {
-                    "Funda Lavable | Gris Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnjunS2GRI-foam" },
-                            "Semidoble": { "sku": "TF-cnjunS2GRI-foam" },
-                            "Sencillo": { "sku": "T-cnjunS2GRI-foam" }
-                        }
-                    },
-                    "Funda Lavable | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnjunS1CAF-foam" },
-                            "Semidoble": { "sku": "TF-cnjunS1CAF-foam" },
-                            "Sencillo": { "sku": "T-cnjunS1CAF-foam" }
-                        }
-                    },
-                    "Funda Lavable | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnjunS1NEG-foam" },
-                            "Semidoble": { "sku": "TF-cnjunS1NEG-foam" },
-                            "Sencillo": { "sku": "T-cnjunS1NEG-foam" }
-                        }
-                    }
-                }
+          },
+          "Clásico | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoBEI-casEU",
+              },
+              Queen: {
+                sku: "C3-Q-leoBEI-casEU",
+              },
+              Doble: {
+                sku: "C3-F-leoBEI-casEU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoBEI-casEU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoBEI-casEU",
+              },
             },
-            "camaAngieNido": {
-                "colores": {
-                    "Funda Lavable | Gris Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnangS2GRI-foam" },
-                            "Semidoble": { "sku": "TF-cnangS2GRI-foam" },
-                            "Sencillo": { "sku": "T-cnangS2GRI-foam" }
-                        }
-                    },
-                    "Funda Lavable | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnangS1CAF-foam" },
-                            "Semidoble": { "sku": "TF-cnangS1CAF-foam" },
-                            "Sencillo": { "sku": "T-cnangS1CAF-foam" }
-                        }
-                    },
-                    "Funda Lavable | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnangS1NEG-foam" },
-                            "Semidoble": { "sku": "TF-cnangS1NEG-foam" },
-                            "Sencillo": { "sku": "T-cnangS1NEG-foam" }
-                        }
-                    }
-                }
-            }
-        }
+          },
+          "Clásico | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoCAF-casEU",
+              },
+              Queen: {
+                sku: "C3-Q-leoCAF-casEU",
+              },
+              Doble: {
+                sku: "C3-F-leoCAF-casEU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoCAF-casEU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoCAF-casEU",
+              },
+            },
+          },
+          "Clásico | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoNEG-casEU",
+              },
+              Queen: {
+                sku: "C3-Q-leoNEG-casEU",
+              },
+              Doble: {
+                sku: "C3-F-leoNEG-casEU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoNEG-casEU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoNEG-casEU",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C3-K-leoGRI-casEU",
+              },
+              Queen: {
+                sku: "C3-Q-leoGRI-casEU",
+              },
+              Doble: {
+                sku: "C3-F-leoGRI-casEU",
+              },
+              Semidoble: {
+                sku: "C3-TF-leoGRI-casEU",
+              },
+              Sencillo: {
+                sku: "C3-T-leoGRI-casEU",
+              },
+            },
+          },
+        },
+      },
+      "euro_camaLeo almohada": {
+        colores: {
+          "Negro | Beige Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoBEI-casEU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoBEI-casEU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoBEI-casEU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoBEI-casEU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoBEI-casEU-M",
+              },
+            },
+          },
+          "Negro | Café Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoCAF-casEU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoCAF-casEU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoCAF-casEU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoCAF-casEU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoCAF-casEU-M",
+              },
+            },
+          },
+          "Negro | Negro Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoNEG-casEU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoNEG-casEU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoNEG-casEU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoNEG-casEU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoNEG-casEU-M",
+              },
+            },
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-leoGRI-casEU-M",
+              },
+              Queen: {
+                sku: "C2-Q-leoGRI-casEU-M",
+              },
+              Doble: {
+                sku: "C2-F-leoGRI-casEU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-leoGRI-casEU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-leoGRI-casEU-M",
+              },
+            },
+          },
+        },
+      },
+      euro_firenze: {
+        colores: {
+          "Negro | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-casEU-M",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-casEU-M",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-casEU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-casEU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-casEU-M",
+              },
+            },
+          },
+          "Negro | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-casEU-M",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-casEU-M",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-casEU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-casEU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-casEU-M",
+              },
+            },
+          },
+          "Negro | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-casEU-M",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-casEU-M",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-casEU-M",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-casEU-M",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-casEU-M",
+              },
+            },
+          },
+          "Clásico | Café Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3CAF-casEU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3CAF-casEU",
+              },
+              Doble: {
+                sku: "C2-F-firS3CAF-casEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3CAF-casEU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3CAF-casEU",
+              },
+            },
+          },
+          "Clásico | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS3GRIOSC-casEU",
+              },
+              Queen: {
+                sku: "C2-Q-firS3GRIOSC-casEU",
+              },
+              Doble: {
+                sku: "C2-F-firS3GRIOSC-casEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS3GRIOSC-casEU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS3GRIOSC-casEU",
+              },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              King: {
+                sku: "C2-K-firS2GRI-casEU",
+              },
+              Queen: {
+                sku: "C2-Q-firS2GRI-casEU",
+              },
+              Doble: {
+                sku: "C2-F-firS2GRI-casEU",
+              },
+              Semidoble: {
+                sku: "C2-TF-firS2GRI-casEU",
+              },
+              Sencillo: {
+                sku: "C2-T-firS2GRI-casEU",
+              },
+            },
+          },
+        },
+      },
+      euro_TPM: {
+        colores: {
+          "Negro | Wengue TPM": {
+            medidas: {
+              King: { sku: "C2-K-tpmWEN-casEU-M" },
+              Queen: { sku: "C2-Q-tpmWEN-casEU-M" },
+              Doble: { sku: "C2-F-tpmWEN-casEU-M" },
+              Semidoble: { sku: "C2-TF-tpmWEN-casEU-M" },
+              Sencillo: { sku: "C2-T-tpmWEN-casEU-M" },
+            },
+          },
+          "Negro | Natural TPM": {
+            medidas: {
+              King: { sku: "C2-K-tpmNAT-casEU-M" },
+              Queen: { sku: "C2-Q-tpmNAT-casEU-M" },
+              Doble: { sku: "C2-F-tpmNAT-casEU-M" },
+              Semidoble: { sku: "C2-TF-tpmNAT-casEU-M" },
+              Sencillo: { sku: "C2-T-tpmNAT-casEU-M" },
+            },
+          },
+          "Negro | Caoba TPM": {
+            medidas: {
+              King: { sku: "C2-K-tpmCAO-casEU-M" },
+              Queen: { sku: "C2-Q-tpmCAO-casEU-M" },
+              Doble: { sku: "C2-F-tpmCAO-casEU-M" },
+              Semidoble: { sku: "C2-TF-tpmCAO-casEU-M" },
+              Sencillo: { sku: "C2-T-tpmCAO-casEU-M" },
+            },
+          },
+          "Clásico | Wengue TPM": {
+            medidas: {
+              King: { sku: "C2-K-tpmWEN-casEU" },
+              Queen: { sku: "C2-Q-tpmWEN-casEU" },
+              Doble: { sku: "C2-F-tpmWEN-casEU" },
+              Semidoble: { sku: "C2-TF-tpmWEN-casEU" },
+              Sencillo: { sku: "C2-T-tpmWEN-casEU" },
+            },
+          },
+          "Clásico | Natural TPM": {
+            medidas: {
+              King: { sku: "C2-K-tpmNAT-casEU" },
+              Queen: { sku: "C2-Q-tpmNAT-casEU" },
+              Doble: { sku: "C2-F-tpmNAT-casEU" },
+              Semidoble: { sku: "C2-TF-tpmNAT-casEU" },
+              Sencillo: { sku: "C2-T-tpmNAT-casEU" },
+            },
+          },
+          "Clásico | Caoba TPM": {
+            medidas: {
+              King: { sku: "C2-K-tpmCAO-casEU" },
+              Queen: { sku: "C2-Q-tpmCAO-casEU" },
+              Doble: { sku: "C2-F-tpmCAO-casEU" },
+              Semidoble: { sku: "C2-TF-tpmCAO-casEU" },
+              Sencillo: { sku: "C2-T-tpmCAO-casEU" },
+            },
+          },
+        },
+      },
+      euro_nidoJr: {
+        colores: {
+          "Negro | Gris Tela": {
+            medidas: {
+              Doble: { sku: "F-cnjunS2GRI-casEU-M" },
+              Semidoble: { sku: "TF-cnjunS2GRI-casEU-M" },
+              Sencillo: { sku: "T-cnjunS2GRI-casEU-M" },
+            },
+          },
+          "Negro | Café Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnjunS1CAF-casEU-M" },
+              Semidoble: { sku: "TF-cnjunS1CAF-casEU-M" },
+              Sencillo: { sku: "T-cnjunS1CAF-casEU-M" },
+            },
+          },
+          "Negro | Negro Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnjunS1NEG-casEU-M" },
+              Semidoble: { sku: "TF-cnjunS1NEG-casEU-M" },
+              Sencillo: { sku: "T-cnjunS1NEG-casEU-M" },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              Doble: { sku: "F-cnjunS2GRI-casEU" },
+              Semidoble: { sku: "TF-cnjunS2GRI-casEU" },
+              Sencillo: { sku: "T-cnjunS2GRI-casEU" },
+            },
+          },
+          "Clásico | Café Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnjunS1CAF-casEU" },
+              Semidoble: { sku: "TF-cnjunS1CAF-casEU" },
+              Sencillo: { sku: "T-cnjunS1CAF-casEU" },
+            },
+          },
+          "Clásico | Negro Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnjunS1NEG-casEU" },
+              Semidoble: { sku: "TF-cnjunS1NEG-casEU" },
+              Sencillo: { sku: "T-cnjunS1NEG-casEU" },
+            },
+          },
+        },
+      },
+      euro_nidoAngie: {
+        colores: {
+          "Negro | Gris Tela": {
+            medidas: {
+              Doble: { sku: "F-cnangS2GRI-casEU-M" },
+              Semidoble: { sku: "TF-cnangS2GRI-casEU-M" },
+              Sencillo: { sku: "T-cnangS2GRI-casEU-M" },
+            },
+          },
+          "Negro | Café Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnangS1CAF-casEU-M" },
+              Semidoble: { sku: "TF-cnangS1CAF-casEU-M" },
+              Sencillo: { sku: "T-cnangS1CAF-casEU-M" },
+            },
+          },
+          "Negro | Negro Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnangS1NEG-casEU-M" },
+              Semidoble: { sku: "TF-cnangS1NEG-casEU-M" },
+              Sencillo: { sku: "T-cnangS1NEG-casEU-M" },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              Doble: { sku: "F-cnangS2GRI-casEU" },
+              Semidoble: { sku: "TF-cnangS2GRI-casEU" },
+              Sencillo: { sku: "T-cnangS2GRI-casEU" },
+            },
+          },
+          "Clásico | Café Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnangS1CAF-casEU" },
+              Semidoble: { sku: "TF-cnangS1CAF-casEU" },
+              Sencillo: { sku: "T-cnangS1CAF-casEU" },
+            },
+          },
+          "Clásico | Negro Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnangS1NEG-casEU" },
+              Semidoble: { sku: "TF-cnangS1NEG-casEU" },
+              Sencillo: { sku: "T-cnangS1NEG-casEU" },
+            },
+          },
+        },
+      },
+    },
+  },
+
+  Foampack: {
+    colchones: {
+      Standard: {
+        colores: {
+          clasico: {
+            medidas: {
+              Sencillo: {
+                sku: "7709319142649",
+              },
+              Semidoble: {
+                sku: "7709319142694",
+              },
+              Doble: {
+                sku: "7709319142670",
+              },
+              Queen: {
+                sku: "7709319142618",
+              },
+              King: {
+                sku: "7709319142601",
+              },
+            },
+          },
+        },
+      },
     },
 
-    "Casata": {
-        "colchones": {
-            "Euro U": {
-                "clasico": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "77018588102807"
-                            },
-                            "Semidoble": {
-                                "sku": "77018588102817"
-                            },
-                            "Doble": {
-                                "sku": "77018588102827"
-                            },
-                            "Queen": {
-                                "sku": "77018588102837"
-                            },
-                            "King": {
-                                "sku": "77018588102847"
-                            }
-                        }
-                    }
-
-                },
-                "Mohnblatt Negro": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "77018588103107"
-                            },
-                            "Semidoble": {
-                                "sku": "77018588103117"
-                            },
-                            "Doble": {
-                                "sku": "77018588103127"
-                            },
-                            "Queen": {
-                                "sku": "77018588103137"
-                            },
-                            "King": {
-                                "sku": "77018588103147"
-                            }
-                        }
-                    }
-                }
+    combos: {
+      "basecama almohada": {
+        colores: {
+          "Funda Lavable | Beige Tela": {
+            medidas: {
+              King: { sku: "C3-K-leoBEI-foam" },
+              Queen: { sku: "C3-Q-leoBEI-foam" },
+              Doble: { sku: "C3-F-leoBEI-foam" },
+              Semidoble: { sku: "C3-TF-leoBEI-foam" },
+              Sencillo: { sku: "C3-T-leoBEI-foam" },
             },
-            "Euro": {
-                "clasico": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "77018588102857"
-                            },
-                            "Semidoble": {
-                                "sku": "77018588102867"
-                            },
-                            "Doble": {
-                                "sku": "77018588102877"
-                            },
-                            "Queen": {
-                                "sku": "77018588102887"
-                            },
-                            "King": {
-                                "sku": "77018588102897"
-                            }
-                        }
-                    }
-
-                },
-                "Mohnblatt Negro": {
-                    "medidas": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "77018588103157"
-                            },
-                            "Semidoble": {
-                                "sku": "77018588103167"
-                            },
-                            "Doble": {
-                                "sku": "77018588103177"
-                            },
-                            "Queen": {
-                                "sku": "77018588103187"
-                            },
-                            "King": {
-                                "sku": "77018588103197"
-                            }
-                        }
-
-                    }
-                }
-            }
+          },
+          "Funda Lavable | Café Tela": {
+            medidas: {
+              King: { sku: "C3-K-leoCAF-foam" },
+              Queen: { sku: "C3-Q-leoCAF-foam" },
+              Doble: { sku: "C3-F-leoCAF-foam" },
+              Semidoble: { sku: "C3-TF-leoCAF-foam" },
+              Sencillo: { sku: "C3-T-leoCAF-foam" },
+            },
+          },
+          "Funda Lavable | Negro Tela": {
+            medidas: {
+              King: { sku: "C3-K-leoNEG-foam" },
+              Queen: { sku: "C3-Q-leoNEG-foam" },
+              Doble: { sku: "C3-F-leoNEG-foam" },
+              Semidoble: { sku: "C3-TF-leoNEG-foam" },
+              Sencillo: { sku: "C3-T-leoNEG-foam" },
+            },
+          },
+          "Funda Lavable | Gris Tela": {
+            medidas: {
+              King: { sku: "C3-K-leoGRI-foam" },
+              Queen: { sku: "C3-Q-leoGRI-foam" },
+              Doble: { sku: "C3-F-leoGRI-foam" },
+              Semidoble: { sku: "C3-TF-leoGRI-foam" },
+              Sencillo: { sku: "C3-T-leoGRI-foam" },
+            },
+          },
         },
-        "combos": {
-            "EuroU baseCama Almohada": {
-                "colores": {
-                    "Negro Gris | Beige Tela": {
-                        "medidas": {
-                            "King": { "sku": "C3-K-leoBEI-caspack" },
-                            "Queen": { "sku": "C3-Q-leoBEI-caspack" },
-                            "Doble": { "sku": "C3-F-leoBEI-caspack" },
-                            "Semidoble": { "sku": "C3-TF-leoBEI-caspack" },
-                            "Sencillo": { "sku": "C3-T-leoBEI-caspack" }
-                        }
-                    },
-                    "Negro Gris | Café Tela": {
-                        "medidas": {
-                            "King": { "sku": "C3-K-leoCAF-caspack" },
-                            "Queen": { "sku": "C3-Q-leoCAF-caspack" },
-                            "Doble": { "sku": "C3-F-leoCAF-caspack" },
-                            "Semidoble": { "sku": "C3-TF-leoCAF-caspack" },
-                            "Sencillo": { "sku": "C3-T-leoCAF-caspack" }
-                        }
-                    },
-                    "Negro Gris | Negro Tela": {
-                        "medidas": {
-                            "King": { "sku": "C3-K-leoNEG-caspack" },
-                            "Queen": { "sku": "C3-Q-leoNEG-caspack" },
-                            "Doble": { "sku": "C3-F-leoNEG-caspack" },
-                            "Semidoble": { "sku": "C3-TF-leoNEG-caspack" },
-                            "Sencillo": { "sku": "C3-T-leoNEG-caspack" }
-                        }
-                    },
-                    "Negro Gris | Gris Tela": {
-                        "medidas": {
-                            "King": { "sku": "C3-K-leoGRI-caspack" },
-                            "Queen": { "sku": "C3-Q-leoGRI-caspack" },
-                            "Doble": { "sku": "C3-F-leoGRI-caspack" },
-                            "Semidoble": { "sku": "C3-TF-leoGRI-caspack" },
-                            "Sencillo": { "sku": "C3-T-leoGRI-caspack" }
-                        }
-                    }
-                }
+      },
+      "camaLeo almohada": {
+        colores: {
+          "Funda Lavable | Beige Tela": {
+            medidas: {
+              King: { sku: "C2-K-leoBEI-foam" },
+              Queen: { sku: "C2-Q-leoBEI-foam" },
+              Doble: { sku: "C2-F-leoBEI-foam" },
+              Semidoble: { sku: "C2-TF-leoBEI-foam" },
+              Sencillo: { sku: "C2-T-leoBEI-foam" },
+            },
+          },
+          "Funda Lavable | Café Tela": {
+            medidas: {
+              King: { sku: "C2-K-leoCAF-foam" },
+              Queen: { sku: "C2-Q-leoCAF-foam" },
+              Doble: { sku: "C2-F-leoCAF-foam" },
+              Semidoble: { sku: "C2-TF-leoCAF-foam" },
+              Sencillo: { sku: "C2-T-leoCAF-foam" },
+            },
+          },
+          "Funda Lavable | Negro Tela": {
+            medidas: {
+              King: { sku: "C2-K-leoNEG-foam" },
+              Queen: { sku: "C2-Q-leoNEG-foam" },
+              Doble: { sku: "C2-F-leoNEG-foam" },
+              Semidoble: { sku: "C2-TF-leoNEG-foam" },
+              Sencillo: { sku: "C2-T-leoNEG-foam" },
+            },
+          },
+          "Funda Lavable | Gris Tela": {
+            medidas: {
+              King: { sku: "C2-K-leoGRI-foam" },
+              Queen: { sku: "C2-Q-leoGRI-foam" },
+              Doble: { sku: "C2-F-leoGRI-foam" },
+              Semidoble: { sku: "C2-TF-leoGRI-foam" },
+              Sencillo: { sku: "C2-T-leoGRI-foam" },
+            },
+          },
+        },
+      },
+      firenze: {
+        colores: {
+          "Funda Lavable | Café Antifluidos": {
+            medidas: {
+              King: { sku: "C2-K-firS3CAF-foam" },
+              Queen: { sku: "C2-Q-firS3CAF-foam" },
+              Doble: { sku: "C2-F-firS3CAF-foam" },
+              Semidoble: { sku: "C2-TF-firS3CAF-foam" },
+              Sencillo: { sku: "C2-T-firS3CAF-foam" },
+            },
+          },
+          "Funda Lavable | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: { sku: "C2-K-firS3GRIOSC-foam" },
+              Queen: { sku: "C2-Q-firS3GRIOSC-foam" },
+              Doble: { sku: "C2-F-firS3GRIOSC-foam" },
+              Semidoble: { sku: "C2-TF-firS3GRIOSC-foam" },
+              Sencillo: { sku: "C2-T-firS3GRIOSC-foam" },
+            },
+          },
+          "Funda Lavable | Gris Tela": {
+            medidas: {
+              King: { sku: "C2-K-firS2GRI-foam" },
+              Queen: { sku: "C2-Q-firS2GRI-foam" },
+              Doble: { sku: "C2-F-firS2GRI-foam" },
+              Semidoble: { sku: "C2-TF-firS2GRI-foam" },
+              Sencillo: { sku: "C2-T-firS2GRI-foam" },
+            },
+          },
+        },
+      },
+      TPM: {
+        colores: {
+          "Funda Lavable | Wengue TPM": {
+            medidas: {
+              King: { sku: "C2-K-tpmWEN-foam" },
+              Queen: { sku: "C2-Q-tpmWEN-foam" },
+              Doble: { sku: "C2-F-tpmWEN-foam" },
+              Semidoble: { sku: "C2-TF-tpmWEN-foam" },
+              Sencillo: { sku: "C2-T-tpmWEN-foam" },
+            },
+          },
+          "Funda Lavable | Natural TPM": {
+            medidas: {
+              King: { sku: "C2-K-tpmNAT-foam" },
+              Queen: { sku: "C2-Q-tpmNAT-foam" },
+              Doble: { sku: "C2-F-tpmNAT-foam" },
+              Semidoble: { sku: "C2-TF-tpmNAT-foam" },
+              Sencillo: { sku: "C2-T-tpmNAT-foam" },
+            },
+          },
+          "Funda Lavable | Caoba TPM": {
+            medidas: {
+              King: { sku: "C2-K-tpmCAO-foam" },
+              Queen: { sku: "C2-Q-tpmCAO-foam" },
+              Doble: { sku: "C2-F-tpmCAO-foam" },
+              Semidoble: { sku: "C2-TF-tpmCAO-foam" },
+              Sencillo: { sku: "C2-T-tpmCAO-foam" },
+            },
+          },
+        },
+      },
+      camaNidoJr: {
+        colores: {
+          "Funda Lavable | Gris Tela": {
+            medidas: {
+              Doble: { sku: "F-cnjunS2GRI-foam" },
+              Semidoble: { sku: "TF-cnjunS2GRI-foam" },
+              Sencillo: { sku: "T-cnjunS2GRI-foam" },
+            },
+          },
+          "Funda Lavable | Café Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnjunS1CAF-foam" },
+              Semidoble: { sku: "TF-cnjunS1CAF-foam" },
+              Sencillo: { sku: "T-cnjunS1CAF-foam" },
+            },
+          },
+          "Funda Lavable | Negro Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnjunS1NEG-foam" },
+              Semidoble: { sku: "TF-cnjunS1NEG-foam" },
+              Sencillo: { sku: "T-cnjunS1NEG-foam" },
+            },
+          },
+        },
+      },
+      camaAngieNido: {
+        colores: {
+          "Funda Lavable | Gris Tela": {
+            medidas: {
+              Doble: { sku: "F-cnangS2GRI-foam" },
+              Semidoble: { sku: "TF-cnangS2GRI-foam" },
+              Sencillo: { sku: "T-cnangS2GRI-foam" },
+            },
+          },
+          "Funda Lavable | Café Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnangS1CAF-foam" },
+              Semidoble: { sku: "TF-cnangS1CAF-foam" },
+              Sencillo: { sku: "T-cnangS1CAF-foam" },
+            },
+          },
+          "Funda Lavable | Negro Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnangS1NEG-foam" },
+              Semidoble: { sku: "TF-cnangS1NEG-foam" },
+              Sencillo: { sku: "T-cnangS1NEG-foam" },
+            },
+          },
+        },
+      },
+    },
+  },
 
+  Casata: {
+    colchones: {
+      "Euro U": {
+        clasico: {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "77018588102807",
+              },
+              Semidoble: {
+                sku: "77018588102817",
+              },
+              Doble: {
+                sku: "77018588102827",
+              },
+              Queen: {
+                sku: "77018588102837",
+              },
+              King: {
+                sku: "77018588102847",
+              },
             },
-            "EuroU camaLeo almohada": {
-                "colores": {
-                    "Negro Gris | Beige Tela": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-leoBEI-caspack" },
-                            "Queen": { "sku": "C2-Q-leoBEI-caspack" },
-                            "Doble": { "sku": "C2-F-leoBEI-caspack" },
-                            "Semidoble": { "sku": "C2-TF-leoBEI-caspack" },
-                            "Sencillo": { "sku": "C2-T-leoBEI-caspack" }
-                        }
-                    },
-                    "Negro Gris | Café Tela": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-leoCAF-caspack" },
-                            "Queen": { "sku": "C2-Q-leoCAF-caspack" },
-                            "Doble": { "sku": "C2-F-leoCAF-caspack" },
-                            "Semidoble": { "sku": "C2-TF-leoCAF-caspack" },
-                            "Sencillo": { "sku": "C2-T-leoCAF-caspack" }
-                        }
-                    },
-                    "Negro Gris | Negro Tela": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-leoNEG-caspack" },
-                            "Queen": { "sku": "C2-Q-leoNEG-caspack" },
-                            "Doble": { "sku": "C2-F-leoNEG-caspack" },
-                            "Semidoble": { "sku": "C2-TF-leoNEG-caspack" },
-                            "Sencillo": { "sku": "C2-T-leoNEG-caspack" }
-                        }
-                    },
-                    "Negro Gris | Gris Tela": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-leoGRI-caspack" },
-                            "Queen": { "sku": "C2-Q-leoGRI-caspack" },
-                            "Doble": { "sku": "C2-F-leoGRI-caspack" },
-                            "Semidoble": { "sku": "C2-TF-leoGRI-caspack" },
-                            "Sencillo": { "sku": "C2-T-leoGRI-caspack" }
-                        }
-                    }
-                }
+          },
+        },
+        "Mohnblatt Negro": {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "77018588103107",
+              },
+              Semidoble: {
+                sku: "77018588103117",
+              },
+              Doble: {
+                sku: "77018588103127",
+              },
+              Queen: {
+                sku: "77018588103137",
+              },
+              King: {
+                sku: "77018588103147",
+              },
             },
-            "EuroU firenze": {
-                "colores": {
-                    "Negro Gris | Café Antifluidos": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-firS3CAF-caspack" },
-                            "Queen": { "sku": "C2-Q-firS3CAF-caspack" },
-                            "Doble": { "sku": "C2-F-firS3CAF-caspack" },
-                            "Semidoble": { "sku": "C2-TF-firS3CAF-caspack" },
-                            "Sencillo": { "sku": "C2-T-firS3CAF-caspack" }
-                        }
-                    },
-                    "Negro Gris | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-firS3GRIOSC-caspack" },
-                            "Queen": { "sku": "C2-Q-firS3GRIOSC-caspack" },
-                            "Doble": { "sku": "C2-F-firS3GRIOSC-caspack" },
-                            "Semidoble": { "sku": "C2-TF-firS3GRIOSC-caspack" },
-                            "Sencillo": { "sku": "C2-T-firS3GRIOSC-caspack" }
-                        }
-                    },
-                    "Negro Gris | Gris Tela": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-firS2GRI-caspack" },
-                            "Queen": { "sku": "C2-Q-firS2GRI-caspack" },
-                            "Doble": { "sku": "C2-F-firS2GRI-caspack" },
-                            "Semidoble": { "sku": "C2-TF-firS2GRI-caspack" },
-                            "Sencillo": { "sku": "C2-T-firS2GRI-caspack" }
-                        }
-                    }
-                }
+          },
+        },
+      },
+      Euro: {
+        clasico: {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "77018588102857",
+              },
+              Semidoble: {
+                sku: "77018588102867",
+              },
+              Doble: {
+                sku: "77018588102877",
+              },
+              Queen: {
+                sku: "77018588102887",
+              },
+              King: {
+                sku: "77018588102897",
+              },
             },
-            "EuroU TPM": {
-                "colores": {
-                    "Negro Gris | Wengue TPM": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-tpmWEN-caspack" },
-                            "Queen": { "sku": "C2-Q-tpmWEN-caspack" },
-                            "Doble": { "sku": "C2-F-tpmWEN-caspack" },
-                            "Semidoble": { "sku": "C2-TF-tpmWEN-caspack" },
-                            "Sencillo": { "sku": "C2-T-tpmWEN-caspack" }
-                        }
-                    },
-                    "Negro Gris | Natural TPM": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-tpmNAT-caspack" },
-                            "Queen": { "sku": "C2-Q-tpmNAT-caspack" },
-                            "Doble": { "sku": "C2-F-tpmNAT-caspack" },
-                            "Semidoble": { "sku": "C2-TF-tpmNAT-caspack" },
-                            "Sencillo": { "sku": "C2-T-tpmNAT-caspack" }
-                        }
-                    },
-                    "Negro Gris | Caoba TPM": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-tpmCAO-caspack" },
-                            "Queen": { "sku": "C2-Q-tpmCAO-caspack" },
-                            "Doble": { "sku": "C2-F-tpmCAO-caspack" },
-                            "Semidoble": { "sku": "C2-TF-tpmCAO-caspack" },
-                            "Sencillo": { "sku": "C2-T-tpmCAO-caspack" }
-                        }
-                    }
-                }
+          },
+        },
+        "Mohnblatt Negro": {
+          medidas: {
+            medidas: {
+              Sencillo: {
+                sku: "77018588103157",
+              },
+              Semidoble: {
+                sku: "77018588103167",
+              },
+              Doble: {
+                sku: "77018588103177",
+              },
+              Queen: {
+                sku: "77018588103187",
+              },
+              King: {
+                sku: "77018588103197",
+              },
             },
-            "EuroU nidoJr": {
-                "colores": {
-                    "Negro Gris | Gris Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnjunS2GRI-caspack" },
-                            "Semidoble": { "sku": "TF-cnjunS2GRI-caspack" },
-                            "Sencillo": { "sku": "T-cnjunS2GRI-caspack" }
-                        }
-                    },
-                    "Negro Gris | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnjunS1CAF-caspack" },
-                            "Semidoble": { "sku": "TF-cnjunS1CAF-caspack" },
-                            "Sencillo": { "sku": "T-cnjunS1CAF-caspack" }
-                        }
-                    },
-                    "Negro Gris | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnjunS1NEG-caspack" },
-                            "Semidoble": { "sku": "TF-cnjunS1NEG-caspack" },
-                            "Sencillo": { "sku": "T-cnjunS1NEG-caspack" }
-                        }
-                    }
-                }
+          },
+        },
+      },
+    },
+    combos: {
+      "EuroU baseCama Almohada": {
+        colores: {
+          "Negro Gris | Beige Tela": {
+            medidas: {
+              King: { sku: "C3-K-leoBEI-caspack" },
+              Queen: { sku: "C3-Q-leoBEI-caspack" },
+              Doble: { sku: "C3-F-leoBEI-caspack" },
+              Semidoble: { sku: "C3-TF-leoBEI-caspack" },
+              Sencillo: { sku: "C3-T-leoBEI-caspack" },
             },
-            "EuroU nidoAnige": {
-                "colores": {
-                    "Negro Gris | Gris Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnangS2GRI-caspack" },
-                            "Semidoble": { "sku": "TF-cnangS2GRI-caspack" },
-                            "Sencillo": { "sku": "T-cnangS2GRI-caspack" }
-                        }
-                    },
-                    "Negro Gris | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnangS1CAF-caspack" },
-                            "Semidoble": { "sku": "TF-cnangS1CAF-caspack" },
-                            "Sencillo": { "sku": "T-cnangS1CAF-caspack" }
-                        }
-                    },
-                    "Negro Gris | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnangS1NEG-caspack" },
-                            "Semidoble": { "sku": "TF-cnangS1NEG-caspack" },
-                            "Sencillo": { "sku": "T-cnangS1NEG-caspack" }
-                        }
-                    }
-                }
-            }
-        }
+          },
+          "Negro Gris | Café Tela": {
+            medidas: {
+              King: { sku: "C3-K-leoCAF-caspack" },
+              Queen: { sku: "C3-Q-leoCAF-caspack" },
+              Doble: { sku: "C3-F-leoCAF-caspack" },
+              Semidoble: { sku: "C3-TF-leoCAF-caspack" },
+              Sencillo: { sku: "C3-T-leoCAF-caspack" },
+            },
+          },
+          "Negro Gris | Negro Tela": {
+            medidas: {
+              King: { sku: "C3-K-leoNEG-caspack" },
+              Queen: { sku: "C3-Q-leoNEG-caspack" },
+              Doble: { sku: "C3-F-leoNEG-caspack" },
+              Semidoble: { sku: "C3-TF-leoNEG-caspack" },
+              Sencillo: { sku: "C3-T-leoNEG-caspack" },
+            },
+          },
+          "Negro Gris | Gris Tela": {
+            medidas: {
+              King: { sku: "C3-K-leoGRI-caspack" },
+              Queen: { sku: "C3-Q-leoGRI-caspack" },
+              Doble: { sku: "C3-F-leoGRI-caspack" },
+              Semidoble: { sku: "C3-TF-leoGRI-caspack" },
+              Sencillo: { sku: "C3-T-leoGRI-caspack" },
+            },
+          },
+        },
+      },
+      "EuroU camaLeo almohada": {
+        colores: {
+          "Negro Gris | Beige Tela": {
+            medidas: {
+              King: { sku: "C2-K-leoBEI-caspack" },
+              Queen: { sku: "C2-Q-leoBEI-caspack" },
+              Doble: { sku: "C2-F-leoBEI-caspack" },
+              Semidoble: { sku: "C2-TF-leoBEI-caspack" },
+              Sencillo: { sku: "C2-T-leoBEI-caspack" },
+            },
+          },
+          "Negro Gris | Café Tela": {
+            medidas: {
+              King: { sku: "C2-K-leoCAF-caspack" },
+              Queen: { sku: "C2-Q-leoCAF-caspack" },
+              Doble: { sku: "C2-F-leoCAF-caspack" },
+              Semidoble: { sku: "C2-TF-leoCAF-caspack" },
+              Sencillo: { sku: "C2-T-leoCAF-caspack" },
+            },
+          },
+          "Negro Gris | Negro Tela": {
+            medidas: {
+              King: { sku: "C2-K-leoNEG-caspack" },
+              Queen: { sku: "C2-Q-leoNEG-caspack" },
+              Doble: { sku: "C2-F-leoNEG-caspack" },
+              Semidoble: { sku: "C2-TF-leoNEG-caspack" },
+              Sencillo: { sku: "C2-T-leoNEG-caspack" },
+            },
+          },
+          "Negro Gris | Gris Tela": {
+            medidas: {
+              King: { sku: "C2-K-leoGRI-caspack" },
+              Queen: { sku: "C2-Q-leoGRI-caspack" },
+              Doble: { sku: "C2-F-leoGRI-caspack" },
+              Semidoble: { sku: "C2-TF-leoGRI-caspack" },
+              Sencillo: { sku: "C2-T-leoGRI-caspack" },
+            },
+          },
+        },
+      },
+      "EuroU firenze": {
+        colores: {
+          "Negro Gris | Café Antifluidos": {
+            medidas: {
+              King: { sku: "C2-K-firS3CAF-caspack" },
+              Queen: { sku: "C2-Q-firS3CAF-caspack" },
+              Doble: { sku: "C2-F-firS3CAF-caspack" },
+              Semidoble: { sku: "C2-TF-firS3CAF-caspack" },
+              Sencillo: { sku: "C2-T-firS3CAF-caspack" },
+            },
+          },
+          "Negro Gris | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: { sku: "C2-K-firS3GRIOSC-caspack" },
+              Queen: { sku: "C2-Q-firS3GRIOSC-caspack" },
+              Doble: { sku: "C2-F-firS3GRIOSC-caspack" },
+              Semidoble: { sku: "C2-TF-firS3GRIOSC-caspack" },
+              Sencillo: { sku: "C2-T-firS3GRIOSC-caspack" },
+            },
+          },
+          "Negro Gris | Gris Tela": {
+            medidas: {
+              King: { sku: "C2-K-firS2GRI-caspack" },
+              Queen: { sku: "C2-Q-firS2GRI-caspack" },
+              Doble: { sku: "C2-F-firS2GRI-caspack" },
+              Semidoble: { sku: "C2-TF-firS2GRI-caspack" },
+              Sencillo: { sku: "C2-T-firS2GRI-caspack" },
+            },
+          },
+        },
+      },
+      "EuroU TPM": {
+        colores: {
+          "Negro Gris | Wengue TPM": {
+            medidas: {
+              King: { sku: "C2-K-tpmWEN-caspack" },
+              Queen: { sku: "C2-Q-tpmWEN-caspack" },
+              Doble: { sku: "C2-F-tpmWEN-caspack" },
+              Semidoble: { sku: "C2-TF-tpmWEN-caspack" },
+              Sencillo: { sku: "C2-T-tpmWEN-caspack" },
+            },
+          },
+          "Negro Gris | Natural TPM": {
+            medidas: {
+              King: { sku: "C2-K-tpmNAT-caspack" },
+              Queen: { sku: "C2-Q-tpmNAT-caspack" },
+              Doble: { sku: "C2-F-tpmNAT-caspack" },
+              Semidoble: { sku: "C2-TF-tpmNAT-caspack" },
+              Sencillo: { sku: "C2-T-tpmNAT-caspack" },
+            },
+          },
+          "Negro Gris | Caoba TPM": {
+            medidas: {
+              King: { sku: "C2-K-tpmCAO-caspack" },
+              Queen: { sku: "C2-Q-tpmCAO-caspack" },
+              Doble: { sku: "C2-F-tpmCAO-caspack" },
+              Semidoble: { sku: "C2-TF-tpmCAO-caspack" },
+              Sencillo: { sku: "C2-T-tpmCAO-caspack" },
+            },
+          },
+        },
+      },
+      "EuroU nidoJr": {
+        colores: {
+          "Negro Gris | Gris Tela": {
+            medidas: {
+              Doble: { sku: "F-cnjunS2GRI-caspack" },
+              Semidoble: { sku: "TF-cnjunS2GRI-caspack" },
+              Sencillo: { sku: "T-cnjunS2GRI-caspack" },
+            },
+          },
+          "Negro Gris | Café Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnjunS1CAF-caspack" },
+              Semidoble: { sku: "TF-cnjunS1CAF-caspack" },
+              Sencillo: { sku: "T-cnjunS1CAF-caspack" },
+            },
+          },
+          "Negro Gris | Negro Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnjunS1NEG-caspack" },
+              Semidoble: { sku: "TF-cnjunS1NEG-caspack" },
+              Sencillo: { sku: "T-cnjunS1NEG-caspack" },
+            },
+          },
+        },
+      },
+      "EuroU nidoAnige": {
+        colores: {
+          "Negro Gris | Gris Tela": {
+            medidas: {
+              Doble: { sku: "F-cnangS2GRI-caspack" },
+              Semidoble: { sku: "TF-cnangS2GRI-caspack" },
+              Sencillo: { sku: "T-cnangS2GRI-caspack" },
+            },
+          },
+          "Negro Gris | Café Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnangS1CAF-caspack" },
+              Semidoble: { sku: "TF-cnangS1CAF-caspack" },
+              Sencillo: { sku: "T-cnangS1CAF-caspack" },
+            },
+          },
+          "Negro Gris | Negro Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnangS1NEG-caspack" },
+              Semidoble: { sku: "TF-cnangS1NEG-caspack" },
+              Sencillo: { sku: "T-cnangS1NEG-caspack" },
+            },
+          },
+        },
+      },
+    },
+  },
+
+  Softpack: {
+    colchones: {
+      Standard: {
+        colores: {
+          "Banda Azul": {
+            medidas: {
+              Sencillo: {
+                sku: "77018589642289",
+              },
+              Semidoble: {
+                sku: "77018589642299",
+              },
+              Doble: {
+                sku: "77018589642309",
+              },
+              Queen: {
+                sku: "77018589642319",
+              },
+              King: {
+                sku: "77018589642329",
+              },
+            },
+          },
+        },
+      },
     },
 
-    "Softpack": {
-
-        "colchones": {
-            "Standard": {
-                "colores": {
-                    "Banda Azul": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "77018589642289"
-                            },
-                            "Semidoble": {
-                                "sku": "77018589642299"
-                            },
-                            "Doble": {
-                                "sku": "77018589642309"
-                            },
-                            "Queen": {
-                                "sku": "77018589642319"
-                            },
-                            "King": {
-                                "sku": "77018589642329"
-                            }
-                        }
-                    }
-                }
-            }
+    combos: {
+      "baseCama almohada": {
+        colores: {
+          "Banda Azul | Beige Tela": {
+            medidas: {
+              King: { sku: "C3-K-leoBEI-soft" },
+              Queen: { sku: "C3-Q-leoBEI-soft" },
+              Doble: { sku: "C3-F-leoBEI-soft" },
+              Semidoble: { sku: "C3-TF-leoBEI-soft" },
+              Sencillo: { sku: "C3-T-leoBEI-soft" },
+            },
+          },
+          "Banda Azul | Café Tela": {
+            medidas: {
+              King: { sku: "C3-K-leoCAF-soft" },
+              Queen: { sku: "C3-Q-leoCAF-soft" },
+              Doble: { sku: "C3-F-leoCAF-soft" },
+              Semidoble: { sku: "C3-TF-leoCAF-soft" },
+              Sencillo: { sku: "C3-T-leoCAF-soft" },
+            },
+          },
+          "Banda Azul | Negro Tela": {
+            medidas: {
+              King: { sku: "C3-K-leoNEG-soft" },
+              Queen: { sku: "C3-Q-leoNEG-soft" },
+              Doble: { sku: "C3-F-leoNEG-soft" },
+              Semidoble: { sku: "C3-TF-leoNEG-soft" },
+              Sencillo: { sku: "C3-T-leoNEG-soft" },
+            },
+          },
+          "Banda Azul | Gris Tela": {
+            medidas: {
+              King: { sku: "C3-K-leoGRI-soft" },
+              Queen: { sku: "C3-Q-leoGRI-soft" },
+              Doble: { sku: "C3-F-leoGRI-soft" },
+              Semidoble: { sku: "C3-TF-leoGRI-soft" },
+              Sencillo: { sku: "C3-T-leoGRI-soft" },
+            },
+          },
         },
+      },
+      "camaLeo almohada": {
+        colores: {
+          "Banda Azul | Beige Tela": {
+            medidas: {
+              King: { sku: "C2-K-leoBEI-soft" },
+              Queen: { sku: "C2-Q-leoBEI-soft" },
+              Doble: { sku: "C2-F-leoBEI-soft" },
+              Semidoble: { sku: "C2-TF-leoBEI-soft" },
+              Sencillo: { sku: "C2-T-leoBEI-soft" },
+            },
+          },
+          "Banda Azul | Café Tela": {
+            medidas: {
+              King: { sku: "C2-K-leoCAF-soft" },
+              Queen: { sku: "C2-Q-leoCAF-soft" },
+              Doble: { sku: "C2-F-leoCAF-soft" },
+              Semidoble: { sku: "C2-TF-leoCAF-soft" },
+              Sencillo: { sku: "C2-T-leoCAF-soft" },
+            },
+          },
+          "Banda Azul | Negro Tela": {
+            medidas: {
+              King: { sku: "C2-K-leoNEG-soft" },
+              Queen: { sku: "C2-Q-leoNEG-soft" },
+              Doble: { sku: "C2-F-leoNEG-soft" },
+              Semidoble: { sku: "C2-TF-leoNEG-soft" },
+              Sencillo: { sku: "C2-T-leoNEG-soft" },
+            },
+          },
+          "Banda Azul | Gris Tela": {
+            medidas: {
+              King: { sku: "C2-K-leoGRI-soft" },
+              Queen: { sku: "C2-Q-leoGRI-soft" },
+              Doble: { sku: "C2-F-leoGRI-soft" },
+              Semidoble: { sku: "C2-TF-leoGRI-soft" },
+              Sencillo: { sku: "C2-T-leoGRI-soft" },
+            },
+          },
+        },
+      },
+      firenze: {
+        colores: {
+          "Banda Azul | Café Antifluidos": {
+            medidas: {
+              King: { sku: "C2-K-firS3CAF-soft" },
+              Queen: { sku: "C2-Q-firS3CAF-soft" },
+              Doble: { sku: "C2-F-firS3CAF-soft" },
+              Semidoble: { sku: "C2-TF-firS3CAF-soft" },
+              Sencillo: { sku: "C2-T-firS3CAF-soft" },
+            },
+          },
+          "Banda Azul | Gris Oscuro Antifluidos": {
+            medidas: {
+              King: { sku: "C2-K-firS3GRIOSC-soft" },
+              Queen: { sku: "C2-Q-firS3GRIOSC-soft" },
+              Doble: { sku: "C2-F-firS3GRIOSC-soft" },
+              Semidoble: { sku: "C2-TF-firS3GRIOSC-soft" },
+              Sencillo: { sku: "C2-T-firS3GRIOSC-soft" },
+            },
+          },
+          "Banda Azul | Gris Tela": {
+            medidas: {
+              King: { sku: "C2-K-firS2GRI-soft" },
+              Queen: { sku: "C2-Q-firS2GRI-soft" },
+              Doble: { sku: "C2-F-firS2GRI-soft" },
+              Semidoble: { sku: "C2-TF-firS2GRI-soft" },
+              Sencillo: { sku: "C2-T-firS2GRI-soft" },
+            },
+          },
+        },
+      },
+      TPM: {
+        colores: {
+          "Banda Azul | Wengue TPM": {
+            medidas: {
+              King: { sku: "C2-K-tpmWEN-soft" },
+              Queen: { sku: "C2-Q-tpmWEN-soft" },
+              Doble: { sku: "C2-F-tpmWEN-soft" },
+              Semidoble: { sku: "C2-TF-tpmWEN-soft" },
+              Sencillo: { sku: "C2-T-tpmWEN-soft" },
+            },
+          },
+          "Banda Azul | Natural TPM": {
+            medidas: {
+              King: { sku: "C2-K-tpmNAT-soft" },
+              Queen: { sku: "C2-Q-tpmNAT-soft" },
+              Doble: { sku: "C2-F-tpmNAT-soft" },
+              Semidoble: { sku: "C2-TF-tpmNAT-soft" },
+              Sencillo: { sku: "C2-T-tpmNAT-soft" },
+            },
+          },
+          "Banda Azul | Caoba TPM": {
+            medidas: {
+              King: { sku: "C2-K-tpmCAO-soft" },
+              Queen: { sku: "C2-Q-tpmCAO-soft" },
+              Doble: { sku: "C2-F-tpmCAO-soft" },
+              Semidoble: { sku: "C2-TF-tpmCAO-soft" },
+              Sencillo: { sku: "C2-T-tpmCAO-soft" },
+            },
+          },
+        },
+      },
+      nidoJr: {
+        colores: {
+          "Banda Azul | Gris Tela": {
+            medidas: {
+              Doble: { sku: "F-cnjunS2GRI-soft" },
+              Semidoble: { sku: "TF-cnjunS2GRI-soft" },
+              Sencillo: { sku: "T-cnjunS2GRI-soft" },
+            },
+          },
+          "Banda Azul | Café Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnjunS1CAF-soft" },
+              Semidoble: { sku: "TF-cnjunS1CAF-soft" },
+              Sencillo: { sku: "T-cnjunS1CAF-soft" },
+            },
+          },
+          "Banda Azul | Negro Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnjunS1NEG-soft" },
+              Semidoble: { sku: "TF-cnjunS1NEG-soft" },
+              Sencillo: { sku: "T-cnjunS1NEG-soft" },
+            },
+          },
+        },
+      },
+      nidoAngie: {
+        colores: {
+          "Banda Azul | Gris Tela": {
+            medidas: {
+              Doble: { sku: "F-cnangS2GRI-soft" },
+              Semidoble: { sku: "TF-cnangS2GRI-soft" },
+              Sencillo: { sku: "T-cnangS2GRI-soft" },
+            },
+          },
+          "Banda Azul | Café Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnangS1CAF-soft" },
+              Semidoble: { sku: "TF-cnangS1CAF-soft" },
+              Sencillo: { sku: "T-cnangS1CAF-soft" },
+            },
+          },
+          "Banda Azul | Negro Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnangS1NEG-soft" },
+              Semidoble: { sku: "TF-cnangS1NEG-soft" },
+              Sencillo: { sku: "T-cnangS1NEG-soft" },
+            },
+          },
+        },
+      },
+    },
+  },
 
-        "combos": {
-            "baseCama almohada": {
-                "colores": {
-                    "Banda Azul | Beige Tela": {
-                        "medidas": {
-                            "King": { "sku": "C3-K-leoBEI-soft" },
-                            "Queen": { "sku": "C3-Q-leoBEI-soft" },
-                            "Doble": { "sku": "C3-F-leoBEI-soft" },
-                            "Semidoble": { "sku": "C3-TF-leoBEI-soft" },
-                            "Sencillo": { "sku": "C3-T-leoBEI-soft" }
-                        }
-                    },
-                    "Banda Azul | Café Tela": {
-                        "medidas": {
-                            "King": { "sku": "C3-K-leoCAF-soft" },
-                            "Queen": { "sku": "C3-Q-leoCAF-soft" },
-                            "Doble": { "sku": "C3-F-leoCAF-soft" },
-                            "Semidoble": { "sku": "C3-TF-leoCAF-soft" },
-                            "Sencillo": { "sku": "C3-T-leoCAF-soft" }
-                        }
-                    },
-                    "Banda Azul | Negro Tela": {
-                        "medidas": {
-                            "King": { "sku": "C3-K-leoNEG-soft" },
-                            "Queen": { "sku": "C3-Q-leoNEG-soft" },
-                            "Doble": { "sku": "C3-F-leoNEG-soft" },
-                            "Semidoble": { "sku": "C3-TF-leoNEG-soft" },
-                            "Sencillo": { "sku": "C3-T-leoNEG-soft" }
-                        }
-                    },
-                    "Banda Azul | Gris Tela": {
-                        "medidas": {
-                            "King": { "sku": "C3-K-leoGRI-soft" },
-                            "Queen": { "sku": "C3-Q-leoGRI-soft" },
-                            "Doble": { "sku": "C3-F-leoGRI-soft" },
-                            "Semidoble": { "sku": "C3-TF-leoGRI-soft" },
-                            "Sencillo": { "sku": "C3-T-leoGRI-soft" }
-                        }
-                    }
-                }
+  Ecopack: {
+    colchones: {
+      Standard: {
+        colores: {
+          clasico: {
+            medidas: {
+              Sencillo: {
+                sku: "77018589642229",
+              },
+              Semidoble: {
+                sku: "77018589642239",
+              },
+              Doble: {
+                sku: "77018589642249",
+              },
             },
-            "camaLeo almohada": {
-                "colores": {
-                    "Banda Azul | Beige Tela": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-leoBEI-soft" },
-                            "Queen": { "sku": "C2-Q-leoBEI-soft" },
-                            "Doble": { "sku": "C2-F-leoBEI-soft" },
-                            "Semidoble": { "sku": "C2-TF-leoBEI-soft" },
-                            "Sencillo": { "sku": "C2-T-leoBEI-soft" }
-                        }
-                    },
-                    "Banda Azul | Café Tela": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-leoCAF-soft" },
-                            "Queen": { "sku": "C2-Q-leoCAF-soft" },
-                            "Doble": { "sku": "C2-F-leoCAF-soft" },
-                            "Semidoble": { "sku": "C2-TF-leoCAF-soft" },
-                            "Sencillo": { "sku": "C2-T-leoCAF-soft" }
-                        }
-                    },
-                    "Banda Azul | Negro Tela": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-leoNEG-soft" },
-                            "Queen": { "sku": "C2-Q-leoNEG-soft" },
-                            "Doble": { "sku": "C2-F-leoNEG-soft" },
-                            "Semidoble": { "sku": "C2-TF-leoNEG-soft" },
-                            "Sencillo": { "sku": "C2-T-leoNEG-soft" }
-                        }
-                    },
-                    "Banda Azul | Gris Tela": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-leoGRI-soft" },
-                            "Queen": { "sku": "C2-Q-leoGRI-soft" },
-                            "Doble": { "sku": "C2-F-leoGRI-soft" },
-                            "Semidoble": { "sku": "C2-TF-leoGRI-soft" },
-                            "Sencillo": { "sku": "C2-T-leoGRI-soft" }
-                        }
-                    }
-                }
-            },
-            "firenze": {
-                "colores": {
-                    "Banda Azul | Café Antifluidos": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-firS3CAF-soft" },
-                            "Queen": { "sku": "C2-Q-firS3CAF-soft" },
-                            "Doble": { "sku": "C2-F-firS3CAF-soft" },
-                            "Semidoble": { "sku": "C2-TF-firS3CAF-soft" },
-                            "Sencillo": { "sku": "C2-T-firS3CAF-soft" }
-                        }
-                    },
-                    "Banda Azul | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-firS3GRIOSC-soft" },
-                            "Queen": { "sku": "C2-Q-firS3GRIOSC-soft" },
-                            "Doble": { "sku": "C2-F-firS3GRIOSC-soft" },
-                            "Semidoble": { "sku": "C2-TF-firS3GRIOSC-soft" },
-                            "Sencillo": { "sku": "C2-T-firS3GRIOSC-soft" }
-                        }
-                    },
-                    "Banda Azul | Gris Tela": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-firS2GRI-soft" },
-                            "Queen": { "sku": "C2-Q-firS2GRI-soft" },
-                            "Doble": { "sku": "C2-F-firS2GRI-soft" },
-                            "Semidoble": { "sku": "C2-TF-firS2GRI-soft" },
-                            "Sencillo": { "sku": "C2-T-firS2GRI-soft" }
-                        }
-                    }
-                }
-            },
-            "TPM": {
-                "colores": {
-                    "Banda Azul | Wengue TPM": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-tpmWEN-soft" },
-                            "Queen": { "sku": "C2-Q-tpmWEN-soft" },
-                            "Doble": { "sku": "C2-F-tpmWEN-soft" },
-                            "Semidoble": { "sku": "C2-TF-tpmWEN-soft" },
-                            "Sencillo": { "sku": "C2-T-tpmWEN-soft" }
-                        }
-                    },
-                    "Banda Azul | Natural TPM": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-tpmNAT-soft" },
-                            "Queen": { "sku": "C2-Q-tpmNAT-soft" },
-                            "Doble": { "sku": "C2-F-tpmNAT-soft" },
-                            "Semidoble": { "sku": "C2-TF-tpmNAT-soft" },
-                            "Sencillo": { "sku": "C2-T-tpmNAT-soft" }
-                        }
-                    },
-                    "Banda Azul | Caoba TPM": {
-                        "medidas": {
-                            "King": { "sku": "C2-K-tpmCAO-soft" },
-                            "Queen": { "sku": "C2-Q-tpmCAO-soft" },
-                            "Doble": { "sku": "C2-F-tpmCAO-soft" },
-                            "Semidoble": { "sku": "C2-TF-tpmCAO-soft" },
-                            "Sencillo": { "sku": "C2-T-tpmCAO-soft" }
-                        }
-                    }
-                }
-            },
-            "nidoJr": {
-                "colores": {
-                    "Banda Azul | Gris Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnjunS2GRI-soft" },
-                            "Semidoble": { "sku": "TF-cnjunS2GRI-soft" },
-                            "Sencillo": { "sku": "T-cnjunS2GRI-soft" }
-                        }
-                    },
-                    "Banda Azul | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnjunS1CAF-soft" },
-                            "Semidoble": { "sku": "TF-cnjunS1CAF-soft" },
-                            "Sencillo": { "sku": "T-cnjunS1CAF-soft" }
-                        }
-                    },
-                    "Banda Azul | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnjunS1NEG-soft" },
-                            "Semidoble": { "sku": "TF-cnjunS1NEG-soft" },
-                            "Sencillo": { "sku": "T-cnjunS1NEG-soft" }
-                        }
-                    }
-                }
-            },
-            "nidoAngie": {
-                "colores": {
-                    "Banda Azul | Gris Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnangS2GRI-soft" },
-                            "Semidoble": { "sku": "TF-cnangS2GRI-soft" },
-                            "Sencillo": { "sku": "T-cnangS2GRI-soft" }
-                        }
-                    },
-                    "Banda Azul | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnangS1CAF-soft" },
-                            "Semidoble": { "sku": "TF-cnangS1CAF-soft" },
-                            "Sencillo": { "sku": "T-cnangS1CAF-soft" }
-                        }
-                    },
-                    "Banda Azul | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnangS1NEG-soft" },
-                            "Semidoble": { "sku": "TF-cnangS1NEG-soft" },
-                            "Sencillo": { "sku": "T-cnangS1NEG-soft" }
-                        }
-                    }
-                }
-            }
-        }
+          },
+        },
+      },
     },
 
-    "Ecopack": {
-
-        "colchones": {
-            "Standard": {
-                "colores": {
-                    "clasico": {
-                        "medidas": {
-                            "Sencillo": {
-                                "sku": "77018589642229"
-                            },
-                            "Semidoble": {
-                                "sku": "77018589642239"
-                            },
-                            "Doble": {
-                                "sku": "77018589642249"
-                            }
-                        }
-                    }
-                }
-            }
+    combos: {
+      "baseCama almohada": {
+        colores: {
+          "Clásico | Beige Tela": {
+            medidas: {
+              Doble: { sku: "C3-F-leoBEI-ecop" },
+              Semidoble: { sku: "C3-TF-leoBEI-ecop" },
+              Sencillo: { sku: "C3-T-leoBEI-ecop" },
+            },
+          },
+          "Clásico | Café Tela": {
+            medidas: {
+              Doble: { sku: "C3-F-leoCAF-ecop" },
+              Semidoble: { sku: "C3-TF-leoCAF-ecop" },
+              Sencillo: { sku: "C3-T-leoCAF-ecop" },
+            },
+          },
+          "Clásico | Negro Tela": {
+            medidas: {
+              Doble: { sku: "C3-F-leoNEG-ecop" },
+              Semidoble: { sku: "C3-TF-leoNEG-ecop" },
+              Sencillo: { sku: "C3-T-leoNEG-ecop" },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              Doble: { sku: "C3-F-leoGRI-ecop" },
+              Semidoble: { sku: "C3-TF-leoGRI-ecop" },
+              Sencillo: { sku: "C3-T-leoGRI-ecop" },
+            },
+          },
         },
-
-        "combos": {
-            "baseCama almohada": {
-                "colores": {
-                    "Clásico | Beige Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "C3-F-leoBEI-ecop" },
-                            "Semidoble": { "sku": "C3-TF-leoBEI-ecop" },
-                            "Sencillo": { "sku": "C3-T-leoBEI-ecop" }
-                        }
-                    },
-                    "Clásico | Café Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "C3-F-leoCAF-ecop" },
-                            "Semidoble": { "sku": "C3-TF-leoCAF-ecop" },
-                            "Sencillo": { "sku": "C3-T-leoCAF-ecop" }
-                        }
-                    },
-                    "Clásico | Negro Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "C3-F-leoNEG-ecop" },
-                            "Semidoble": { "sku": "C3-TF-leoNEG-ecop" },
-                            "Sencillo": { "sku": "C3-T-leoNEG-ecop" }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "C3-F-leoGRI-ecop" },
-                            "Semidoble": { "sku": "C3-TF-leoGRI-ecop" },
-                            "Sencillo": { "sku": "C3-T-leoGRI-ecop" }
-                        }
-                    }
-                }
+      },
+      "camaLEo almohada": {
+        colores: {
+          "Clásico | Beige Tela": {
+            medidas: {
+              Doble: { sku: "C2-F-leoBEI-ecop" },
+              Semidoble: { sku: "C2-TF-leoBEI-ecop" },
+              Sencillo: { sku: "C2-T-leoBEI-ecop" },
             },
-            "camaLEo almohada": {
-                "colores": {
-                    "Clásico | Beige Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "C2-F-leoBEI-ecop" },
-                            "Semidoble": { "sku": "C2-TF-leoBEI-ecop" },
-                            "Sencillo": { "sku": "C2-T-leoBEI-ecop" }
-                        }
-                    },
-                    "Clásico | Café Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "C2-F-leoCAF-ecop" },
-                            "Semidoble": { "sku": "C2-TF-leoCAF-ecop" },
-                            "Sencillo": { "sku": "C2-T-leoCAF-ecop" }
-                        }
-                    },
-                    "Clásico | Negro Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "C2-F-leoNEG-ecop" },
-                            "Semidoble": { "sku": "C2-TF-leoNEG-ecop" },
-                            "Sencillo": { "sku": "C2-T-leoNEG-ecop" }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "C2-F-leoGRI-ecop" },
-                            "Semidoble": { "sku": "C2-TF-leoGRI-ecop" },
-                            "Sencillo": { "sku": "C2-T-leoGRI-ecop" }
-                        }
-                    }
-                }
+          },
+          "Clásico | Café Tela": {
+            medidas: {
+              Doble: { sku: "C2-F-leoCAF-ecop" },
+              Semidoble: { sku: "C2-TF-leoCAF-ecop" },
+              Sencillo: { sku: "C2-T-leoCAF-ecop" },
             },
-            "firenze": {
-                "colores": {
-                    "Clásico | Café Antifluidos": {
-                        "medidas": {
-                            "Doble": { "sku": "C2-F-firS3CAF-ecop" },
-                            "Semidoble": { "sku": "C2-TF-firS3CAF-ecop" },
-                            "Sencillo": { "sku": "C2-T-firS3CAF-ecop" }
-                        }
-                    },
-                    "Clásico | Gris Oscuro Antifluidos": {
-                        "medidas": {
-                            "Doble": { "sku": "C2-F-firS3GRIOSC-ecop" },
-                            "Semidoble": { "sku": "C2-TF-firS3GRIOSC-ecop" },
-                            "Sencillo": { "sku": "C2-T-firS3GRIOSC-ecop" }
-                        }
-                    },
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "C2-F-firS2GRI-ecop" },
-                            "Semidoble": { "sku": "C2-TF-firS2GRI-ecop" },
-                            "Sencillo": { "sku": "C2-T-firS2GRI-ecop" }
-                        }
-                    }
-                }
+          },
+          "Clásico | Negro Tela": {
+            medidas: {
+              Doble: { sku: "C2-F-leoNEG-ecop" },
+              Semidoble: { sku: "C2-TF-leoNEG-ecop" },
+              Sencillo: { sku: "C2-T-leoNEG-ecop" },
             },
-            "TPM": {
-                "colores": {
-                    "Clásico | Wengue TPM": {
-                        "medidas": {
-                            "Doble": { "sku": "C2-F-tpmWEN-ecop" },
-                            "Semidoble": { "sku": "C2-TF-tpmWEN-ecop" },
-                            "Sencillo": { "sku": "C2-T-tpmWEN-ecop" }
-                        }
-                    },
-                    "Clásico | Natural TPM": {
-                        "medidas": {
-                            "Doble": { "sku": "C2-F-tpmNAT-ecop" },
-                            "Semidoble": { "sku": "C2-TF-tpmNAT-ecop" },
-                            "Sencillo": { "sku": "C2-T-tpmNAT-ecop" }
-                        }
-                    },
-                    "Clásico | Caoba TPM": {
-                        "medidas": {
-                            "Doble": { "sku": "C2-F-tpmCAO-ecop" },
-                            "Semidoble": { "sku": "C2-TF-tpmCAO-ecop" },
-                            "Sencillo": { "sku": "C2-T-tpmCAO-ecop" }
-                        }
-                    }
-                }
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              Doble: { sku: "C2-F-leoGRI-ecop" },
+              Semidoble: { sku: "C2-TF-leoGRI-ecop" },
+              Sencillo: { sku: "C2-T-leoGRI-ecop" },
             },
-            "nidoJR": {
-                "colores": {
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnjunS2GRI-ecop" },
-                            "Semidoble": { "sku": "TF-cnjunS2GRI-ecop" },
-                            "Sencillo": { "sku": "T-cnjunS2GRI-ecop" }
-                        }
-                    },
-                    "Clásico | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnjunS1CAF-ecop" },
-                            "Semidoble": { "sku": "TF-cnjunS1CAF-ecop" },
-                            "Sencillo": { "sku": "T-cnjunS1CAF-ecop" }
-                        }
-                    },
-                    "Clásico | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnjunS1NEG-ecop" },
-                            "Semidoble": { "sku": "TF-cnjunS1NEG-ecop" },
-                            "Sencillo": { "sku": "T-cnjunS1NEG-ecop" }
-                        }
-                    }
-                }
+          },
+        },
+      },
+      firenze: {
+        colores: {
+          "Clásico | Café Antifluidos": {
+            medidas: {
+              Doble: { sku: "C2-F-firS3CAF-ecop" },
+              Semidoble: { sku: "C2-TF-firS3CAF-ecop" },
+              Sencillo: { sku: "C2-T-firS3CAF-ecop" },
             },
-            "nidoAngie": {
-                "colores": {
-                    "Clásico | Gris Tela": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnangS2GRI-ecop" },
-                            "Semidoble": { "sku": "TF-cnangS2GRI-ecop" },
-                            "Sencillo": { "sku": "T-cnangS2GRI-ecop" }
-                        }
-                    },
-                    "Clásico | Café Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnangS1CAF-ecop" },
-                            "Semidoble": { "sku": "TF-cnangS1CAF-ecop" },
-                            "Sencillo": { "sku": "T-cnangS1CAF-ecop" }
-                        }
-                    },
-                    "Clásico | Negro Cuero Sintético": {
-                        "medidas": {
-                            "Doble": { "sku": "F-cnangS1NEG-ecop" },
-                            "Semidoble": { "sku": "TF-cnangS1NEG-ecop" },
-                            "Sencillo": { "sku": "T-cnangS1NEG-ecop" }
-                        }
-                    }
-                }
-            }
-        }
+          },
+          "Clásico | Gris Oscuro Antifluidos": {
+            medidas: {
+              Doble: { sku: "C2-F-firS3GRIOSC-ecop" },
+              Semidoble: { sku: "C2-TF-firS3GRIOSC-ecop" },
+              Sencillo: { sku: "C2-T-firS3GRIOSC-ecop" },
+            },
+          },
+          "Clásico | Gris Tela": {
+            medidas: {
+              Doble: { sku: "C2-F-firS2GRI-ecop" },
+              Semidoble: { sku: "C2-TF-firS2GRI-ecop" },
+              Sencillo: { sku: "C2-T-firS2GRI-ecop" },
+            },
+          },
+        },
+      },
+      TPM: {
+        colores: {
+          "Clásico | Wengue TPM": {
+            medidas: {
+              Doble: { sku: "C2-F-tpmWEN-ecop" },
+              Semidoble: { sku: "C2-TF-tpmWEN-ecop" },
+              Sencillo: { sku: "C2-T-tpmWEN-ecop" },
+            },
+          },
+          "Clásico | Natural TPM": {
+            medidas: {
+              Doble: { sku: "C2-F-tpmNAT-ecop" },
+              Semidoble: { sku: "C2-TF-tpmNAT-ecop" },
+              Sencillo: { sku: "C2-T-tpmNAT-ecop" },
+            },
+          },
+          "Clásico | Caoba TPM": {
+            medidas: {
+              Doble: { sku: "C2-F-tpmCAO-ecop" },
+              Semidoble: { sku: "C2-TF-tpmCAO-ecop" },
+              Sencillo: { sku: "C2-T-tpmCAO-ecop" },
+            },
+          },
+        },
+      },
+      nidoJR: {
+        colores: {
+          "Clásico | Gris Tela": {
+            medidas: {
+              Doble: { sku: "F-cnjunS2GRI-ecop" },
+              Semidoble: { sku: "TF-cnjunS2GRI-ecop" },
+              Sencillo: { sku: "T-cnjunS2GRI-ecop" },
+            },
+          },
+          "Clásico | Café Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnjunS1CAF-ecop" },
+              Semidoble: { sku: "TF-cnjunS1CAF-ecop" },
+              Sencillo: { sku: "T-cnjunS1CAF-ecop" },
+            },
+          },
+          "Clásico | Negro Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnjunS1NEG-ecop" },
+              Semidoble: { sku: "TF-cnjunS1NEG-ecop" },
+              Sencillo: { sku: "T-cnjunS1NEG-ecop" },
+            },
+          },
+        },
+      },
+      nidoAngie: {
+        colores: {
+          "Clásico | Gris Tela": {
+            medidas: {
+              Doble: { sku: "F-cnangS2GRI-ecop" },
+              Semidoble: { sku: "TF-cnangS2GRI-ecop" },
+              Sencillo: { sku: "T-cnangS2GRI-ecop" },
+            },
+          },
+          "Clásico | Café Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnangS1CAF-ecop" },
+              Semidoble: { sku: "TF-cnangS1CAF-ecop" },
+              Sencillo: { sku: "T-cnangS1CAF-ecop" },
+            },
+          },
+          "Clásico | Negro Cuero Sintético": {
+            medidas: {
+              Doble: { sku: "F-cnangS1NEG-ecop" },
+              Semidoble: { sku: "TF-cnangS1NEG-ecop" },
+              Sencillo: { sku: "T-cnangS1NEG-ecop" },
+            },
+          },
+        },
+      },
     },
+  },
 
-    "baseCama": {
-
-        "TPM": {
-            "standar": {
-                "caoba": {
-                    "medidas": {
-                        "Sencillo": {
-                            "sku": "77018588109171"
-                        },
-                        "Semidoble": {
-                            "sku": "77018588114979"
-                        },
-                        "Doble": {
-                            "sku": "77018588109238"
-                        },
-                        "Queen": {
-                            "sku": "77018588109278"
-                        },
-                        "King": {
-                            "sku": "77018588109315"
-                        }
-                    }
-                },
-                "natural": {
-                    "Sencillo": {
-                        "sku": "77018588109151"
-                    },
-                    "Semidoble": {
-                        "sku": "77018588109191"
-                    },
-                    "Doble": {
-                        "sku": "77018588109218"
-                    },
-                    "Queen": {
-                        "sku": "77018588109258"
-                    },
-                    "King": {
-                        "sku": "77018588109298"
-                    }
-                },
-                "wengue": {
-                    "Sencillo": {
-                        "sku": "77018588109161"
-                    },
-                    "Semidoble": {
-                        "sku": "77018588114969"
-                    },
-                    "Doble": {
-                        "sku": "77018588109228"
-                    },
-                    "Queen": {
-                        "sku": "77018588109268"
-                    },
-                    "King": {
-                        "sku": "77018588109305"
-                    }
-                }
-            }
+  baseCama: {
+    TPM: {
+      standar: {
+        caoba: {
+          medidas: {
+            Sencillo: {
+              sku: "77018588109171",
+            },
+            Semidoble: {
+              sku: "77018588114979",
+            },
+            Doble: {
+              sku: "77018588109238",
+            },
+            Queen: {
+              sku: "77018588109278",
+            },
+            King: {
+              sku: "77018588109315",
+            },
+          },
         },
-        "nidoJr": {
-            "standar": {
-                "cafe": {
-                    "medidas": {
-                        "Sencillo": {
-                            "sku": "77018588112456"
-                        },
-                        "Semidoble": {
-                            "sku": "77018588112466"
-                        },
-                        "Doble": {
-                            "sku": "77018588112476"
-                        }
-                    }
-                },
-                "negro": {
-                    "Sencillo": {
-                        "sku": "77018588107939"
-                    },
-                    "Semidoble": {
-                        "sku": "77018588107979"
-                    },
-                    "Doble": {
-                        "sku": "77018588108015"
-                    }
-                },
-                "gris": {
-                    "Sencillo": {
-                        "sku": "77018588107959"
-                    },
-                    "Semidoble": {
-                        "sku": "77018588107999"
-                    },
-                    "Doble": {
-                        "sku": "77018588108035"
-                    }
-                }
-            }
-        }
-    }
-
+        natural: {
+          Sencillo: {
+            sku: "77018588109151",
+          },
+          Semidoble: {
+            sku: "77018588109191",
+          },
+          Doble: {
+            sku: "77018588109218",
+          },
+          Queen: {
+            sku: "77018588109258",
+          },
+          King: {
+            sku: "77018588109298",
+          },
+        },
+        wengue: {
+          Sencillo: {
+            sku: "77018588109161",
+          },
+          Semidoble: {
+            sku: "77018588114969",
+          },
+          Doble: {
+            sku: "77018588109228",
+          },
+          Queen: {
+            sku: "77018588109268",
+          },
+          King: {
+            sku: "77018588109305",
+          },
+        },
+      },
+    },
+    nidoJr: {
+      standar: {
+        cafe: {
+          medidas: {
+            Sencillo: {
+              sku: "77018588112456",
+            },
+            Semidoble: {
+              sku: "77018588112466",
+            },
+            Doble: {
+              sku: "77018588112476",
+            },
+          },
+        },
+        negro: {
+          Sencillo: {
+            sku: "77018588107939",
+          },
+          Semidoble: {
+            sku: "77018588107979",
+          },
+          Doble: {
+            sku: "77018588108015",
+          },
+        },
+        gris: {
+          Sencillo: {
+            sku: "77018588107959",
+          },
+          Semidoble: {
+            sku: "77018588107999",
+          },
+          Doble: {
+            sku: "77018588108035",
+          },
+        },
+      },
+    },
+  },
 };
 
 /** Send Event Interacción  ✔️ */
 function sendEventInteraction(eventName, sku) {
+  let OSdevice;
 
-    let OSdevice;
+  if (navigator.userAgent.includes("Android")) OSdevice = "Android";
+  else if (
+    navigator.userAgent.includes("iPhone") ||
+    navigator.userAgent.includes("iPad")
+  )
+    OSdevice = "IOS";
+  else OSdevice = "DESK";
 
-    if (navigator.userAgent.includes('Android')) OSdevice = 'Android';
-    else if (navigator.userAgent.includes('iPhone') || navigator.userAgent.includes('iPad')) OSdevice = "IOS";
-    else OSdevice = 'DESK';
-
-    window.dataLayer && dataLayer.push({
-        event: `${eventName}`,
-        valorMudi: 1,
-        sku: sku,
-        sistemaOperativo: OSdevice
-    })
-};
+  window.dataLayer &&
+    dataLayer.push({
+      event: `${eventName}`,
+      valorMudi: 1,
+      sku: sku,
+      sistemaOperativo: OSdevice,
+    });
+}
 
 /** Add listener add to car ✔️*/
 function addTocarFunctionMudi() {
-    const btnAddToCar = document.getElementById('product-addtocart-button');
-    btnAddToCar ? btnAddToCar.addEventListener('click', () => {
+  const btnAddToCar = document.getElementById("product-addtocart-button");
+  btnAddToCar
+    ? btnAddToCar.addEventListener("click", () => {
         // mudiPage.updateAddToCar();
-    }) : console.warn(`Mudi Warn: no se encontro el boton de agregar el carrito`);
+      })
+    : console.warn(`Mudi Warn: no se encontro el boton de agregar el carrito`);
 
-    setTimeout(() => {
-        console.clear()
-    }, 7000)
-};
+  setTimeout(() => {
+    console.clear();
+  }, 7000);
+}
 
 class ModalMudi {
+  constructor(data, color, currentSKU) {
+    this.dataServer = data;
+    this.color = color;
 
-    constructor(data, color, currentSKU) {
+    this.modalMudi = document.createElement("DIV");
 
-        this.dataServer = data;
-        this.color = color;
+    this.currentSize = null;
+    this.currentColor = null;
+    this.currentSKU = currentSKU;
+  }
 
-        this.modalMudi = document.createElement("DIV");
+  /** Creación HTML del modal y sus componentes fijos ( btn salida y el iframe)  ✔️ */
+  createModal() {
+    const verifyModal = document.querySelector("#modalMudi");
+    verifyModal && verifyModal.remove();
 
-        this.currentSize = null;
-        this.currentColor = null;
-        this.currentSKU = currentSKU
-    };
-
-    /** Creación HTML del modal y sus componentes fijos ( btn salida y el iframe)  ✔️ */
-    createModal() {
-
-        const verifyModal = document.querySelector('#modalMudi');
-        verifyModal && verifyModal.remove();
-
-        this.modalMudi.id = `modalMudi`;
-        this.modalMudi.classList.add(`mudiModal`);
-        this.modalMudi.innerHTML = `
+    this.modalMudi.id = `modalMudi`;
+    this.modalMudi.classList.add(`mudiModal`);
+    this.modalMudi.innerHTML = `
         <div class="iframeMudi3D">
             <button class="closeModalMudi" style="color:${this.color}">X</button>  
             <iframe class="modelMudi" src="${this.dataServer.URL_WEB}"></iframe>
         </div>
       `;
 
-        /** We close the MUDI modal*/
-        this.modalMudi.querySelector(`.closeModalMudi`).addEventListener("click", () => document.body.querySelector("#modalMudi").remove());
-    };
+    /** We close the MUDI modal*/
+    this.modalMudi
+      .querySelector(`.closeModalMudi`)
+      .addEventListener("click", () =>
+        document.body.querySelector("#modalMudi").remove()
+      );
+  }
 
-    /** Creación del boton AR ✔️ */
-    addBtnAR() {
+  /** Creación del boton AR ✔️ */
+  addBtnAR() {
+    let flagAR = false;
 
-        let flagAR = false;
-
-        const ARButon = document.createElement('DIV');
-        ARButon.classList.add('containerBtnsActions')
-        ARButon.innerHTML = `
+    const ARButon = document.createElement("DIV");
+    ARButon.classList.add("containerBtnsActions");
+    ARButon.innerHTML = `
         <svg xmlns="http://www.w3.org/2000/svg" id="imgARBtn" class="imgBtnAR" viewBox="0 0 317 112">
         <defs>
             <style>
@@ -8705,319 +8666,349 @@ class ModalMudi {
         </div>
       `;
 
-        /** Verify Style Bttn AR  */
-        function changeStyleBtnAR(flagAR, color) {
-            let icon = document.body.querySelectorAll(".cls-3_modal");
-
-            flagAR
-                ? ((document.body.querySelector(".cls-1_modal").style.fill = color),
-                    icon.forEach((icon) => (icon.style.fill = "white")),
-                    (document.body.querySelector(".cls-2_modal").style.fill = "white"))
-                : ((document.body.querySelector(".cls-1_modal").style.fill = "white"),
-                    icon.forEach((icon) => (icon.style.fill = color)),
-                    (document.body.querySelector(".cls-2_modal").style.fill = color));
-        };
-
-        ARButon.querySelector(`#imgARBtn`).addEventListener("click", () => {
-            if (window.innerWidth > 1000) {
-                !flagAR
-                    ? ((document.body.querySelector(".containerQRMudi").style.right =
-                        "15%"),
-                        changeStyleBtnAR(flagAR, this.color),
-                        (flagAR = !flagAR))
-                    : ((document.body.querySelector(".containerQRMudi").style.right =
-                        "-150%"),
-                        changeStyleBtnAR(flagAR, this.color),
-                        (flagAR = !flagAR));
-            } else {
-                window.open(`${this.dataServer.URL_AR}`, "_BLANK");
-            }
-            flagAR && (
-                sendEventInteraction("Evento de interaccion AR", this.currentSKU)
-                // mudiPage.updateBtnAR()
-            );
-        });
-
-        /** Agregamos al modal  */
-        this.modalMudi.querySelector('.iframeMudi3D') && this.modalMudi.querySelector('.iframeMudi3D').appendChild(ARButon)
-
-    };
-
-    /** Botón para ver más detalles */
-    addBtnGoToSide(name, combinations, sizes, HTML) {
-
-        const button = document.createElement('A');
-        button.innerHTML = `Ver más detalles`
-        button.classList.add('modalMudi__goToSite');
-
-        const formatearTexto = (str) => {
-
-            if (typeof (str) !== "string") {
-                console.error('no es un string ');
-                console.log(str);
-                console.log(typeof (str));
-                return
-            };
-
-            return str
-                .toLowerCase() // Convertir a minúsculas
-                .normalize("NFD") // Descomponer caracteres con tilde
-                .replace(/[\u0300-\u036f]/g, "") // Eliminar las marcas de tilde
-                .replace(/\s+/g, "-"); // Reemplazar espacios por guiones
-        };
-
-        button.addEventListener('click', () => {
-
-            const idCurrentColor = document.querySelector('[checkcolor="true"]').getAttribute('idoption');
-
-            const myCombinations = JSON.parse(combinations);
-            let idCombination = myCombinations.find(combination => combination[idCurrentColor])
-            const nameProduct = formatearTexto(name.innerHTML);
-
-            if (!sizes) {
-                nameProduct &&
-                    idCurrentColor &&
-                    idCombination &&
-                    window.open(`${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination[idCurrentColor]}`, '_SELF');
-            } else {
-                const idCurrentSize = document.body.querySelector('[selectsizemodalmudi="true"]').getAttribute('idoption')
-
-                let listProducts = HTML.getAttribute('attr-combinations-product').split(',');
-                let productsListFinal = []
-
-                listProducts.map(element => {
-                    const split = element.split('_');
-                    const key = split[1];
-                    const value = split[0]
-
-                    const add = { value: value, key: key }
-                    productsListFinal.push(add);
-                })
-
-                let idCombination;
-
-                if (location.origin.includes('pullman')) {
-                    idCombination = productsListFinal.find(combination => combination.key == `${idCurrentSize}${idCurrentColor}`)
-                    window.open(`${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination.value}`, '_SELF')
-                } else if (location.origin.includes('amoblando')) {
-                    idCombination = productsListFinal.find(combination => combination.key == `${idCurrentColor}${idCurrentSize}`);
-                    window.open(`${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination.value}`, '_SELF')
-                }
-
-            }
-
-        })
-
-        /** Agregamos al modal  */
-        this.modalMudi.querySelector('.iframeMudi3D') && this.modalMudi.querySelector('.iframeMudi3D').appendChild(button);
-
-    };
-
-    addColorTool(colors, sizes, configPLP, HTML) {
-
-        if (configPLP) {
-            this.currentColor = configPLP.currentColor
-        } else {
-            const currentColor = document.getElementById('color_value')
-            currentColor && (this.currentColor = currentColor.value);
-        };
-
-        const colorSelectorClean = () => {
-            const colors = document.querySelectorAll('.modalMudi_colorOption')
-            if (colors.length == 0) { return };
-            colors.forEach(color => { color.setAttribute('checkColor', 'false') })
-        };
-
-        const containerColor = document.createElement('div');
-        containerColor.classList.add('containerColorMudi');
-        containerColor.innerHTML = `<div class="scrollColorsMudi"></div>`;
-
-        colors.map(option => {
-
-            const texture1 = option.textura.replace('background-image:url(', '');
-            const texture2 = texture1.replace(`);`, '')
-
-            const div = document.createElement('DIV');
-            div.classList.add('modalMudi_colorTool__container')
-
-            const colorOption = document.createElement('IMG');
-            colorOption.classList.add('modalMudi_colorOption');
-            colorOption.src = `https://www.amoblando.co${texture2}`;
-            colorOption.setAttribute('sku', option.sku);
-            colorOption.setAttribute('idOption', option.idOption);
-            colorOption.setAttribute('title', option.color);
-            this.currentColor == option.idOption && colorOption.setAttribute('checkColor', 'true');
-
-            colorOption.addEventListener('click', (e) => {
-
-                const colorId = e.target;
-                const colorCurrentId = colorId.getAttribute('idoption');
-
-                colorSelectorClean();
-                colorOption.setAttribute('checkColor', 'true');
-
-                sizes.length == 0
-                    ? colorCurrentId !== this.currentColor && this.updaterData(option.sku)
-                    : this.matchColorAndSize();
-
-                this.currentColor = colorCurrentId;
-
-                HTML.querySelector(`[attr-value="${this.currentColor}"]`) &&
-                    HTML.querySelector(`[attr-value="${this.currentColor}"]`).click();
-
-                // mudiPage.updateColor();
-
-            });
-
-            div.appendChild(colorOption);
-            containerColor.querySelector('.scrollColorsMudi').appendChild(div)
-
-        });
-
-        /** Agregamos al modal  */
-        this.modalMudi.querySelector('.iframeMudi3D') && this.modalMudi.querySelector('.iframeMudi3D').appendChild(containerColor)
-
-    };
-
-    addSizeTool(sizes, configPLP, HTML) {
-
-        const cleanSizes = () => {
-            const sizes = document.body.querySelectorAll('.modalMudi_sizeOption')
-            if (sizes.length == 0) { return };
-            sizes.forEach(size => { size.setAttribute('selectSizeModalMudi', 'false') })
-        }
-
-        if (sizes.length > 0) {
-
-            let currentSizeDOM;
-
-            if (configPLP) { currentSizeDOM = configPLP.currentSize }
-            else { currentSizeDOM = document.getElementById('size_value').value }
-
-            const containerSizes = document.createElement('div');
-            containerSizes.classList.add('modalMudi_sizeContainer')
-
-            sizes.map(option => {
-
-                let currenteSize = option.medida.split('|');
-                let finalSize = currenteSize[1].trim();
-
-                const size = document.createElement('div');
-                size.classList.add('modalMudi_sizeOption');
-                size.title = option.medida;
-                size.setAttribute('idoption', option.idOption)
-                size.innerHTML = `<p class="modalMudi_sizeOption__name">${finalSize}</p>`;
-
-                currentSizeDOM == option.idOption
-                    ? size.setAttribute('selectSizeModalMudi', 'true')
-                    : size.setAttribute('selectSizeModalMudi', 'false')
-
-                containerSizes.appendChild(size);
-
-                size.addEventListener('click', () => {
-                    cleanSizes();
-                    size.setAttribute('selectSizeModalMudi', 'true')
-                    this.matchColorAndSize();
-                    HTML.querySelector(`.form-control`) &&
-                        (HTML.querySelector(`.form-control`).value = option.idOption);
-                });
-
-                // mudiPage.updateSize();
-
-            })
-
-            this.modalMudi.querySelector('.iframeMudi3D') && this.modalMudi.querySelector('.iframeMudi3D').appendChild(containerSizes)
-        }
-
-    };
-
-    matchColorAndSize() {
-
-        const ColorSku = this.modalMudi.querySelector(`[checkColor='true']`).getAttribute('sku');
-        const CurrentSize = this.modalMudi.querySelector(`[selectsizemodalmudi='true']`).children[0].innerHTML
-
-        /** Lamento ensuciar mi código con este forHELL */
-        for (const key in colchones) {
-            for (const key2 in colchones[key]) {
-                for (const key3 in colchones[key][key2]) {
-                    for (const key4 in colchones[key][key2][key3]) {
-                        for (const key5 in colchones[key][key2][key3][key4]) {
-                            for (const key6 in colchones[key][key2][key3][key4][key5]) {
-                                for (const key7 in colchones[key][key2][key3][key4][key5][key6]) {
-                                    if (colchones[key][key2][key3][key4][key5][key6][key7]["sku"] == ColorSku) {
-                                        this.updaterData(colchones[key][key2][key3][key4][key5][key6][CurrentSize]["sku"])
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        };
-
-    };
-
-    createModalPDP({ sizes = [], colors }) {
-
-        this.createModal();
-        this.addBtnAR();
-        this.addColorTool(colors, sizes);
-        this.addSizeTool(sizes)
-
-        document.body.appendChild(this.modalMudi)
-    };
-
-    createModalPLP({ sizes = [], colors, combinations, configPLP, name, HTML }) {
-
-        this.createModal();
-        this.addBtnAR();
-        this.addColorTool(
-            colors ? JSON.parse(colors) : [],
-            sizes ? JSON.parse(sizes) : [],
-            configPLP,
-            HTML
-        );
-        this.addSizeTool(sizes ? JSON.parse(sizes) : [], configPLP, HTML);
-        // this.addBtnGoToSide(name, combinations, sizes, HTML);
-
-        document.body.appendChild(this.modalMudi)
-    };
-
-    updaterData(sku) {
-
-        this.modalMudi.querySelector('.modelMudi').src = `https://viewer.mudi.com.co/v1/web/?id=147&sku=${sku}`;
-        this.modalMudi.querySelector('.mudiQR').src = `https://viewer.mudi.com.co/v1/qr/?id=147&sku=${sku}`
-
-        this.dataServer.URL_AR = `https://viewer.mudi.com.co/v1/ar/?id=147&sku=${sku}`;
-
-    };
-
-};
-
-class BTN3D {
-
-    constructor(skuNumber, color) {
-
-        this.btn3D;
-
-        this.skuNumber = skuNumber;
-        this.color = color;
+    /** Verify Style Bttn AR  */
+    function changeStyleBtnAR(flagAR, color) {
+      let icon = document.body.querySelectorAll(".cls-3_modal");
+
+      flagAR
+        ? ((document.body.querySelector(".cls-1_modal").style.fill = color),
+          icon.forEach((icon) => (icon.style.fill = "white")),
+          (document.body.querySelector(".cls-2_modal").style.fill = "white"))
+        : ((document.body.querySelector(".cls-1_modal").style.fill = "white"),
+          icon.forEach((icon) => (icon.style.fill = color)),
+          (document.body.querySelector(".cls-2_modal").style.fill = color));
     }
 
-    /** Creates */
-    create({ sizeList, colorList, referenceList, data }) {
+    ARButon.querySelector(`#imgARBtn`).addEventListener("click", () => {
+      if (window.innerWidth > 1000) {
+        !flagAR
+          ? ((document.body.querySelector(".containerQRMudi").style.right =
+              "15%"),
+            changeStyleBtnAR(flagAR, this.color),
+            (flagAR = !flagAR))
+          : ((document.body.querySelector(".containerQRMudi").style.right =
+              "-150%"),
+            changeStyleBtnAR(flagAR, this.color),
+            (flagAR = !flagAR));
+      } else {
+        window.open(`${this.dataServer.URL_AR}`, "_BLANK");
+      }
+      flagAR &&
+        sendEventInteraction("Evento de interaccion AR", this.currentSKU);
+      // mudiPage.updateBtnAR()
+    });
 
-        document.querySelector('.btnsMudiContainer') && document.querySelector('.btnsMudiContainer').remove();
+    /** Agregamos al modal  */
+    this.modalMudi.querySelector(".iframeMudi3D") &&
+      this.modalMudi.querySelector(".iframeMudi3D").appendChild(ARButon);
+  }
 
-        /** Create Fragment */
-        const btn3D = document.createDocumentFragment();
+  /** Botón para ver más detalles */
+  addBtnGoToSide(name, combinations, sizes, HTML) {
+    const button = document.createElement("A");
+    button.innerHTML = `Ver más detalles`;
+    button.classList.add("modalMudi__goToSite");
 
-        /** Create containers */
-        const containerBtn = document.createElement("DIV");
-        containerBtn.classList.add("btnsMudiContainer");
-        containerBtn.appendChild(this.createTooltip());
-        containerBtn.setAttribute("skuNumber", this.skuNumber);
-        containerBtn.innerHTML += `
+    const formatearTexto = (str) => {
+      if (typeof str !== "string") {
+        console.error("no es un string ");
+        console.log(str);
+        console.log(typeof str);
+        return;
+      }
+
+      return str
+        .toLowerCase() // Convertir a minúsculas
+        .normalize("NFD") // Descomponer caracteres con tilde
+        .replace(/[\u0300-\u036f]/g, "") // Eliminar las marcas de tilde
+        .replace(/\s+/g, "-"); // Reemplazar espacios por guiones
+    };
+
+    button.addEventListener("click", () => {
+      const idCurrentColor = document
+        .querySelector('[checkcolor="true"]')
+        .getAttribute("idoption");
+
+      const myCombinations = JSON.parse(combinations);
+      let idCombination = myCombinations.find(
+        (combination) => combination[idCurrentColor]
+      );
+      const nameProduct = formatearTexto(name.innerHTML);
+
+      if (!sizes) {
+        nameProduct &&
+          idCurrentColor &&
+          idCombination &&
+          window.open(
+            `${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination[idCurrentColor]}`,
+            "_SELF"
+          );
+      } else {
+        const idCurrentSize = document.body
+          .querySelector('[selectsizemodalmudi="true"]')
+          .getAttribute("idoption");
+
+        let listProducts = HTML.getAttribute("attr-combinations-product").split(
+          ","
+        );
+        let productsListFinal = [];
+
+        listProducts.map((element) => {
+          const split = element.split("_");
+          const key = split[1];
+          const value = split[0];
+
+          const add = { value: value, key: key };
+          productsListFinal.push(add);
+        });
+
+        let idCombination;
+
+        if (location.origin.includes("pullman")) {
+          idCombination = productsListFinal.find(
+            (combination) =>
+              combination.key == `${idCurrentSize}${idCurrentColor}`
+          );
+          window.open(
+            `${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination.value}`,
+            "_SELF"
+          );
+        } else if (location.origin.includes("amoblando")) {
+          idCombination = productsListFinal.find(
+            (combination) =>
+              combination.key == `${idCurrentColor}${idCurrentSize}`
+          );
+          window.open(
+            `${location.origin}/${nameProduct}#${idCurrentColor}?op=${idCombination.value}`,
+            "_SELF"
+          );
+        }
+      }
+    });
+
+    /** Agregamos al modal  */
+    this.modalMudi.querySelector(".iframeMudi3D") &&
+      this.modalMudi.querySelector(".iframeMudi3D").appendChild(button);
+  }
+
+  addColorTool(colors, sizes, configPLP, HTML) {
+    if (configPLP) {
+      this.currentColor = configPLP.currentColor;
+    } else {
+      const currentColor = document.getElementById("color_value");
+      currentColor && (this.currentColor = currentColor.value);
+    }
+
+    const colorSelectorClean = () => {
+      const colors = document.querySelectorAll(".modalMudi_colorOption");
+      if (colors.length == 0) {
+        return;
+      }
+      colors.forEach((color) => {
+        color.setAttribute("checkColor", "false");
+      });
+    };
+
+    const containerColor = document.createElement("div");
+    containerColor.classList.add("containerColorMudi");
+    containerColor.innerHTML = `<div class="scrollColorsMudi"></div>`;
+
+    colors.map((option) => {
+      const texture1 = option.textura.replace("background-image:url(", "");
+      const texture2 = texture1.replace(`);`, "");
+
+      const div = document.createElement("DIV");
+      div.classList.add("modalMudi_colorTool__container");
+
+      const colorOption = document.createElement("IMG");
+      colorOption.classList.add("modalMudi_colorOption");
+      colorOption.src = `https://www.pullman.com.co${texture2}`;
+      colorOption.setAttribute("sku", option.sku);
+      colorOption.setAttribute("idOption", option.idOption);
+      colorOption.setAttribute("title", option.color);
+      this.currentColor == option.idOption &&
+        colorOption.setAttribute("checkColor", "true");
+
+      colorOption.addEventListener("click", (e) => {
+        const colorId = e.target;
+        const colorCurrentId = colorId.getAttribute("idoption");
+
+        colorSelectorClean();
+        colorOption.setAttribute("checkColor", "true");
+
+        sizes.length == 0
+          ? colorCurrentId !== this.currentColor && this.updaterData(option.sku)
+          : this.matchColorAndSize();
+
+        this.currentColor = colorCurrentId;
+
+        HTML.querySelector(`[attr-value="${this.currentColor}"]`) &&
+          HTML.querySelector(`[attr-value="${this.currentColor}"]`).click();
+
+        // mudiPage.updateColor();
+      });
+
+      div.appendChild(colorOption);
+      containerColor.querySelector(".scrollColorsMudi").appendChild(div);
+    });
+
+    /** Agregamos al modal  */
+    this.modalMudi.querySelector(".iframeMudi3D") &&
+      this.modalMudi.querySelector(".iframeMudi3D").appendChild(containerColor);
+  }
+
+  addSizeTool(sizes, configPLP, HTML) {
+    const cleanSizes = () => {
+      const sizes = document.body.querySelectorAll(".modalMudi_sizeOption");
+      if (sizes.length == 0) {
+        return;
+      }
+      sizes.forEach((size) => {
+        size.setAttribute("selectSizeModalMudi", "false");
+      });
+    };
+
+    if (sizes.length > 0) {
+      let currentSizeDOM;
+
+      if (configPLP) {
+        currentSizeDOM = configPLP.currentSize;
+      } else {
+        currentSizeDOM = document.getElementById("size_value").value;
+      }
+
+      const containerSizes = document.createElement("div");
+      containerSizes.classList.add("modalMudi_sizeContainer");
+
+      sizes.map((option) => {
+        let currenteSize = option.medida.split("|");
+        let finalSize = currenteSize[1].trim();
+
+        const size = document.createElement("div");
+        size.classList.add("modalMudi_sizeOption");
+        size.title = option.medida;
+        size.setAttribute("idoption", option.idOption);
+        size.innerHTML = `<p class="modalMudi_sizeOption__name">${finalSize}</p>`;
+
+        currentSizeDOM == option.idOption
+          ? size.setAttribute("selectSizeModalMudi", "true")
+          : size.setAttribute("selectSizeModalMudi", "false");
+
+        containerSizes.appendChild(size);
+
+        size.addEventListener("click", () => {
+          cleanSizes();
+          size.setAttribute("selectSizeModalMudi", "true");
+          this.matchColorAndSize();
+          HTML.querySelector(`.form-control`) &&
+            (HTML.querySelector(`.form-control`).value = option.idOption);
+        });
+
+        // mudiPage.updateSize();
+      });
+
+      this.modalMudi.querySelector(".iframeMudi3D") &&
+        this.modalMudi
+          .querySelector(".iframeMudi3D")
+          .appendChild(containerSizes);
+    }
+  }
+
+  matchColorAndSize() {
+    const ColorSku = this.modalMudi
+      .querySelector(`[checkColor='true']`)
+      .getAttribute("sku");
+    const CurrentSize = this.modalMudi.querySelector(
+      `[selectsizemodalmudi='true']`
+    ).children[0].innerHTML;
+
+    /** Lamento ensuciar mi código con este forHELL */
+    for (const key in colchones) {
+      for (const key2 in colchones[key]) {
+        for (const key3 in colchones[key][key2]) {
+          for (const key4 in colchones[key][key2][key3]) {
+            for (const key5 in colchones[key][key2][key3][key4]) {
+              for (const key6 in colchones[key][key2][key3][key4][key5]) {
+                for (const key7 in colchones[key][key2][key3][key4][key5][
+                  key6
+                ]) {
+                  if (
+                    colchones[key][key2][key3][key4][key5][key6][key7]["sku"] ==
+                    ColorSku
+                  ) {
+                    this.updaterData(
+                      colchones[key][key2][key3][key4][key5][key6][CurrentSize][
+                        "sku"
+                      ]
+                    );
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  createModalPDP({ sizes = [], colors }) {
+    this.createModal();
+    this.addBtnAR();
+    this.addColorTool(colors, sizes);
+    this.addSizeTool(sizes);
+
+    document.body.appendChild(this.modalMudi);
+  }
+
+  createModalPLP({ sizes = [], colors, combinations, configPLP, name, HTML }) {
+    this.createModal();
+    this.addBtnAR();
+    this.addColorTool(
+      colors ? JSON.parse(colors) : [],
+      sizes ? JSON.parse(sizes) : [],
+      configPLP,
+      HTML
+    );
+    this.addSizeTool(sizes ? JSON.parse(sizes) : [], configPLP, HTML);
+    // this.addBtnGoToSide(name, combinations, sizes, HTML);
+
+    document.body.appendChild(this.modalMudi);
+  }
+
+  updaterData(sku) {
+    this.modalMudi.querySelector(
+      ".modelMudi"
+    ).src = `https://viewer.mudi.com.co/v1/web/?id=147&sku=${sku}`;
+    this.modalMudi.querySelector(
+      ".mudiQR"
+    ).src = `https://viewer.mudi.com.co/v1/qr/?id=147&sku=${sku}`;
+
+    this.dataServer.URL_AR = `https://viewer.mudi.com.co/v1/ar/?id=147&sku=${sku}`;
+  }
+}
+
+class BTN3D {
+  constructor(skuNumber, color) {
+    this.btn3D;
+
+    this.skuNumber = skuNumber;
+    this.color = color;
+  }
+
+  /** Creates */
+  create({ sizeList, colorList, referenceList, data }) {
+    document.querySelector(".btnsMudiContainer") &&
+      document.querySelector(".btnsMudiContainer").remove();
+
+    /** Create Fragment */
+    const btn3D = document.createDocumentFragment();
+
+    /** Create containers */
+    const containerBtn = document.createElement("DIV");
+    containerBtn.classList.add("btnsMudiContainer");
+    containerBtn.appendChild(this.createTooltip());
+    containerBtn.setAttribute("skuNumber", this.skuNumber);
+    containerBtn.innerHTML += `
             <?xml version="1.0" encoding="UTF-8"?>
                 <svg id="img3DBtn" class="btnMudi3D" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
                     <defs>
@@ -9047,318 +9038,322 @@ class BTN3D {
                 </svg>
             `;
 
-        containerBtn.querySelector("#img3DBtn").addEventListener("click", () => {
+    containerBtn.querySelector("#img3DBtn").addEventListener("click", () => {
+      if (referenceList) {
+        console.log("estoy aqui");
+      } else {
+        const modal = new ModalMudi(data, this.color, this.skuNumber);
+        modal.createModalPDP({ sizes: sizeList, colors: colorList });
+        // mudiPage.updateBtn3D();
+        mudiSession.updateInteractionSession();
+      }
 
-            if (referenceList) { console.log('estoy aqui') }
-            else {
-                const modal = new ModalMudi(data, this.color, this.skuNumber);
-                modal.createModalPDP({ sizes: sizeList, colors: colorList })
-                // mudiPage.updateBtn3D();
-                mudiSession.updateInteractionSession();
-            }
+      /** Enviamos el evento al GTM */
+      sendEventInteraction("Evento de interaccion 3D", this.skuNumber);
+    });
 
-            /** Enviamos el evento al GTM */
-            sendEventInteraction("Evento de interaccion 3D", this.skuNumber);
+    this.btn3D = btn3D;
+    btn3D.appendChild(containerBtn);
 
-        });
+    sendEventInteraction("visualizacion_botones", this.skuNumber);
 
-        this.btn3D = btn3D;
-        btn3D.appendChild(containerBtn);
+    /* Seteamo el evento para el Add To Car*/
+    setTimeout(() => {
+      // mudiPage.updateViewBtn();
+    }, 500);
 
-        sendEventInteraction("visualizacion_botones", this.skuNumber);
+    /** Add DOM */
+    return btn3D;
+  }
 
-        /* Seteamo el evento para el Add To Car*/
-        setTimeout(() => {
-            // mudiPage.updateViewBtn();
-        }, 500);
+  createTooltip() {
+    const tooltip = document.createElement("P");
+    tooltip.classList.add("tooltipMudi");
+    tooltip.innerHTML = `<b>¡Nuevo!</b> Descubre como se ve este producto en 3D y realidad aumentada en tu espacio`;
+    setTimeout(this.deleteTooltip, 9000);
+    return tooltip;
+  }
 
-        /** Add DOM */
-        return btn3D;
+  /** Deletes */
+  deleteTooltip() {
+    document.body.querySelector(".tooltipMudi").style.opacity = 0;
+    setTimeout(
+      () => document.body.querySelector(".tooltipMudi").remove(),
+      1500
+    );
+  }
 
+  deleteBtn() {
+    if (this.btn3D) {
+      this.btn3D.style.opacity = 0;
+      setTimeout(() => this.btn3D.remove(), 1500);
     }
-
-    createTooltip() {
-        const tooltip = document.createElement("P");
-        tooltip.classList.add("tooltipMudi");
-        tooltip.innerHTML = `<b>¡Nuevo!</b> Descubre como se ve este producto en 3D y realidad aumentada en tu espacio`;
-        setTimeout(this.deleteTooltip, 9000);
-        return tooltip;
-    };
-
-    /** Deletes */
-    deleteTooltip() {
-        document.body.querySelector(".tooltipMudi").style.opacity = 0
-        setTimeout(() => document.body.querySelector(".tooltipMudi").remove(), 1500)
-    };
-
-    deleteBtn() {
-        if (this.btn3D) {
-            this.btn3D.style.opacity = 0;
-            setTimeout(() => this.btn3D.remove(), 1500)
-        }
-    };
-
-};
+  }
+}
 
 class MudiExperiencePDP {
+  constructor() {
+    /** config Amoblando Pullman */
+    this.sizeList;
+    this.colorList;
 
-    constructor() {
+    /** Reference node HTML father , node Container Btn 3D  */
+    this.fatherContainer;
 
-        /** config Amoblando Pullman */
-        this.sizeList;
-        this.colorList;
+    /** Response Mudi-Server*/
+    this.dataServer;
 
-        /** Reference node HTML father , node Container Btn 3D  */
-        this.fatherContainer;
+    this.colorClient = "#03457c";
+  }
 
-        /** Response Mudi-Server*/
-        this.dataServer;
+  /** Conect mudiServer  ✔️ */
+  async conectServer(skuNumber) {
+    const myBody = { skus: [skuNumber] };
+    this.skuNumber = skuNumber;
 
-        this.colorClient = "#03457c";
-    };
-
-    /** Conect mudiServer  ✔️ */
-    async conectServer(skuNumber) {
-
-        const myBody = { skus: [skuNumber] };
-        this.skuNumber = skuNumber;
-
-        try {
-            /** We make the request to the MUDI server */
-            const request = await fetch(
-                "https://mudiview.mudi.com.co:7443/product/getProductsUrl",
-                {
-                    method: "POST",
-                    headers: {
-                        "Content-type": "application/json",
-                        tokenapi: "GjSAn4bGJZzU4cZnZP5q",
-                    },
-                    body: JSON.stringify(myBody),
-                }
-            );
-            const response = await request.json();
-            if (response.data && Array.isArray(response.data) && response.data.length > 0) {
-                this.dataServer = response.data[0];
-                this.getValues()
-            }
-        } catch (error) {
-            throw error
-        };
-
-    };
-
-    /** Create Styles ✔️ */
-    createStyles() {
-        /** Verify element HTML */
-        if (document.head.querySelector("#stylesMudiGeneral")) {
-            return;
+    try {
+      /** We make the request to the MUDI server */
+      const request = await fetch(
+        "https://mudiview.mudi.com.co:7443/product/getProductsUrl",
+        {
+          method: "POST",
+          headers: {
+            "Content-type": "application/json",
+            tokenapi: "GjSAn4bGJZzU4cZnZP5q",
+          },
+          body: JSON.stringify(myBody),
         }
+      );
+      const response = await request.json();
+      if (
+        response.data &&
+        Array.isArray(response.data) &&
+        response.data.length > 0
+      ) {
+        this.dataServer = response.data[0];
+        this.getValues();
+      }
+    } catch (error) {
+      throw error;
+    }
+  }
 
-        const link = document.createElement("LINK");
-        link.setAttribute("rel", "stylesheet");
-        link.id = "stylesMudiGeneral";
-        link.href = `https://cdn.jsdelivr.net/gh/mudi-3D/amoblandoPullman@latest/index.css`; /* custom this path */
-
-        document.head.appendChild(link);
+  /** Create Styles ✔️ */
+  createStyles() {
+    /** Verify element HTML */
+    if (document.head.querySelector("#stylesMudiGeneral")) {
+      return;
     }
 
-    /** Get config by Amoblando Pullman from HTML Elements hidden - ✔️ */
-    getValues() {
+    const link = document.createElement("LINK");
+    link.setAttribute("rel", "stylesheet");
+    link.id = "stylesMudiGeneral";
+    link.href = `https://cdn.jsdelivr.net/gh/mudi-3D/amoblandoPullman@latest/index.css`; /* custom this path */
 
-        let ElementSizeList = document.getElementById('referenceSizeMudi');
-        let ElementColorList = document.getElementById('referenceColorMudi');
+    document.head.appendChild(link);
+  }
 
-        ElementColorList && (this.colorList = JSON.parse(ElementColorList.value));
-        ElementSizeList && (this.sizeList = JSON.parse(ElementSizeList.value));
+  /** Get config by Amoblando Pullman from HTML Elements hidden - ✔️ */
+  getValues() {
+    let ElementSizeList = document.getElementById("referenceSizeMudi");
+    let ElementColorList = document.getElementById("referenceColorMudi");
 
-    };
+    ElementColorList && (this.colorList = JSON.parse(ElementColorList.value));
+    ElementSizeList && (this.sizeList = JSON.parse(ElementSizeList.value));
+  }
 
-    async experienceOn(skuNumber, fatherContainer) {
+  async experienceOn(skuNumber, fatherContainer) {
+    /** Verify father Container */
+    fatherContainer && (this.fatherContainer = fatherContainer);
 
-        /** Verify father Container */
-        fatherContainer && (this.fatherContainer = fatherContainer);
-
-        try {
-            await this.conectServer(skuNumber);
-            this.createStyles();
-            if (this.dataServer) {
-                const btn3D = new BTN3D(skuNumber, this.colorClient).create({ colorList: this.colorList, sizeList: this.sizeList, referenceList: null, data: this.dataServer });
-                fatherContainer.appendChild(btn3D)
-            }
-
-
-        } catch (error) {
-            console.error(`Mudi Error:\n${error}`);
-        }
-
-    };
-
-};
+    try {
+      await this.conectServer(skuNumber);
+      this.createStyles();
+      if (this.dataServer) {
+        const btn3D = new BTN3D(skuNumber, this.colorClient).create({
+          colorList: this.colorList,
+          sizeList: this.sizeList,
+          referenceList: null,
+          data: this.dataServer,
+        });
+        fatherContainer.appendChild(btn3D);
+      }
+    } catch (error) {
+      console.error(`Mudi Error:\n${error}`);
+    }
+  }
+}
 
 class MudiExperiencePLP {
+  constructor() {
+    this.storage = [];
+    this.counterBackFlags = 0;
+  }
 
-    constructor() {
-        this.storage = [];
-        this.counterBackFlags = 0;
+  getMudiFlags() {
+    this.counterBackFlags++;
+    let allMudiFlags = [];
+
+    const images = document.body.querySelector(".imgMundi");
+    images && (allMudiFlags = document.body.querySelectorAll(".imgMundi"));
+
+    if (this.counterBackFlags == 500) {
+      console.warn(`No se encontro ningun elemento  PLP MUDI`);
+      return;
+    } else if (allMudiFlags.length == 0) {
+      requestAnimationFrame(this.getMudiFlags.bind(this));
+      return;
     }
 
-    getMudiFlags() {
-
-        this.counterBackFlags++;
-        let allMudiFlags = [];
-
-        const images = document.body.querySelector('.imgMundi')
-        images && (allMudiFlags = document.body.querySelectorAll('.imgMundi'));
-
-        if (this.counterBackFlags == 500) {
-            console.warn(`No se encontro ningun elemento  PLP MUDI`)
-            return;
-        }
-        else if (allMudiFlags.length == 0) {
-            requestAnimationFrame(this.getMudiFlags.bind(this))
-            return;
-        }
-
-        // mudiPage.updateViewBtn();
-        allMudiFlags.forEach(flag => {
-
-            const status = flag.getAttribute('style');
-            status == '' && flag.addEventListener('click', (e) => {
-                this.buildModal(e)
-                // mudiPage.updateBtn3D();
-                mudiSession.updateInteractionSession();
-            })
-
+    // mudiPage.updateViewBtn();
+    allMudiFlags.forEach((flag) => {
+      const status = flag.getAttribute("style");
+      status == "" &&
+        flag.addEventListener("click", (e) => {
+          this.buildModal(e);
+          // mudiPage.updateBtn3D();
+          mudiSession.updateInteractionSession();
         });
+    });
+  }
 
+  buildModal(e) {
+    this.createStyles();
+
+    const infoCard = this.getInfoAttr(e.target.parentNode.children[1]);
+    const sku_number = this.getSkuNumber(infoCard);
+
+    sendEventInteraction("3D PLP", sku_number);
+
+    const modalPLP = new ModalMudi(
+      {
+        URL_QR: `https://viewer.mudi.com.co/v1/qr/?id=147&sku=${sku_number}`,
+        URL_WEB: `https://viewer.mudi.com.co/v1/web/?id=147&sku=${sku_number}`,
+        URL_AR: `https://viewer.mudi.com.co/v1/ar/?id=147&sku=${sku_number}`,
+      },
+      "#03457c"
+    );
+
+    modalPLP.createModalPLP({
+      sizes: infoCard.listSize,
+      colors: infoCard.listColors,
+      combinations: infoCard.listCombinations,
+      configPLP: {
+        currentSize: infoCard.currentSize,
+        currentColor: infoCard.currentColor,
+      },
+      name: infoCard.name,
+      HTML: e.target.parentNode.children[1],
+    });
+  }
+
+  getSkuNumber(info) {
+    const JSONInfoColors = info.listColors ? JSON.parse(info.listColors) : [];
+    const JSONInfoSize = info.listSize ? JSON.parse(info.listSize) : [];
+    const objCurrentColor = JSONInfoColors.find(
+      (option) => option.idOption == info.currentColor
+    );
+
+    if (!info.listSize) {
+      return objCurrentColor.sku;
+    } else {
+      const listColors = JSONInfoColors.find(
+        (option) => option.idOption == info.currentColor
+      );
+      const CurrentSize = JSONInfoSize.find(
+        (option) => option.idOption == info.currentSize
+      );
+
+      const text = CurrentSize.medida.split(" | ")[1];
+      return this.matchColorAndSize(listColors.sku, text);
     }
+  }
 
-    buildModal(e) {
-
-        this.createStyles();
-
-        const infoCard = this.getInfoAttr(e.target.parentNode.children[1]);
-        const sku_number = this.getSkuNumber(infoCard);
-
-
-        sendEventInteraction("3D PLP", sku_number);
-
-        const modalPLP = new ModalMudi({
-            URL_QR: `https://viewer.mudi.com.co/v1/qr/?id=147&sku=${sku_number}`,
-            URL_WEB: `https://viewer.mudi.com.co/v1/web/?id=147&sku=${sku_number}`,
-            URL_AR: `https://viewer.mudi.com.co/v1/ar/?id=147&sku=${sku_number}`,
-        }, "#03457c");
-
-        modalPLP.createModalPLP({
-            sizes: infoCard.listSize,
-            colors: infoCard.listColors,
-            combinations: infoCard.listCombinations,
-            configPLP: {
-                currentSize: infoCard.currentSize,
-                currentColor: infoCard.currentColor
-            },
-            name: infoCard.name,
-            HTML: e.target.parentNode.children[1]
-        });
-    };
-
-    getSkuNumber(info) {
-
-        const JSONInfoColors = info.listColors ? JSON.parse(info.listColors) : [];
-        const JSONInfoSize = info.listSize ? JSON.parse(info.listSize) : [];
-        const objCurrentColor = JSONInfoColors.find(option => option.idOption == info.currentColor);
-
-        if (!info.listSize) {
-            return objCurrentColor.sku
-        } else {
-
-            const listColors = JSONInfoColors.find(option => option.idOption == info.currentColor);
-            const CurrentSize = JSONInfoSize.find(option => option.idOption == info.currentSize);
-
-            const text = CurrentSize.medida.split(' | ')[1];
-            return this.matchColorAndSize(listColors.sku, text)
-
-        }
-
-
-    };
-
-    matchColorAndSize(ColorSku, CurrentSize) {
-
-        /** Lamento ensuciar mi código con este forHELL */
-        for (const key in colchones) {
-            for (const key2 in colchones[key]) {
-                for (const key3 in colchones[key][key2]) {
-                    for (const key4 in colchones[key][key2][key3]) {
-                        for (const key5 in colchones[key][key2][key3][key4]) {
-                            for (const key6 in colchones[key][key2][key3][key4][key5]) {
-
-                                for (const key7 in colchones[key][key2][key3][key4][key5][key6]) {
-
-                                    if (colchones[key][key2][key3][key4][key5][key6][key7]["sku"] == ColorSku) {
-                                        console.log(colchones[key][key2][key3][key4][key5][key6][CurrentSize]["sku"]);
-                                        return colchones[key][key2][key3][key4][key5][key6][CurrentSize]["sku"]
-                                    }
-                                }
-                            }
-                        }
-                    }
+  matchColorAndSize(ColorSku, CurrentSize) {
+    /** Lamento ensuciar mi código con este forHELL */
+    for (const key in colchones) {
+      for (const key2 in colchones[key]) {
+        for (const key3 in colchones[key][key2]) {
+          for (const key4 in colchones[key][key2][key3]) {
+            for (const key5 in colchones[key][key2][key3][key4]) {
+              for (const key6 in colchones[key][key2][key3][key4][key5]) {
+                for (const key7 in colchones[key][key2][key3][key4][key5][
+                  key6
+                ]) {
+                  if (
+                    colchones[key][key2][key3][key4][key5][key6][key7]["sku"] ==
+                    ColorSku
+                  ) {
+                    console.log(
+                      colchones[key][key2][key3][key4][key5][key6][CurrentSize][
+                        "sku"
+                      ]
+                    );
+                    return colchones[key][key2][key3][key4][key5][key6][
+                      CurrentSize
+                    ]["sku"];
+                  }
                 }
+              }
             }
-        };
-
-    }
-
-    getInfoAttr(elementHTML) {
-
-        let listSize = elementHTML.querySelector('#referenceSizeMudi');
-        let listColors = elementHTML.querySelector('#referenceColorMudi');
-        let listCombinations = elementHTML.querySelector('#referenceCombinationsMudi');
-        let nameProduct = elementHTML.querySelector('.reteyuj');
-
-        listSize && (listSize = listSize.value);
-        listColors && (listColors = listColors.value);
-        listCombinations && (listCombinations = listCombinations.value);
-
-        const currentColor = elementHTML.querySelector('.chkColor').getAttribute('attr-value')
-        const currentSize = elementHTML.querySelector('.form-control.center-block.input-sm').value;
-
-        return {
-            listSize: listSize,
-            listColors: listColors,
-            listCombinations: listCombinations,
-            currentColor: currentColor,
-            currentSize: currentSize,
-            name: nameProduct
-        };
-
-    };
-
-    createStyles() {
-        /** Verify element HTML */
-        if (document.head.querySelector("#stylesMudiGeneral")) {
-            return;
+          }
         }
+      }
+    }
+  }
 
-        const link = document.createElement("LINK");
-        link.setAttribute("rel", "stylesheet");
-        link.id = "stylesMudiGeneral";
-        link.href = `https://cdn.jsdelivr.net/gh/mudi-3D/amoblandoPullman@latest/index.css`; /* custom this path */
+  getInfoAttr(elementHTML) {
+    let listSize = elementHTML.querySelector("#referenceSizeMudi");
+    let listColors = elementHTML.querySelector("#referenceColorMudi");
+    let listCombinations = elementHTML.querySelector(
+      "#referenceCombinationsMudi"
+    );
+    let nameProduct = elementHTML.querySelector(".reteyuj");
 
-        document.head.appendChild(link);
+    listSize && (listSize = listSize.value);
+    listColors && (listColors = listColors.value);
+    listCombinations && (listCombinations = listCombinations.value);
+
+    const currentColor = elementHTML
+      .querySelector(".chkColor")
+      .getAttribute("attr-value");
+    const currentSize = elementHTML.querySelector(
+      ".form-control.center-block.input-sm"
+    ).value;
+
+    return {
+      listSize: listSize,
+      listColors: listColors,
+      listCombinations: listCombinations,
+      currentColor: currentColor,
+      currentSize: currentSize,
+      name: nameProduct,
+    };
+  }
+
+  createStyles() {
+    /** Verify element HTML */
+    if (document.head.querySelector("#stylesMudiGeneral")) {
+      return;
     }
 
-    excute() {
-        this.getMudiFlags()
-    };
+    const link = document.createElement("LINK");
+    link.setAttribute("rel", "stylesheet");
+    link.id = "stylesMudiGeneral";
+    link.href = `https://cdn.jsdelivr.net/gh/mudi-3D/amoblandoPullman@latest/index.css`; /* custom this path */
 
-};
+    document.head.appendChild(link);
+  }
 
-document.addEventListener('DOMContentLoaded', () => {
-    const mudiExperiencePLP = new MudiExperiencePLP();
-    mudiExperiencePLP.excute();
+  excute() {
+    this.getMudiFlags();
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const mudiExperiencePLP = new MudiExperiencePLP();
+  mudiExperiencePLP.excute();
 });
-
 
 const mudiExperience = new MudiExperiencePDP();
 window.mudiExperience = mudiExperience;
