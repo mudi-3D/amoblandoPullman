@@ -8941,7 +8941,7 @@ class ModalMudi {
 
             const colorOption = document.createElement('IMG');
             colorOption.classList.add('modalMudi_colorOption');
-            colorOption.src = `https://www.amoblando.co${texture2}`;
+            colorOption.src = `https://www.pullman.co${texture2}`;
             colorOption.setAttribute('sku', option.sku);
             colorOption.setAttribute('idOption', option.idOption);
             colorOption.setAttribute('title', option.color);
@@ -9463,4 +9463,5 @@ const mudiExperience = new MudiExperiencePDP();
 window.mudiExperience = mudiExperience;
 
 setTimeout(addTocarFunctionMudi, 1500);
+
 
