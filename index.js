@@ -8922,7 +8922,7 @@ class ModalMudi {
         };
 
         const colorSelectorClean = () => {
-            const colors = document.querySelectorAll('.modalMudi_colorOption')
+            const colors = document.querySelectorAll('.modalMudi_')
             if (colors.length == 0) { return };
             colors.forEach(color => { color.setAttribute('checkColor', 'false') })
         };
@@ -8939,9 +8939,9 @@ class ModalMudi {
             const div = document.createElement('DIV');
             div.classList.add('modalMudi_colorTool__container')
 
-            const colorOption = document.createElement('IMG');
+            const  = document.createElement('IMG');
             colorOption.classList.add('modalMudi_colorOption');
-            colorOption.src = `https://www.pullman.co${texture2}`;
+            colorOption.src = `https://www.amoblando.co${texture2}`;
             colorOption.setAttribute('sku', option.sku);
             colorOption.setAttribute('idOption', option.idOption);
             colorOption.setAttribute('title', option.color);
@@ -9463,5 +9463,6 @@ const mudiExperience = new MudiExperiencePDP();
 window.mudiExperience = mudiExperience;
 
 setTimeout(addTocarFunctionMudi, 1500);
+
 
 
