@@ -8543,7 +8543,7 @@ function addTocarFunctionMudi() {
   const btnAddToCar = document.getElementById("product-addtocart-button");
   btnAddToCar
     ? btnAddToCar.addEventListener("click", () => {
-        // mudiPage.updateAddToCar();
+        mudiPage.updateAddToCar();
       })
     : console.warn(`Mudi Warn: no se encontro el boton de agregar el carrito`);
 
@@ -8695,7 +8695,7 @@ class ModalMudi {
       }
       flagAR &&
         sendEventInteraction("Evento de interaccion AR", this.currentSKU);
-      // mudiPage.updateBtnAR()
+        mudiPage.updateBtnAR()
     });
 
     /** Agregamos al modal  */
@@ -8845,7 +8845,7 @@ class ModalMudi {
         HTML.querySelector(`[attr-value="${this.currentColor}"]`) &&
           HTML.querySelector(`[attr-value="${this.currentColor}"]`).click();
 
-        // mudiPage.updateColor();
+        mudiPage.updateColor();
       });
 
       div.appendChild(colorOption);
@@ -8904,7 +8904,7 @@ class ModalMudi {
             (HTML.querySelector(`.form-control`).value = option.idOption);
         });
 
-        // mudiPage.updateSize();
+        mudiPage.updateSize();
       });
 
       this.modalMudi.querySelector(".iframeMudi3D") &&
@@ -9044,7 +9044,7 @@ class BTN3D {
       } else {
         const modal = new ModalMudi(data, this.color, this.skuNumber);
         modal.createModalPDP({ sizes: sizeList, colors: colorList });
-        // mudiPage.updateBtn3D();
+        mudiPage.updateBtn3D();
         mudiSession.updateInteractionSession();
       }
 
@@ -9059,7 +9059,7 @@ class BTN3D {
 
     /* Seteamo el evento para el Add To Car*/
     setTimeout(() => {
-      // mudiPage.updateViewBtn();
+      mudiPage.updateViewBtn();
     }, 500);
 
     /** Add DOM */
@@ -9211,7 +9211,7 @@ class MudiExperiencePLP {
       status == "" &&
         flag.addEventListener("click", (e) => {
           this.buildModal(e);
-          // mudiPage.updateBtn3D();
+          mudiPage.updateBtn3D();
           mudiSession.updateInteractionSession();
         });
     });
