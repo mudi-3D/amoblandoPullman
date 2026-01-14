@@ -8547,9 +8547,9 @@ function addTocarFunctionMudi() {
       })
     : console.warn(`Mudi Warn: no se encontro el boton de agregar el carrito`);
 
-  setTimeout(() => {
+  /* setTimeout(() => {
     console.clear();
-  }, 7000);
+  }, 7000); */
 }
 
 class ModalMudi {
@@ -9205,7 +9205,10 @@ class MudiExperiencePLP {
       return;
     }
 
-    // mudiPage.updateViewBtn();
+    setTimeout(() => {
+      mudiPage.updateViewBtn();
+    }, 500);
+    //mudiPage.updateViewBtn();
     allMudiFlags.forEach((flag) => {
       const status = flag.getAttribute("style");
       status == "" &&
