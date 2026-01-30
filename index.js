@@ -8842,8 +8842,10 @@ class ModalMudi {
 
         this.currentColor = colorCurrentId;
 
-        HTML.querySelector(`[attr-value="${this.currentColor}"]`) &&
-          HTML.querySelector(`[attr-value="${this.currentColor}"]`).click();
+        if (typeof HTML !== "undefined") {
+          HTML.querySelector(`[attr-value="${this.currentColor}"]`) &&
+            HTML.querySelector(`[attr-value="${this.currentColor}"]`).click();
+        }
 
         mudiPage.updateColor();
       });
@@ -9211,7 +9213,7 @@ class MudiExperiencePLP {
     //mudiPage.updateViewBtn();
     allMudiFlags.forEach((flag) => {
       const status = flag.getAttribute("style");
-      status == "" &&
+      //status == "" &&
         flag.addEventListener("click", (e) => {
           this.buildModal(e);
           mudiPage.updateBtn3D();
